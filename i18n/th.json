@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "lang": "th",
+    "dir": "ltr",
+    "label": "ไทย"
+  },
+  "site": {
+    "name": "วงเชมเบอร์แดกูเวอร์ตูโอโซ (Daegu Virtuoso Chamber)",
+    "name_en": "Daegu Virtuoso Chamber",
+    "wm1": "DAEGU",
+    "wm2": "VIRTUOSO CHAMBER"
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับวง",
+    "members": "สมาชิก",
+    "history": "ประวัติ",
+    "contact": "ติดต่อ",
+    "menu": "เมนู",
+    "sketch": "ภาพการแสดง"
+  },
+  "ui": {
+    "language": "ภาษา",
+    "theme": "ธีม",
+    "view_profile": "ดูโปรไฟล์",
+    "back_to_members": "กลับไปยังรายชื่อสมาชิก",
+    "explore_members": "ดูสมาชิก",
+    "learn_more": "เกี่ยวกับวง",
+    "scroll": "เลื่อนลง",
+    "part": "เครื่องดนตรี",
+    "role": "ตำแหน่ง",
+    "all_rights": "All rights reserved.",
+    "menu_close": "ปิด"
+  },
+  "themes": {
+    "editorial": "รีไฟน์ด",
+    "noir": "นัวร์",
+    "minimal": "มินิมอล"
+  },
+  "parts": {
+    "violin": "ไวโอลิน",
+    "violin1": "ไวโอลิน I",
+    "violin2": "ไวโอลิน II",
+    "viola": "วิโอลา",
+    "cello": "เชลโล",
+    "flute": "ฟลูต",
+    "piano": "เปียโน",
+    "conductor": "วาทยกร"
+  },
+  "ranks": {
+    "concertmaster": "คอนเสิร์ตมาสเตอร์ · หัวหน้าวง",
+    "leader": "หัวหน้าวง",
+    "principal": "หัวหน้ากลุ่มเครื่องสาย (Principal)",
+    "principal_rep": "ผู้แทน · หัวหน้ากลุ่มเครื่องสาย (Principal)",
+    "member": "สมาชิก",
+    "guest_principal": "Principal รับเชิญ"
+  },
+  "hero": {
+    "tagline": "แก่นแท้ของดนตรีเชมเบอร์ที่วาดขึ้นด้วยเครื่องสายเพียงอย่างเดียว",
+    "subtitle": "วงดนตรีเชมเบอร์เครื่องสายที่มีฐานอยู่ที่แดกูและก้าวเดินไปพร้อมกับโลก"
+  },
+  "home": {
+    "intro_eyebrow": "ABOUT",
+    "intro_title": "ดนตรีเชมเบอร์ที่กลั่นจากความลึกซึ้งของเครื่องสาย",
+    "intro_lead": "เป็นวงดนตรีเชมเบอร์เครื่องสายแห่งเมืองแดกูที่ก่อตั้งขึ้นจากการรวมตัวของนักดนตรีซึ่งได้รับการยอมรับทั้งในและต่างประเทศในฐานะศิลปินเดี่ยวและนักดนตรีเชมเบอร์ เราถ่ายทอดแก่นแท้ของดนตรีเชมเบอร์ด้วยความหนักแน่นและความลึกซึ้งที่เทียบเท่าวงออร์เคสตรา",
+    "members_eyebrow": "MEMBERS",
+    "members_title": "นักดนตรีที่ร่วมเดินทางไปด้วยกัน",
+    "members_lead": "พบกับคอนเสิร์ตมาสเตอร์และหัวหน้ากลุ่มที่นำวงดนตรี",
+    "history_eyebrow": "HISTORY",
+    "history_title": "เวทีที่ก้าวผ่านมา",
+    "history_lead": "เป็นรอยทางของการเติบโตจนกลายเป็นวงดนตรีเชมเบอร์ตัวแทนเมืองแดกู นับตั้งแต่การแสดงครั้งแรกในปี 2020",
+    "support_note": "สนับสนุนโดยกระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว · องค์กรที่ได้รับคัดเลือกในโครงการสนับสนุนองค์กรศิลปะตัวแทนภูมิภาคประจำปี 2026"
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "เกี่ยวกับวง",
+    "subtitle": "Daegu Virtuoso Chamber",
+    "body": [
+      "วงเชมเบอร์แดกูเวอร์ตูโอโซเป็นวงดนตรีเชมเบอร์ที่ก่อตั้งขึ้นจากการรวมตัวของนักดนตรีซึ่งมีฐานอยู่ที่เมืองแดกูและได้สร้างสรรค์โลกแห่งดนตรีอันลึกซึ้งมาอย่างต่อเนื่อง โดยประกอบด้วยนักดนตรีที่ได้รับการยอมรับในฝีมืออันมั่นคงทั้งในและต่างประเทศในฐานะศิลปินเดี่ยวและนักดนตรีเชมเบอร์",
+      "เราวาดท่วงทำนองอันละเอียดอ่อนด้วยเครื่องสายเพียงอย่างเดียว และถ่ายทอดแก่นแท้ของดนตรีเชมเบอร์ด้วยดนตรีที่เปี่ยมด้วยความหนักแน่นและความลึกซึ้งซึ่งเทียบเท่าวงออร์เคสตรา",
+      "เราได้ร่วมแสดงบนเวทีอันหลากหลายโดยประสานงานกับนักดนตรีที่กำลังมีบทบาทอย่างคึกคักทั้งในและต่างประเทศ ได้แก่ วาทยกร Yeo Ja-kyung และ Tania Miller นักไวโอลิน Soyoung Yoon และ Dami Kim นักฟลูต Jasmine Choi รวมถึงนักเปียโน Jinsang Lee และ Julius-Jeongwon Kim",
+      "เราได้รับเสียงชื่นชมจากการนำเสนอผลงานหลากหลายที่ขับเน้นเสน่ห์ของดนตรีเชมเบอร์ และในปี 2026 จะสานต่อกิจกรรมแลกเปลี่ยนระหว่างประเทศผ่านการแสดงทัวร์ ซึ่งรวมถึงคอนเสิร์ตแลกเปลี่ยนกับเมืองสร้างสรรค์ด้านดนตรีของยูเนสโกในเยอรมนีและฝรั่งเศส",
+      "นอกจากนี้ เรายังได้รับคัดเลือกใน ‘โครงการสนับสนุนองค์กรศิลปะตัวแทนภูมิภาคประจำปี 2026’ ที่สนับสนุนโดยกระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว และมุ่งมั่นพากเพียรอย่างต่อเนื่องเพื่อเผยแพร่ชื่อเสียงของเมืองแดกูในฐานะเมืองแห่งศิลปวัฒนธรรม"
+    ],
+    "stats": [
+      {
+        "n": "2020",
+        "l": "ปีก่อตั้ง"
+      },
+      {
+        "n": "15",
+        "l": "สมาชิกเครื่องสาย"
+      },
+      {
+        "n": "string only",
+        "l": "ด้วยเครื่องสายเพียงอย่างเดียว"
+      }
+    ],
+    "collab_eyebrow": "COLLABORATIONS",
+    "collab_title": "นักดนตรีที่ร่วมแสดงด้วยกัน",
+    "collab_lead": "เราได้เพิ่มพูนความลึกซึ้งผ่านการร่วมเวทีกับวาทยกรและนักดนตรีระดับแนวหน้าทั้งในและต่างประเทศ",
+    "guest_principal_title": "Principal รับเชิญ",
+    "guest_principal_lead": "เป็นนักเชลโลที่ร่วมแสดงในฐานะ Principal รับเชิญ"
+  },
+  "members": {
+    "eyebrow": "MEMBERS",
+    "title": "สมาชิก",
+    "subtitle": "Members",
+    "lead": "เป็นนักดนตรีของวงเชมเบอร์แดกูเวอร์ตูโอโซที่เติมเต็มเวทีด้วยเครื่องสายเพียงอย่างเดียว",
+    "sections": {
+      "violin1": "ไวโอลิน I",
+      "violin2": "ไวโอลิน II",
+      "viola": "วิโอลา",
+      "cello": "เชลโล"
+    }
+  },
+  "memberPage": {
+    "back": "กลับไปยังรายชื่อสมาชิก",
+    "profile": "โปรไฟล์",
+    "career": "ประวัติสำคัญ",
+    "not_found": "ไม่พบสมาชิกที่ระบุ"
+  },
+  "history": {
+    "eyebrow": "HISTORY",
+    "title": "ประวัติ",
+    "subtitle": "การแสดงที่ผ่านมา",
+    "lead": "เป็นเวทีสำคัญที่วงเชมเบอร์แดกูเวอร์ตูโอโซได้ก้าวผ่านมา"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "ติดต่อ",
+    "lead": "ยินดีรับการติดต่อเพื่อเชิญแสดงและร่วมงาน",
+    "location": "แดกู สาธารณรัฐเกาหลี",
+    "based": "Based in Daegu, Korea",
+    "lede": "เรายินดีรับคำเชิญการแสดงและการร่วมงาน",
+    "desc": "กรอกแบบฟอร์มด้านล่าง แล้วแอปอีเมลจะเปิดขึ้นพร้อมข้อความที่กรอกไว้ให้อัตโนมัติ เราจะตอบกลับโดยเร็วที่สุด",
+    "email_label": "อีเมล",
+    "location_label": "ที่ตั้ง",
+    "blog_label": "บล็อก Naver"
+  },
+  "footer": {
+    "tagline": "แก่นแท้ของดนตรีเชมเบอร์ที่วาดขึ้นด้วยเครื่องสายเพียงอย่างเดียว",
+    "support": "สนับสนุนโดยกระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว · องค์กรที่ได้รับคัดเลือกในโครงการสนับสนุนองค์กรศิลปะตัวแทนภูมิภาคประจำปี 2026",
+    "nav_title": "ทางลัด",
+    "lang_title": "ภาษา"
+  },
+  "memberBios": {
+    "han-gyeongjin": {
+      "name": "Han Gyeong-jin",
+      "bio": [
+        "สำเร็จการศึกษาจาก Yewon School",
+        "เข้าศึกษาในฐานะผู้มีพรสวรรค์และสำเร็จการศึกษาระดับปริญญาตรีจาก School of Music, Korea National University of Arts",
+        "สำเร็จการศึกษาระดับ Diplom จาก Universität der Künste Berlin (UdK) ประเทศเยอรมนี",
+        "สำเร็จการศึกษาหลักสูตร Konzertexamen (หลักสูตรนักแสดงระดับสูงสุด) จาก Hochschule für Musik Leipzig ประเทศเยอรมนี",
+        "สำเร็จการศึกษาหลักสูตร Meisterklassenexamen จาก Hochschule für Musik Leipzig ประเทศเยอรมนี",
+        "เคยดำรงตำแหน่งคอนเสิร์ตมาสเตอร์ของ Suwon Philharmonic Orchestra",
+        "ได้รับรางวัลจากการประกวดหลายรายการ อาทิ Shimonoseki International Competition, Nuri International Competition, Dong-A Music Competition, KBS New Artist Music Competition และ Busan Music Competition",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับวงออร์เคสตราจำนวนมาก อาทิ MDR Philharmonic Orchestra, Jena Philharmonic Orchestra, Istanbul Philharmonic Orchestra, KCO, Seoul Philharmonic Orchestra, KBS Symphony Orchestra, Korean National Symphony Orchestra, Gangnam Symphony Orchestra, Daegu Philharmonic Orchestra, Busan Philharmonic Orchestra, Changwon Philharmonic Orchestra, Suwon Philharmonic Orchestra, Cheongju Philharmonic Orchestra, Chuncheon Philharmonic Orchestra และ Gyeongsan Philharmonic Orchestra",
+        "ปัจจุบัน: ศาสตราจารย์ประจำ Kyungpook National University, คอนเสิร์ตมาสเตอร์ของ KCO (เดิมคือ Baroque Ensemble), หัวหน้าวงเชมเบอร์แดกูเวอร์ตูโอโซ และสมาชิก Kairos Ensemble"
+      ]
+    },
+    "kim-namhoon": {
+      "name": "Kim Nam-hoon",
+      "bio": [
+        "สำเร็จการศึกษาจาก Yewon School, สำเร็จการศึกษาก่อนกำหนดจาก Seoul Arts High School, เข้าศึกษาในฐานะผู้มีพรสวรรค์และสำเร็จการศึกษาระดับปริญญาตรีและหลักสูตรศิลปินเดี่ยวจาก Korea National University of Arts",
+        "ได้รับปริญญา Master of Music จาก Manhattan School of Music, ผ่านหลักสูตร Professional Study, สำเร็จการศึกษาระดับดุริยางคศาสตรดุษฎีบัณฑิตจาก Rutgers University (Mason Gross School of the Arts)",
+        "ที่ 1 การประกวด Overseas Dispatch Music Association Competition, ที่ 1 การประกวด Ewha-Kyunghyang Competition, ที่ 2 การประกวด JoongAng Ilbo Competition, ที่ 1 การประกวด Korea Philharmonic Competition, ที่ 2 การประกวด Hankook Ilbo Competition และที่ 2 การประกวด Chosun Ilbo Competition",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับวงออร์เคสตราหลายวงทั้งในและต่างประเทศ อาทิ Seoul Symphony, Seoul Chamber, Wonju Philharmonic Orchestra, Prime Philharmonic Orchestra รวมถึง Plymouth Philharmonic Orchestra, MAV Symphony Orchestra และ Georgia State University Symphony Orchestra",
+        "การแสดงเดี่ยวกลับสู่มาตุภูมิที่ IBK Chamber Hall ของ Seoul Arts Center, การแสดงเดี่ยวรับเชิญจาก Sejong Center, Kumho Young Artist และ Tongyeong International Music Foundation, Petit Classical Concert ที่ Korean Cultural Center สถานเอกอัครราชทูตเกาหลีประจำสหรัฐอเมริกา, การแสดงเดี่ยวที่ Carnegie Weill Hall และ Gala Concert รับเชิญจาก JSAC",
+        "กิจกรรมดนตรีเชมเบอร์ อาทิ Harmony Chamber Orchestra, Busan Cultural Center Chamber Festival, คอนเสิร์ต Seokjojeon และ Trio ON",
+        "ปัจจุบัน: ศาสตราจารย์ประจำภาควิชาเครื่องสายและเครื่องเป่า College of Music and Performing Arts, Keimyung University, สมาชิก Trio ON, Harmony Chamber Orchestra, หัวหน้าวงเชมเบอร์แดกูเวอร์ตูโอโซ และสมาชิก New Old Ensemble, Ensemble V9 และ Ensemble The First"
+      ]
+    },
+    "lee-kangwon": {
+      "name": "Lee Kang-won",
+      "bio": [
+        "สำเร็จการศึกษาจาก Seoul Arts High School",
+        "สำเร็จการศึกษาระดับปริญญาตรีและปริญญาโทจาก Universität der Künste Berlin (UdK)",
+        "สำเร็จการศึกษาด้วยเกียรตินิยมอันดับสูงสุดในหลักสูตรนักแสดงระดับสูงสุดจาก Hochschule für Musik Detmold",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับ UdK Chamber Orchestra, Seongnam Philharmonic Orchestra, Daegu Philharmonic Orchestra, Gangnam Symphony Orchestra และ Gyeongbuk Provincial Orchestra",
+        "การแสดงรับเชิญที่ Berlin Cathedral, Mikhailovsky Castle เซนต์ปีเตอร์สเบิร์ก, Chopin University of Music และ La Folle Journée กรุงวอร์ซอ",
+        "เคยดำรงตำแหน่งอาจารย์พิเศษที่ Chonnam National University, Keimyung University, Changwon National University, Yewon School, Seoul Arts High School และ Daegu Catholic University",
+        "หัวหน้าวง Ensemble Maru และ Ensemble Tara, ผู้อำนวยการดนตรี Ensemble Tonica, หัวหน้ากลุ่มเครื่องสาย (Principal) ของวงเชมเบอร์แดกูเวอร์ตูโอโซ",
+        "ปัจจุบัน: เป็นอาจารย์พิเศษที่ Hanyang University, Kyungpook National University, Keimyung University และ Gyeongbuk Arts High School"
+      ]
+    },
+    "kim-sojeong": {
+      "name": "Kim So-jeong",
+      "bio": [
+        "สำเร็จการศึกษาหลักสูตรนักแสดงมืออาชีพจาก Hochschule für Musik Freiburg ประเทศเยอรมนี",
+        "สำเร็จการศึกษาหลักสูตรนักแสดงระดับสูงสุดจาก Conservatoire de Strasbourg ประเทศฝรั่งเศส",
+        "ผ่านหลักสูตรปริญญาเอกสาขาดุริยางคศาสตร์ที่ Hanyang University",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับวงออร์เคสตราจำนวนมาก อาทิ Yalta Symphony, Zaporozhye Philharmonic, Daegu Philharmonic Orchestra, Gyeongbuk Provincial Orchestra, Pohang Philharmonic Orchestra, Korean National Police Symphony Orchestra, Hwaseong City Symphony Orchestra และ Daegu MBC Symphony Orchestra",
+        "การแสดงเดี่ยวรับเชิญที่ Schloss Bürgeln, Freiburg Augustinum, Badenweiler ในเยอรมนี, ซีรีส์นักดนตรีหน้าใหม่แห่ง Strasbourg ในฝรั่งเศส และ Samsun Opera House ในตุรกี",
+        "ปัจจุบัน: เป็นอาจารย์พิเศษที่ Daegu Catholic University, Daegu National University of Education และ Gyeongbuk Arts High School, สมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ และสมาชิก Modern Ensemble และ Emanon Ensemble"
+      ]
+    },
+    "kim-eunji": {
+      "name": "Kim Eun-ji",
+      "bio": [
+        "สำเร็จการศึกษาจาก College of Arts, Kyungpook National University",
+        "สำเร็จการศึกษาระดับปริญญาโท (Master) จาก Hochschule für Musik, Theater und Medien Hannover ประเทศเยอรมนี",
+        "สำเร็จการศึกษาด้วยเกียรตินิยมอันดับสูงสุดในหลักสูตร Konzertexamen ระดับนักแสดงสูงสุดจาก Hochschule für Musik Mainz ประเทศเยอรมนี",
+        "เคยดำรงตำแหน่งสมาชิกไม่ประจำของ Heidelberg Theater และ Hessisches Staatstheater ประเทศเยอรมนี",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับ Daegu Philharmonic Orchestra, Beethoven Orchestra Hessen และ Mainzer Musici",
+        "การแสดงรับเชิญที่ Westfalen MLW Philharmonie, Mainz State Museum ในเยอรมนี, Chopin University of Music และ La Folle Journée กรุงวอร์ซอ",
+        "ศิลปินที่ได้รับคัดเลือกสาขาดนตรีในโครงการศิลปินรุ่นเยาว์ครั้งที่ 5 ของ Daegu Foundation for Culture",
+        "ที่ 1 การประกวดของ Brahms Society เกาหลีและเยอรมนี",
+        "เคยเป็นอาจารย์พิเศษที่ Kyungpook National University",
+        "ปัจจุบัน: เป็นอาจารย์พิเศษที่ Daegu Institute for the Gifted in Arts และ Gyeongbuk Arts High School, สมาชิก Trio Beatrice, Ensemble Blanche และ Ensemble Maru, สมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ"
+      ]
+    },
+    "lee-eunjeong": {
+      "name": "Lee Eun-jeong",
+      "bio": [
+        "เข้าศึกษาในฐานะผู้มีพรสวรรค์ที่ Korea National University of Arts ขณะกำลังศึกษาที่ Seoul Arts High School (สำเร็จการศึกษาระดับปริญญาตรีและปริญญาโท)",
+        "สำเร็จการศึกษาระดับปริญญาโทจาก Indiana University และสำเร็จการศึกษาระดับปริญญาเอกจาก Boston University",
+        "ได้รับรางวัลต่าง ๆ อาทิ ที่ 1 การประกวด Monthly Music Competition, ที่ 1 การประกวด TBC Competition, รางวัลใหญ่ Gyeongbuk Arts High School Competition และที่ 3 การประกวด Nanpa Competition และ Hankook Ilbo Competition",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับ Daegu Philharmonic Orchestra, Daejeon Philharmonic Orchestra และ Haffner Sinfonietta Chamber Orchestra (Boston)",
+        "เคยเป็นอาจารย์ที่ Korea National University of Arts และ Korea National Institute for the Gifted in Arts",
+        "ปัจจุบัน: เป็นอาจารย์พิเศษที่ Kyungpook National University, Keimyung University และ Gyeongbuk Arts High School, หัวหน้ากลุ่มเครื่องสาย (Principal) ของวงเชมเบอร์แดกูเวอร์ตูโอโซ และสมาชิก Ensemble Dongseong"
+      ]
+    },
+    "baek-nahyun": {
+      "name": "Baek Na-hyun",
+      "bio": [
+        "สำเร็จการศึกษาจากภาควิชาดนตรี College of Arts, Kyungpook National University",
+        "สำเร็จการศึกษาด้วยเกียรตินิยมอันดับสูงสุดจาก Hochschule für Musik, Theater und Medien Hannover ประเทศเยอรมนี",
+        "การแสดงรับเชิญและการแสดงเดี่ยวจำนวนมากทั้งในและต่างประเทศโดยมีฐานอยู่ในยุโรป อาทิ Mosel Music Festival, Mozart Music Festival และ Trzęsacz International Music Festival",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับวงออร์เคสตราจำนวนมาก อาทิ Hannover Chamber Orchestra ในเยอรมนี และ Gyeongbuk Provincial Orchestra",
+        "เคยดำรงตำแหน่งสมาชิกหลักของ Hannover Chamber Orchestra ในเยอรมนี และคอนเสิร์ตมาสเตอร์รับเชิญของวงออร์เคสตราหลายวง อาทิ Daegu Gala Orchestra",
+        "ปัจจุบัน: เป็นอาจารย์พิเศษที่ Kyungpook National University, Gyeongbuk Arts High School, Gimcheon Arts High School และ Daegu Institute for the Gifted in Arts, สมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ, คอนเสิร์ตมาสเตอร์ของ Novo Philharmonic Orchestra และหัวหน้าวง Picasso Ensemble"
+      ]
+    },
+    "kim-suji": {
+      "name": "Kim Su-ji",
+      "bio": [
+        "สำเร็จการศึกษาระดับปริญญาตรีและปริญญาโทจาก Hochschule für Musik Saar ประเทศเยอรมนี",
+        "สำเร็จการศึกษาในหลักสูตร Artist Diploma และปริญญาเอกจาก University of Cincinnati, College-Conservatory of Music ประเทศสหรัฐอเมริกา",
+        "ออกอัลบั้ม ‘Saint-Saëns Violin Concertos No.3 & No.2’ ภายใต้สังกัด SONY Classical Label",
+        "ปัจจุบัน: คอนเสิร์ตมาสเตอร์ของ Daegu International Broadcasting Symphony Orchestra, สมาชิก Ensemble ของ Daegu Contemporary Music Festival (DCMF) และ Ensemble DNCE, สมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ, เป็นอาจารย์พิเศษที่ Daegu Catholic University และบัณฑิตวิทยาลัยของมหาวิทยาลัยดังกล่าว, Daegu Institute for the Gifted in Arts และ Gyeongbuk Arts High School"
+      ]
+    },
+    "han-hyemin": {
+      "name": "Han Hye-min",
+      "bio": [
+        "สำเร็จการศึกษาด้วยอันดับสูงสุดจาก Daegu Catholic University",
+        "สำเร็จการศึกษาหลักสูตรนักแสดงมืออาชีพจาก Hochschule für Musik Detmold ประเทศเยอรมนี",
+        "เคยดำรงตำแหน่งสมาชิก Solist ของ Detmold Barock Orchester ประเทศเยอรมนี",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับวงออร์เคสตราจำนวนมาก อาทิ Debrecen ในฮังการี, Daegu Phil Orchestra, Daegu Catholic University Orchestra และ Daegu Music Festival Orchestra",
+        "ปัจจุบัน: สมาชิก Ensemble DNCE, คอนเสิร์ตมาสเตอร์ของ Korea Sori Chamber Orchestra, เป็นอาจารย์พิเศษที่ Gyeongbuk Arts High School และสมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ"
+      ]
+    },
+    "bae-eunjin": {
+      "name": "Bae Eun-jin",
+      "bio": [
+        "สำเร็จการศึกษาจาก Korea National University of Arts",
+        "ผ่านหลักสูตร GPD จาก Peabody Institute of Johns Hopkins University",
+        "ได้รับ Peabody Singapore Fellowship Award",
+        "ได้รับคัดเลือกเป็น Artist in Muhak ของ Suseong Artpia ประจำปี 2020",
+        "ปัจจุบัน: หัวหน้ากลุ่มเครื่องสาย (Principal) ของ Daegu International Broadcasting Symphony Orchestra, Principal รับเชิญของ DIO Orchestra, หัวหน้ากลุ่มเครื่องสาย (Principal) ของวงเชมเบอร์แดกูเวอร์ตูโอโซ, สมาชิก Busan Chamber Society และสมาชิก Ensemble Dongseong และ DNCE"
+      ]
+    },
+    "park-soyeon": {
+      "name": "Park So-yeon",
+      "bio": [
+        "สำเร็จการศึกษาจากภาควิชาดนตรี College of Arts, Kyungpook National University และบัณฑิตวิทยาลัยของมหาวิทยาลัยดังกล่าว",
+        "ผ่านหลักสูตรนักแสดงมืออาชีพจาก Academy of Performing Arts in Prague, Music Faculty (HAMU)",
+        "เคยดำรงตำแหน่งสมาชิกรับเชิญของ Hradec Králové Philharmonic Orchestra กรุงปราก",
+        "นักดนตรีประจำ Biwon Music Hall",
+        "ปัจจุบัน: เป็นอาจารย์ที่ Lifelong Education Center ของ Daegu National University of Education และ Andong Youth Orchestra, สมาชิก Ensemble Maru, Emanon และ Modern Ensemble, สมาชิกและนักแสดงมืออาชีพของวงเชมเบอร์แดกูเวอร์ตูโอโซ"
+      ]
+    },
+    "lee-jeongmin": {
+      "name": "Lee Jeong-min",
+      "bio": [
+        "สำเร็จการศึกษาระดับปริญญาโทจากภาควิชาเครื่องสายและเครื่องเป่า College of Music and Performing Arts, Keimyung University และบัณฑิตวิทยาลัยของมหาวิทยาลัยดังกล่าว",
+        "Vordiplom จาก Hochschule für Musik Detmold ประเทศเยอรมนี",
+        "Diploma จาก Academia Internazionale di Musica in Roma",
+        "Diploma จาก Spain Festival Academia de Musica International Tenerife",
+        "ปัจจุบัน: ผู้แทน Ensemble BOAZ และสมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ"
+      ]
+    },
+    "oh-kookhwan": {
+      "name": "Oh Kook-hwan",
+      "bio": [
+        "สำเร็จการศึกษาระดับ Diplom จาก Hochschule für Musik und Theater Rostock ประเทศเยอรมนี",
+        "สำเร็จการศึกษาระดับปริญญาโทและหลักสูตรนักแสดงระดับสูงสุดจาก Hochschule für Musik Detmold ประเทศเยอรมนี",
+        "ผ่านหลักสูตรภาควิชาการอำนวยเพลงจาก Brahms Conservatory ฮัมบูร์ก ประเทศเยอรมนี",
+        "ปัจจุบัน: เป็นอาจารย์พิเศษที่ Daegu Catholic University, Gyeongbuk Arts High School และ Daegu Institute for the Gifted in Arts, วาทยกรของ Suseong Pops Orchestra, Maruhan Youth Orchestra และวงออร์เคสตรา ‘Neo’ ของ Gunwi Middle School",
+        "หัวหน้ากลุ่มเชลโล (Principal) ของ CM Symphony Orchestra และ Maruhan Philharmonic Orchestra, ผู้อำนวยการดนตรีของคณะสร้างสรรค์ ‘Sorigyeol’ และหัวหน้าวง SoundT Ensemble",
+        "สมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ, Soloist Cello Ensemble Gyeongsang, Ensemble BOAZ และ Canticum Novum Mission Choir"
+      ]
+    },
+    "lee-heesoo": {
+      "name": "Lee Hee-soo",
+      "bio": [
+        "สำเร็จการศึกษาระดับปริญญาตรีจาก Korea National University of Arts",
+        "สำเร็จการศึกษาระดับปริญญาโท (Master) จาก Hochschule für Musik Dresden ประเทศเยอรมนี",
+        "ได้รับรางวัลจากการประกวดหลายรายการ อาทิ Daegu Music Association, Masan Music Association, Daejeon Music Association, Music Education Newspaper, Seongjeong Music Competition, Music Journal และ Music Chunchu",
+        "ดิโต ออร์เคสตรา, Cheonan City Symphony Orchestra, สมาชิกรับเชิญของ Gyeongbuk Provincial Orchestra, Principal รับเชิญของ Stadt Philharmonic, DIO Orchestra และ Grand Symphony Orchestra",
+        "ปัจจุบัน: สมาชิก Ensemble BOAZ, Ensemble Sol, Ensemble Neustadt, Busan Virtuoso Ensemble, Soloist Cello Ensemble Gyeongsang, The Cellist of KNUA, Ensemble Sonore และ Trio Bellino, สมาชิกวงเชมเบอร์แดกูเวอร์ตูโอโซ, หัวหน้ากลุ่มเชลโล (Principal) ของ Gyeongsan Philharmonic Orchestra และเป็นอาจารย์พิเศษที่ Pohang Arts High School"
+      ]
+    },
+    "kim-minji": {
+      "name": "Kim Min-ji",
+      "bio": [
+        "ชนะการออดิชัน Astral Artists National Audition ในสหรัฐอเมริกาเมื่อปี 2003 และเปิดตัวบนเวทีอเมริกา",
+        "เข้าศึกษาในฐานะผู้มีพรสวรรค์และสำเร็จการศึกษาจาก Korea National University of Arts เมื่ออายุ 16 ปี",
+        "สำเร็จการศึกษาในฐานะนักเรียนทุนเต็มจำนวนในระดับปริญญาโท หลักสูตรนักแสดงมืออาชีพ และหลักสูตรนักแสดงระดับสูงสุดจาก New England Conservatory ประเทศสหรัฐอเมริกา",
+        "ได้รับคัดเลือกเป็นผู้รับทุน Frank Huntington Beebe Fund เมื่อปี 2005 และผ่านหลักสูตรนักแสดงระดับสูงสุดจาก Conservatoire de Toulouse ประเทศฝรั่งเศส",
+        "ที่ 1 การประกวด Dong-A Ilbo, JoongAng Ilbo, Hankook Ilbo และ Chosun Ilbo, รางวัลใหญ่การประกวด Nanpa และ KBS New Artist Music Competition",
+        "ชาวเกาหลีคนแรกที่ได้รับทุนจาก Emanuel Feuermann International Cello Competition, ที่ 1 การประกวด Hudson Valley String Competition, New England Conservatory String Competition และ HAMS International Cello Competition, ที่ 1 และรางวัลพิเศษสำหรับผลงานที่ได้รับมอบหมายจาก Irving M. Klein International String Competition",
+        "ร่วมแสดงในฐานะศิลปินเดี่ยวกับ KBS Symphony Orchestra, Seoul Philharmonic Orchestra, Suwon Philharmonic Orchestra, Wonju Philharmonic Orchestra, Incheon Philharmonic Orchestra, Gunsan Philharmonic Orchestra, Chungnam Provincial Orchestra, Daegu MBC Symphony Orchestra และ Gangnam Symphony Orchestra",
+        "เคยดำรงตำแหน่งรองหัวหน้ากลุ่มเครื่องสายของ Reina Sofía Orchestra แห่งสเปนภายใต้การนำของ Lorin Maazel (ชาวเอเชียคนแรก), หัวหน้ากลุ่มเครื่องสาย (Principal) ของ Seoul Arts Center Festival Orchestra และศาสตราจารย์ประจำ Keimyung University",
+        "ปัจจุบัน: ศาสตราจารย์ประจำภาควิชาเครื่องดนตรี College of Music, Seoul National University, ผู้อำนวยการดนตรีของคอนเสิร์ต Seokjojeon พระราชวัง Deoksugung และหัวหน้ากลุ่มเครื่องสาย (Principal) ของ Cellista Cello Ensemble"
+      ]
+    }
+  },
+  "guestBios": {
+    "yeo-jakyung": {
+      "name": "Yeo Ja-kyung",
+      "role": "วาทยกร"
+    },
+    "tania-miller": {
+      "name": "Tania Miller",
+      "role": "วาทยกร"
+    },
+    "dami-kim": {
+      "name": "Dami Kim",
+      "role": "ไวโอลิน"
+    },
+    "jasmine-choi": {
+      "name": "Jasmine Choi",
+      "role": "ฟลูต"
+    },
+    "soyoung-yoon": {
+      "name": "Soyoung Yoon",
+      "role": "ไวโอลิน"
+    },
+    "jinsang-lee": {
+      "name": "Jinsang Lee",
+      "role": "เปียโน"
+    },
+    "jeongwon-kim": {
+      "name": "Julius-Jeongwon Kim",
+      "role": "เปียโน"
+    }
+  },
+  "historyItems": {
+    "h2020a": {
+      "title": "2020 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2020b": {
+      "title": "การบันทึกและถ่ายทอด WOS Virtuoso Chamber",
+      "venue": "Arte Hall"
+    },
+    "h2020c": {
+      "title": "คอนเสิร์ตแลกเปลี่ยนพันธมิตรแสงจันทร์ Yeongnam-Honam — WOS Virtuoso Chamber",
+      "venue": "Gwangju Culture & Art Center"
+    },
+    "h2020d": {
+      "title": "เทศกาลดนตรีเชมเบอร์ Daegu Concert House — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2021a": {
+      "title": "2021 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2021b": {
+      "title": "การแสดงแลกเปลี่ยนวัฒนธรรมเมืองฮวาซองและเมืองแดกู — WOS Virtuoso Chamber",
+      "venue": "Dongtan Complex Culture Center"
+    },
+    "h2021c": {
+      "title": "การแสดงที่กรุงโซลของ 2021 WOS Virtuoso Chamber",
+      "venue": "Youngsan Art Hall"
+    },
+    "h2022a": {
+      "title": "2022 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2024a": {
+      "title": "2024 DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2024b": {
+      "title": "World Orchestra Festival — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2024c": {
+      "title": "ซีรีส์พันธมิตรแสงจันทร์ Yeongnam-Honam — DCH Virtuoso Chamber with Jinsang Lee",
+      "venue": "Gwangju Arts Center"
+    },
+    "h2025a": {
+      "title": "2025 World Orchestra Festival — JULIUS-JEONGWON KIM & DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2026a": {
+      "title": "2026 Ensemble Festival — วงเชมเบอร์แดกูเวอร์ตูโอโซ",
+      "venue": "Daegu Concert House, Chamber Hall"
+    },
+    "h2026b": {
+      "title": "โครงการสนับสนุนองค์กรศิลปะภูมิภาคประจำปี 2026 〈Kinder Concert มนตร์ขลังขลุ่ยวิเศษ〉",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "h2026c": {
+      "title": "คอนเสิร์ตแลกเปลี่ยนเมืองสร้างสรรค์ด้านดนตรีของ UNESCO — Fête de la Musique ที่ฮันโนเวอร์",
+      "venue": "ฮันโนเวอร์ เยอรมนี · Galerie Luise · โบสถ์เซนต์เมาริทิอุส ฮิลเดสไฮม์"
+    },
+    "h2026d": {
+      "title": "คอนเสิร์ตแลกเปลี่ยนเมืองสร้างสรรค์ด้านดนตรีของ UNESCO — Cité musicale-metz",
+      "venue": "เมตซ์ ฝรั่งเศส · Arsenal, Salle de l'Esplanade"
+    }
+  },
+  "form": {
+    "who": "ชื่อ / หน่วยงาน",
+    "who_ph": "สมชาย / มูลนิธิ ABC",
+    "contact": "ช่องทางติดต่อ (โทรศัพท์หรืออีเมล)",
+    "contact_ph": "เช่น +66 81 234 5678 หรือ name@email.com",
+    "type": "ประเภทการติดต่อ",
+    "type_perf": "การเชิญแสดง",
+    "type_collab": "ความร่วมมือ · การแลกเปลี่ยน",
+    "type_etc": "อื่น ๆ",
+    "when": "วันที่ · สถานที่ที่ต้องการ",
+    "when_ph": "กันยายน 2026 / แดกู",
+    "msg": "รายละเอียด",
+    "msg_ph": "โปรดระบุขนาดการแสดง งบประมาณ และโปรแกรมที่ต้องการ",
+    "send": "ส่ง",
+    "note": "※ เมื่อกดปุ่ม แอปอีเมลจะเปิดขึ้นพร้อมเนื้อหาที่กรอกไว้ให้อัตโนมัติ",
+    "subject_prefix": "[คำเชิญการแสดง / การร่วมงาน]"
+  },
+  "sketch": {
+    "eyebrow": "SKETCH",
+    "title": "ภาพการแสดง",
+    "subtitle": "โปสเตอร์คอนเสิร์ต",
+    "lead": "ช่วงเวลาบนเวทีที่ Daegu Virtuoso Chamber ได้ก้าวผ่าน — รวมโปสเตอร์การแสดงที่ผ่านมา"
+  },
+  "sketchItems": {
+    "s2026e": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
+    },
+    "s2026d": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Hannover",
+      "venue": "Hannover, Germany · Fête de la Musique"
+    },
+    "s2026c": {
+      "title": "Kinder Concert 'The Magic Flute'",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026b": {
+      "title": "2026 DCH Ensemble Festival",
+      "venue": "Daegu Concert House, Chamber Hall"
+    },
+    "s2025a": {
+      "title": "2025 World Orchestra Festival — Julius-Jeongwon Kim & DCH",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024c": {
+      "title": "Yeongnam-Honam Moonlight Alliance Series III — with Jinsang Lee",
+      "venue": "Gwangju Arts Center, Small Theater"
+    },
+    "s2024b": {
+      "title": "2024 World Orchestra Festival — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024a": {
+      "title": "DCH Exclusive — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2022a": {
+      "title": "2022 World Orchestra Series — Bach: Complete Brandenburg Concertos",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2021c": {
+      "title": "2021 WOS Virtuoso Chamber — Seoul Concert",
+      "venue": "Youngsan Art Hall, Seoul"
+    },
+    "s2021b": {
+      "title": "Hwaseong-Daegu Cultural Exchange Special Concert",
+      "venue": "Dongtan Multi Culture Center, Banseok Art Hall"
+    },
+    "s2021a": {
+      "title": "2021 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2020c": {
+      "title": "Chamber Music Festival — Classic from Chamber Music",
+      "venue": "Daegu Concert House"
+    },
+    "s2020b": {
+      "title": "Yeongnam-Honam Moonlight Alliance Exchange Concert",
+      "venue": "Gwangju Culture & Art Center, Small Theater"
+    },
+    "s2020a": {
+      "title": "2020 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    }
+  }
+}

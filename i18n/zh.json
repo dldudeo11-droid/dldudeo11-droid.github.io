@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "lang": "zh",
+    "dir": "ltr",
+    "label": "中文"
+  },
+  "site": {
+    "name": "大邱名家室内乐团 (Daegu Virtuoso Chamber)",
+    "name_en": "Daegu Virtuoso Chamber",
+    "wm1": "DAEGU",
+    "wm2": "VIRTUOSO CHAMBER"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "乐团简介",
+    "members": "团员",
+    "history": "团史",
+    "contact": "联系",
+    "menu": "菜单",
+    "sketch": "演出剪影"
+  },
+  "ui": {
+    "language": "语言",
+    "theme": "主题",
+    "view_profile": "查看简介",
+    "back_to_members": "返回团员列表",
+    "explore_members": "查看团员",
+    "learn_more": "乐团简介",
+    "scroll": "向下",
+    "part": "声部",
+    "role": "职务",
+    "all_rights": "All rights reserved.",
+    "menu_close": "关闭"
+  },
+  "themes": {
+    "editorial": "雅致",
+    "noir": "暗黑",
+    "minimal": "极简"
+  },
+  "parts": {
+    "violin": "小提琴",
+    "violin1": "第一小提琴",
+    "violin2": "第二小提琴",
+    "viola": "中提琴",
+    "cello": "大提琴",
+    "flute": "长笛",
+    "piano": "钢琴",
+    "conductor": "指挥"
+  },
+  "ranks": {
+    "concertmaster": "乐团首席 · 团长",
+    "leader": "团长",
+    "principal": "首席",
+    "principal_rep": "代表 · 首席",
+    "member": "团员",
+    "guest_principal": "客座首席"
+  },
+  "hero": {
+    "tagline": "纯以弦乐勾勒的室内乐精髓",
+    "subtitle": "立足大邱、与世界共鸣的弦乐室内乐团"
+  },
+  "home": {
+    "intro_eyebrow": "ABOUT",
+    "intro_title": "以弦乐的深度铸就的室内乐",
+    "intro_lead": "由在海内外作为独奏家与室内乐演奏家备受认可的演奏家们志同道合、共同组建的大邱弦乐室内乐团。以堪比管弦乐团的坚实与沉稳，呈现室内乐的精髓。",
+    "members_eyebrow": "MEMBERS",
+    "members_title": "携手同台的演奏家",
+    "members_lead": "引领乐团的乐团首席与各声部首席演奏家。",
+    "history_eyebrow": "HISTORY",
+    "history_title": "走过的舞台",
+    "history_lead": "自2020年首演以来，成长为代表大邱的室内乐团所走过的足迹。",
+    "support_note": "文化体育观光部赞助 · 2026年地区艺术代表团体扶持项目入选团体"
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "乐团简介",
+    "subtitle": "Daegu Virtuoso Chamber",
+    "body": [
+      "大邱名家室内乐团是由立足大邱、长期构筑深厚音乐世界的演奏家们志同道合、共同组建的室内乐团体，成员皆为在海内外作为独奏家及室内乐演奏家、其扎实演奏功力备受认可的演奏家。",
+      "纯以弦乐勾勒细腻的旋律，以蕴含堪比管弦乐团之坚实与沉稳的音乐，呈现室内乐的精髓。",
+      "曾与指挥家Yeo Ja-kyung、Tania Miller，小提琴家Soyoung Yoon、Dami Kim，长笛演奏家Jasmine Choi，钢琴家Jinsang Lee、Julius-Jeongwon Kim等活跃于海内外的演奏家携手合作，展开广阔的舞台。",
+      "凭借充分彰显室内乐魅力的多样曲目广受好评；2026年还将通过包括与德国及法国联合国教科文组织音乐创意城市交流音乐会在内的巡演，持续开展国际交流活动。",
+      "此外，乐团入选文化体育观光部赞助的‘2026年地区艺术代表团体扶持项目’，为宣传文化艺术之城大邱而不懈精进。"
+    ],
+    "stats": [
+      {
+        "n": "2020",
+        "l": "创团"
+      },
+      {
+        "n": "15",
+        "l": "弦乐团员"
+      },
+      {
+        "n": "string only",
+        "l": "纯以弦乐"
+      }
+    ],
+    "collab_eyebrow": "COLLABORATIONS",
+    "collab_title": "携手合作的演奏家",
+    "collab_lead": "与海内外一线指挥家、演奏家同台献艺，不断深化乐团底蕴。",
+    "guest_principal_title": "客座首席",
+    "guest_principal_lead": "以客座首席身份共同演出的大提琴家。"
+  },
+  "members": {
+    "eyebrow": "MEMBERS",
+    "title": "团员",
+    "subtitle": "Members",
+    "lead": "纯以弦乐填满舞台的大邱名家室内乐团演奏家们。",
+    "sections": {
+      "violin1": "第一小提琴",
+      "violin2": "第二小提琴",
+      "viola": "中提琴",
+      "cello": "大提琴"
+    }
+  },
+  "memberPage": {
+    "back": "返回团员列表",
+    "profile": "简介",
+    "career": "主要经历",
+    "not_found": "未找到该团员。"
+  },
+  "history": {
+    "eyebrow": "HISTORY",
+    "title": "团史",
+    "subtitle": "历届演出",
+    "lead": "大邱名家室内乐团走过的主要舞台。"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "联系",
+    "lead": "欢迎垂询演出邀请与合作事宜。",
+    "location": "韩国大邱",
+    "based": "Based in Daegu, Korea",
+    "lede": "欢迎洽谈演出邀约与合作事宜。",
+    "desc": "填写下方表单后，将自动打开邮件应用并填好内容。我们会尽快回复您。",
+    "email_label": "邮箱",
+    "location_label": "所在地",
+    "blog_label": "Naver 博客"
+  },
+  "footer": {
+    "tagline": "纯以弦乐勾勒的室内乐精髓",
+    "support": "文化体育观光部赞助 · 2026年地区艺术代表团体扶持项目入选团体",
+    "nav_title": "快速导航",
+    "lang_title": "语言"
+  },
+  "memberBios": {
+    "han-gyeongjin": {
+      "name": "Han Gyeong-jin",
+      "bio": [
+        "艺园学校毕业",
+        "韩国艺术综合学校音乐院天才生入学并取得艺术学士学位毕业",
+        "德国柏林艺术大学(UdK) Diplom 毕业",
+        "德国莱比锡国立音乐学院 Konzertexamen（最高演奏家课程）毕业",
+        "德国莱比锡国立音乐学院 Meisterklassenexamen 毕业",
+        "曾任水原市立交响乐团乐团首席",
+        "下关国际比赛、Nuri国际比赛、东亚音乐比赛、KBS新人音乐比赛、釜山音乐比赛等多项比赛获奖",
+        "曾与 MDR Philharmonic Orchestra、Jena Philharmonic Orchestra、Istanbul Philharmonic Orchestra、KCO、首尔市立交响乐团、KBS交响乐团、国立交响乐团、江南交响乐团、大邱市立交响乐团、釜山市立交响乐团、昌原市立交响乐团、水原市立交响乐团、清州市立交响乐团、春川市立交响乐团、庆山市立交响乐团等众多管弦乐团协奏",
+        "现任：庆北大学教授、KCO（原巴洛克合奏团）乐团首席、大邱名家室内乐团团长、Kairos 室内乐团（Kairos Ensemble）团员"
+      ]
+    },
+    "kim-namhoon": {
+      "name": "Kim Nam-hoon",
+      "bio": [
+        "艺园学校毕业、首尔艺术高中提前毕业、韩国艺术综合学校天才生入学，取得艺术学士及独奏家课程学位毕业",
+        "曼哈顿音乐学院取得 Master of Music 学位、修毕 Professional Study，罗格斯大学音乐学院（Mason Gross School of the Arts）音乐博士毕业",
+        "海外派遣音协比赛第一名、梨花京乡比赛第一名、中央日报比赛第二名、韩国爱乐比赛第一名、韩国日报比赛第二名、朝鲜日报比赛第二名",
+        "曾与首尔交响乐团、首尔室内乐团、原州市立交响乐团、Prime Philharmonic Orchestra 以及 Plymouth Philharmonic Orchestra、MAV Symphony Orchestra、Georgia State University Symphony Orchestra 等海内外多家管弦乐团协奏",
+        "举办艺术殿堂 IBK室内乐厅归国独奏会，并于世宗文化会馆、锦湖青年艺术家、统营国际音乐财团受邀独奏会、驻美大使馆韩国文化院 Petit Classical Concert、Carnegie Weill Hall 独奏会、JSAC 受邀 Gala Concert 演出",
+        "参与和音室内乐团、釜山文化会馆室内乐节、石造殿音乐会、Trio ON 等室内乐活动",
+        "现任：启明大学音乐表演艺术学院管弦乐系教授、Trio ON、和音室内乐团、大邱名家室内乐团团长、New Old 室内乐团、Ensemble V9、Ensemble The First 成员"
+      ]
+    },
+    "lee-kangwon": {
+      "name": "Lee Kang-won",
+      "bio": [
+        "首尔艺术高中毕业",
+        "德国柏林艺术大学(UdK)学士、硕士毕业",
+        "德国代特莫尔德国立音乐学院最高演奏家课程以最优异成绩毕业",
+        "曾与 UdK 室内乐团、城南市立交响乐团、大邱市立交响乐团、江南交响乐团、庆北道立管弦乐团等协奏",
+        "曾受邀于柏林大教堂、圣彼得堡米哈伊洛夫斯基宫、肖邦国立音乐学院、华沙 La Folle Journée 等地演出",
+        "曾任全南大学、启明大学、昌原大学、艺园、首尔艺术高中、大邱天主教大学客座教授",
+        "Ensemble Maru、Ensemble Tara 团长、Ensemble Tonika 音乐总监、大邱名家室内乐团首席",
+        "现任：任教于汉阳大学、庆北大学、启明大学、庆北艺术高中"
+      ]
+    },
+    "kim-sojeong": {
+      "name": "Kim So-jeong",
+      "bio": [
+        "德国弗莱堡国立音乐学院专业演奏家课程毕业",
+        "法国斯特拉斯堡国立音乐学院最高演奏家课程毕业",
+        "汉阳大学音乐学博士结业",
+        "曾与 Yalta Symphony、Zaporozhye Philharmonic、大邱市立交响乐团、庆北道立交响乐团、浦项市立交响乐团、国立警察交响乐团、华城市交响乐团、大邱MBC交响乐团等多次协奏",
+        "曾受邀于德国 Schloss Bürgeln、Freiburg Augustinum、Badenweiler，法国 Strasbourg 新秀演奏家系列，土耳其 Samsun 歌剧院等地举办独奏会",
+        "现任：任教于大邱天主教大学、大邱教育大学、庆北艺术高中，大邱名家室内乐团团员，Modern Ensemble、Emanon Ensemble 成员"
+      ]
+    },
+    "kim-eunji": {
+      "name": "Kim Eun-ji",
+      "bio": [
+        "庆北大学艺术学院毕业",
+        "德国汉诺威国立音乐学院硕士（Master）毕业",
+        "德国美因茨国立音乐学院最高演奏家课程 Konzertexamen 以最优异成绩毕业",
+        "曾任德国海德堡剧院、黑森州立剧院非常任团员",
+        "曾与大邱市立交响乐团、Beethoven Orchestra Hessen、Mainzer Musici 等协奏",
+        "曾受邀于德国 Westfalen MLW Philharmonie、美因茨国立博物馆、肖邦国立音乐学院、华沙 La Folle Journée 等地演出",
+        "第五届大邱文化财团青年艺术家音乐部门入选艺术家",
+        "韩国·德国勃拉姆斯协会比赛第一名",
+        "曾任教于庆北大学",
+        "现任：任教于大邱艺术英才教育院、庆北艺术高中，Trio Beatrice、Ensemble Blanche、Ensemble Maru 成员，大邱名家室内乐团团员"
+      ]
+    },
+    "lee-eunjeong": {
+      "name": "Lee Eun-jeong",
+      "bio": [
+        "就读首尔艺术高中期间以天才生身份入学韩国艺术综合学校（取得学士、硕士学位毕业）",
+        "印第安纳大学硕士毕业、波士顿大学博士毕业",
+        "月刊音乐比赛第一名、TBC比赛第一名、庆北艺术高中比赛大奖、兰坡比赛及韩国日报比赛第三名等获奖",
+        "曾与大邱市立交响乐团、大田市立交响乐团、Haffner Sinfonietta Chamber Orchestra（波士顿）等协奏",
+        "曾任韩国艺术综合学校讲师、韩国艺术英才教育院讲师",
+        "现任：任教于庆北大学、启明大学、庆北艺术高中，大邱名家室内乐团首席，Ensemble Dongseong 成员"
+      ]
+    },
+    "baek-nahyun": {
+      "name": "Baek Na-hyun",
+      "bio": [
+        "庆北大学艺术学院音乐系毕业",
+        "德国汉诺威国立音乐学院以最优异成绩毕业",
+        "以欧洲为中心，参与 Mosel Music Festival、Mozart Music Festival、Trzesacz 国际音乐节等海内外众多策划邀请演出及独奏会",
+        "曾与德国汉诺威室内乐团、庆北道立交响乐团等多家管弦乐团协奏",
+        "曾任德国汉诺威室内乐团首席团员、大邱 Gala 管弦乐团等多家管弦乐团客座乐团首席",
+        "现任：任教于庆北大学、庆北艺术高中、金泉艺术高中、大邱艺术英才教育院，大邱名家室内乐团团员，Novo Philharmonic Orchestra 乐团首席，Picasso Ensemble 团长"
+      ]
+    },
+    "kim-suji": {
+      "name": "Kim Su-ji",
+      "bio": [
+        "德国 Hochschule für Musik Saar 学士、硕士毕业",
+        "美国 University of Cincinnati, College-Conservatory of Music 取得 Artist Diploma 及博士学位毕业",
+        "发行 SONY Classical 厂牌唱片《Saint-Saëns Violin Concertos No.3 & No.2》",
+        "现任：大邱国际广播交响乐团乐团首席、大邱国际现代音乐节（DCMF）室内乐团、Ensemble DNCE 成员、大邱名家室内乐团团员、任教于大邱天主教大学及其研究生院、大邱艺术英才教育院、庆北艺术高中"
+      ]
+    },
+    "han-hyemin": {
+      "name": "Han Hye-min",
+      "bio": [
+        "大邱天主教大学以第一名成绩毕业",
+        "德国代特莫尔德国立音乐学院专业演奏家课程毕业",
+        "曾任德国 Detmold Barock Orchester Solist 团员",
+        "曾与匈牙利德布勒森、大邱爱乐管弦乐团、大邱天主教大学管弦乐团、大邱音乐节庆典管弦乐团等多次协奏",
+        "现任：DNCE 室内乐团、韩国之声室内乐团乐团首席、任教于庆北艺术高中、大邱名家室内乐团团员"
+      ]
+    },
+    "bae-eunjin": {
+      "name": "Bae Eun-jin",
+      "bio": [
+        "韩国艺术综合学校毕业",
+        "约翰·霍普金斯大学皮博迪学院（Peabody Institute of Johns Hopkins University）GPD 结业",
+        "荣获 Peabody Singapore Fellowship Award",
+        "2020 寿城艺术殿堂（Suseong Artpia）驻团艺术家入选",
+        "现任：大邱国际广播交响乐团首席、Dio Orchestra 客座首席、大邱名家室内乐团首席、釜山室内乐协会（Busan Chamber Society）成员、Ensemble Dongseong·DNCE 成员"
+      ]
+    },
+    "park-soyeon": {
+      "name": "Park So-yeon",
+      "bio": [
+        "庆北大学艺术学院音乐系及其研究生院毕业",
+        "布拉格表演艺术学院音乐与舞蹈学院（HAMU）专业演奏家结业",
+        "曾任布拉格、赫拉德茨-克拉洛韦爱乐管弦乐团客座团员",
+        "Biwon Music Hall 驻馆音乐家",
+        "现任：任教于大邱教育大学终身教育院、安东青少年管弦乐团，Ensemble Maru·Emanon·Modern Ensemble 成员，以大邱名家室内乐团团员及专业演奏家身份活动"
+      ]
+    },
+    "lee-jeongmin": {
+      "name": "Lee Jeong-min",
+      "bio": [
+        "启明大学音乐表演艺术学院管弦乐系及其研究生院硕士毕业",
+        "德国 HfM Detmold Vordiplom",
+        "Academia Internazionale di Musica in Roma Diploma",
+        "Spain Festival Academia de Musica International Tenerife Diploma",
+        "现任：Ensemble BOAZ 代表、大邱名家室内乐团团员"
+      ]
+    },
+    "oh-kookhwan": {
+      "name": "Oh Kook-hwan",
+      "bio": [
+        "德国罗斯托克国立音乐学院 Diplom 毕业",
+        "德国代特莫尔德国立音乐学院硕士、最高演奏家课程毕业",
+        "德国汉堡勃拉姆斯音乐学院指挥系结业",
+        "现任：任教于大邱天主教大学、庆北艺术高中、大邱艺术英才教育院，寿城流行管弦乐团、Maruhan 青少年管弦乐团、军威中学‘Neo’管弦乐团指挥",
+        "CM 交响乐团、Maruhan 爱乐管弦乐团大提琴首席团员，纯创作团体‘Sorigyeol’音乐总监、SoundT 室内乐团团长",
+        "大邱名家室内乐团团员、独奏家大提琴室内乐团庆尚、Ensemble BOAZ、Canticum Novum Mission Choir 团员"
+      ]
+    },
+    "lee-heesoo": {
+      "name": "Lee Hee-soo",
+      "bio": [
+        "韩国艺术综合学校艺术学士毕业",
+        "德国德累斯顿国立音乐学院硕士（Master）毕业",
+        "大邱音协、马山音协、大田音协、音乐教育新闻社、圣井音乐比赛、音乐期刊、音乐春秋等多项比赛获奖",
+        "曾任 Ditto Orchestra、天安市立交响乐团、庆北道立交响乐团客座，Staat 爱乐、Dio Orchestra、Grand Symphony Orchestra 客座首席",
+        "现任：Ensemble BOAZ、Ensemble Sol、Ensemble Neustadt、釜山名家室内乐团（Busan Virtuoso Ensemble）、独奏家大提琴室内乐团庆尚、The Cellist of KNUA 成员、Ensemble Sonore、Trio Bellino、大邱名家室内乐团团员、庆山市立交响乐团大提琴首席、任教于浦项艺术高中"
+      ]
+    },
+    "kim-minji": {
+      "name": "Kim Min-ji",
+      "bio": [
+        "2003年获美国 Astral Artists 全国甄选优胜，于美国舞台出道",
+        "年仅16岁以天才生身份入学韩国艺术综合学校并毕业",
+        "美国新英格兰音乐学院硕士、以全额奖学金完成专业演奏家课程及最高演奏家课程毕业",
+        "2005年获选弗兰克·亨廷顿·比比奖学金（Frank Huntington Beebe Fund）获得者，结业于法国图卢兹音乐学院最高演奏家课程",
+        "东亚日报、中央日报、韩国日报、朝鲜日报比赛第一名，兰坡比赛、KBS新人音乐比赛大奖",
+        "成为埃马努埃尔·福伊尔曼国际大提琴比赛首位获奖学金的韩国人，哈德逊河谷弦乐比赛、新英格兰音乐学院弦乐比赛、HAMS 国际大提琴比赛第一名，欧文·克莱因国际弦乐比赛第一名及委约作品特别奖",
+        "曾与 KBS交响乐团、首尔市立交响乐团、水原市立交响乐团、原州市立交响乐团、仁川市立交响乐团、群山市立交响乐团、忠南道立交响乐团、大邱MBC交响乐团、江南交响乐团等协奏",
+        "曾任洛林·马泽尔执棒的西班牙索菲亚王后管弦乐团副首席（亚洲首位）、艺术殿堂庆典管弦乐团首席、启明大学教授",
+        "现任：首尔大学音乐学院器乐系教授、德寿宫石造殿音乐会音乐总监、Cellista 大提琴室内乐团首席"
+      ]
+    }
+  },
+  "guestBios": {
+    "yeo-jakyung": {
+      "name": "Yeo Ja-kyung",
+      "role": "指挥"
+    },
+    "tania-miller": {
+      "name": "Tania Miller",
+      "role": "指挥"
+    },
+    "dami-kim": {
+      "name": "Dami Kim",
+      "role": "小提琴"
+    },
+    "jasmine-choi": {
+      "name": "Jasmine Choi",
+      "role": "长笛"
+    },
+    "soyoung-yoon": {
+      "name": "Soyoung Yoon",
+      "role": "小提琴"
+    },
+    "jinsang-lee": {
+      "name": "Jinsang Lee",
+      "role": "钢琴"
+    },
+    "jeongwon-kim": {
+      "name": "Julius-Jeongwon Kim",
+      "role": "钢琴"
+    }
+  },
+  "historyItems": {
+    "h2020a": {
+      "title": "2020 世界管弦乐团系列 — WOS Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2020b": {
+      "title": "WOS Virtuoso Chamber 录制及播出",
+      "venue": "Arte Hall"
+    },
+    "h2020c": {
+      "title": "岭湖南月光同盟交流音乐会 — WOS Virtuoso Chamber",
+      "venue": "光州文化艺术会馆"
+    },
+    "h2020d": {
+      "title": "大邱音乐厅室内乐节 — WOS Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2021a": {
+      "title": "2021 世界管弦乐团系列 — WOS Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2021b": {
+      "title": "华城市·大邱市文化交流演出 — WOS Virtuoso Chamber",
+      "venue": "东滩综合文化中心"
+    },
+    "h2021c": {
+      "title": "2021 WOS Virtuoso Chamber 首尔演出",
+      "venue": "灵山艺术厅"
+    },
+    "h2022a": {
+      "title": "2022 世界管弦乐团系列 — WOS Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2024a": {
+      "title": "2024 DCH Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2024b": {
+      "title": "世界管弦乐团节 — DCH Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2024c": {
+      "title": "岭湖南月光同盟系列 — DCH Virtuoso Chamber with Jinsang Lee",
+      "venue": "光州艺术殿堂"
+    },
+    "h2025a": {
+      "title": "2025 世界管弦乐团节 — JULIUS-JEONGWON KIM & DCH Virtuoso Chamber",
+      "venue": "大邱音乐厅"
+    },
+    "h2026a": {
+      "title": "2026 室内乐节 — 大邱名家室内乐团",
+      "venue": "大邱音乐厅 室内乐厅"
+    },
+    "h2026b": {
+      "title": "2026 地区艺术团体扶持项目〈儿童音乐会 魔笛〉",
+      "venue": "大邱音乐厅 大厅"
+    },
+    "h2026c": {
+      "title": "UNESCO 音乐创意城市交流音乐会 — 汉诺威音乐节 (Fête de la Musique)",
+      "venue": "德国汉诺威 · Galerie Luise · 希尔德斯海姆圣毛里求斯教堂"
+    },
+    "h2026d": {
+      "title": "UNESCO 音乐创意城市交流音乐会 — 梅斯音乐城 (Cité musicale-metz)",
+      "venue": "法国梅斯 · Arsenal, Salle de l'Esplanade"
+    }
+  },
+  "form": {
+    "who": "姓名 / 单位",
+    "who_ph": "张三 / ABC文化基金会",
+    "contact": "联系方式（电话或邮箱）",
+    "contact_ph": "例如 +86 138 0000 0000 或 name@email.com",
+    "type": "咨询类型",
+    "type_perf": "演出邀约",
+    "type_collab": "合作 · 交流",
+    "type_etc": "其他咨询",
+    "when": "期望日期 · 地点",
+    "when_ph": "2026年9月 / 大邱",
+    "msg": "咨询内容",
+    "msg_ph": "请填写演出规模、预算、节目需求等。",
+    "send": "发送",
+    "note": "※ 点击按钮后将打开邮件应用并自动填入内容。",
+    "subject_prefix": "[演出邀约 / 合作咨询]"
+  },
+  "sketch": {
+    "eyebrow": "SKETCH",
+    "title": "演出剪影",
+    "subtitle": "演出海报",
+    "lead": "大邱名家室内乐团走过的舞台瞬间——历年演出海报集锦。"
+  },
+  "sketchItems": {
+    "s2026e": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
+    },
+    "s2026d": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Hannover",
+      "venue": "Hannover, Germany · Fête de la Musique"
+    },
+    "s2026c": {
+      "title": "Kinder Concert 'The Magic Flute'",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026b": {
+      "title": "2026 DCH Ensemble Festival",
+      "venue": "Daegu Concert House, Chamber Hall"
+    },
+    "s2025a": {
+      "title": "2025 World Orchestra Festival — Julius-Jeongwon Kim & DCH",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024c": {
+      "title": "Yeongnam-Honam Moonlight Alliance Series III — with Jinsang Lee",
+      "venue": "Gwangju Arts Center, Small Theater"
+    },
+    "s2024b": {
+      "title": "2024 World Orchestra Festival — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024a": {
+      "title": "DCH Exclusive — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2022a": {
+      "title": "2022 World Orchestra Series — Bach: Complete Brandenburg Concertos",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2021c": {
+      "title": "2021 WOS Virtuoso Chamber — Seoul Concert",
+      "venue": "Youngsan Art Hall, Seoul"
+    },
+    "s2021b": {
+      "title": "Hwaseong-Daegu Cultural Exchange Special Concert",
+      "venue": "Dongtan Multi Culture Center, Banseok Art Hall"
+    },
+    "s2021a": {
+      "title": "2021 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2020c": {
+      "title": "Chamber Music Festival — Classic from Chamber Music",
+      "venue": "Daegu Concert House"
+    },
+    "s2020b": {
+      "title": "Yeongnam-Honam Moonlight Alliance Exchange Concert",
+      "venue": "Gwangju Culture & Art Center, Small Theater"
+    },
+    "s2020a": {
+      "title": "2020 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    }
+  }
+}

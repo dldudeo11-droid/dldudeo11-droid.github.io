@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "lang": "ja",
+    "dir": "ltr",
+    "label": "日本語"
+  },
+  "site": {
+    "name": "大邱ヴィルトゥオーゾ・チェンバー (Daegu Virtuoso Chamber)",
+    "name_en": "Daegu Virtuoso Chamber",
+    "wm1": "DAEGU",
+    "wm2": "VIRTUOSO CHAMBER"
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "団体紹介",
+    "members": "団員",
+    "history": "沿革",
+    "contact": "お問い合わせ",
+    "menu": "メニュー",
+    "sketch": "演奏スケッチ"
+  },
+  "ui": {
+    "language": "言語",
+    "theme": "テーマ",
+    "view_profile": "プロフィールを見る",
+    "back_to_members": "団員一覧へ",
+    "explore_members": "団員を見る",
+    "learn_more": "団体紹介",
+    "scroll": "下へ",
+    "part": "パート",
+    "role": "役職",
+    "all_rights": "All rights reserved.",
+    "menu_close": "閉じる"
+  },
+  "themes": {
+    "editorial": "リファインド",
+    "noir": "ノワール",
+    "minimal": "ミニマル"
+  },
+  "parts": {
+    "violin": "ヴァイオリン",
+    "violin1": "ヴァイオリン I",
+    "violin2": "ヴァイオリン II",
+    "viola": "ヴィオラ",
+    "cello": "チェロ",
+    "flute": "フルート",
+    "piano": "ピアノ",
+    "conductor": "指揮"
+  },
+  "ranks": {
+    "concertmaster": "コンサートマスター · リーダー",
+    "leader": "リーダー",
+    "principal": "首席",
+    "principal_rep": "代表 · 首席",
+    "member": "団員",
+    "guest_principal": "客演首席"
+  },
+  "hero": {
+    "tagline": "弦楽のみで描く室内楽の真髄",
+    "subtitle": "大邱を拠点に世界と呼吸する弦楽室内楽団"
+  },
+  "home": {
+    "intro_eyebrow": "ABOUT",
+    "intro_title": "弦楽の深みで紡ぐ室内楽",
+    "intro_lead": "国内外でソリストかつ室内楽奏者として認められてきた演奏家たちが志を共にして結成した、大邱の弦楽室内楽団です。オーケストラに匹敵する堅牢さと重厚さで、室内楽の真髄をお届けします。",
+    "members_eyebrow": "MEMBERS",
+    "members_title": "共に歩む演奏家たち",
+    "members_lead": "アンサンブルを率いるコンサートマスターと首席奏者をご紹介します。",
+    "history_eyebrow": "HISTORY",
+    "history_title": "歩んできた舞台",
+    "history_lead": "2020年の初舞台以降、大邱を代表する室内楽団として成長してきた足跡です。",
+    "support_note": "文化体育観光部後援 · 2026 地域芸術代表団体支援事業 選定団体"
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "団体紹介",
+    "subtitle": "Daegu Virtuoso Chamber",
+    "body": [
+      "大邱ヴィルトゥオーゾ・チェンバーは、大邱を拠点に活動しながら深みのある音楽世界を築いてきた演奏家たちが志を共にして結成した室内楽団体であり、国内外でソリストかつ室内楽奏者として確かな演奏力を認められてきた演奏家たちで構成されています。",
+      "弦楽のみで繊細な旋律を描き出し、オーケストラに匹敵する堅牢さと重厚さを湛えた音楽で、室内楽の真髄をお届けしています。",
+      "指揮者のYeo Ja-kyung・Tania Millerをはじめ、ヴァイオリニストのSoyoung Yoon・Dami Kim、フルーティストのJasmine Choi、ピアニストのJinsang Lee・Julius-Jeongwon Kimなど、国内外で活発に活動する演奏家たちと呼吸を合わせ、幅広い舞台を繰り広げてきました。",
+      "室内楽の魅力をよく引き出す多彩なレパートリーで好評を博してきており、2026年にはドイツとフランスのユネスコ音楽創造都市との交流コンサートを含むツアー公演を通じて、国際交流活動を続けていく予定です。",
+      "また、文化体育観光部後援「2026 地域芸術代表団体支援事業」に選定され、文化芸術都市・大邱を広く伝えるために絶えず精進しています。"
+    ],
+    "stats": [
+      {
+        "n": "2020",
+        "l": "創立"
+      },
+      {
+        "n": "15",
+        "l": "弦楽団員"
+      },
+      {
+        "n": "string only",
+        "l": "弦楽のみで"
+      }
+    ],
+    "collab_eyebrow": "COLLABORATIONS",
+    "collab_title": "共演した演奏家",
+    "collab_lead": "国内外一流の指揮者・演奏家たちと舞台を共にし、深みを加えてきました。",
+    "guest_principal_title": "客演首席",
+    "guest_principal_lead": "客演首席として共に演奏するチェリストです。"
+  },
+  "members": {
+    "eyebrow": "MEMBERS",
+    "title": "団員",
+    "subtitle": "Members",
+    "lead": "弦楽のみで舞台を満たす大邱ヴィルトゥオーゾ・チェンバーの演奏家たちです。",
+    "sections": {
+      "violin1": "ヴァイオリン I",
+      "violin2": "ヴァイオリン II",
+      "viola": "ヴィオラ",
+      "cello": "チェロ"
+    }
+  },
+  "memberPage": {
+    "back": "団員一覧へ",
+    "profile": "プロフィール",
+    "career": "主な経歴",
+    "not_found": "該当する団員が見つかりません。"
+  },
+  "history": {
+    "eyebrow": "HISTORY",
+    "title": "沿革",
+    "subtitle": "これまでの公演",
+    "lead": "大邱ヴィルトゥオーゾ・チェンバーが歩んできた主な舞台です。"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "お問い合わせ",
+    "lead": "公演へのご招待・コラボレーションのお問い合わせを歓迎いたします。",
+    "location": "大韓民国 大邱",
+    "based": "Based in Daegu, Korea",
+    "lede": "公演のご依頼・協業のお問い合わせをお待ちしております。",
+    "desc": "下記フォームにご記入いただくと、メールアプリが開き内容が自動で入力されます。なるべく早くご返信いたします。",
+    "email_label": "メール",
+    "location_label": "所在地",
+    "blog_label": "Naver ブログ"
+  },
+  "footer": {
+    "tagline": "弦楽のみで描く室内楽の真髄",
+    "support": "文化体育観光部後援 · 2026 地域芸術代表団体支援事業 選定団体",
+    "nav_title": "ショートカット",
+    "lang_title": "言語"
+  },
+  "memberBios": {
+    "han-gyeongjin": {
+      "name": "Han Gyeong-jin",
+      "bio": [
+        "芸園学校 卒業",
+        "韓国芸術総合学校 音楽院 英才入学およびB.A.(芸術士)卒業",
+        "ドイツ・ベルリン芸術大学(UdK) Diplom 卒業",
+        "ドイツ・ライプツィヒ国立音楽大学 Konzertexamen(最高演奏者課程)卒業",
+        "ドイツ・ライプツィヒ国立音楽大学 Meisterklassenexamen 卒業",
+        "水原市立交響楽団 コンサートマスター 歴任",
+        "下関国際コンクール、Nuri国際コンクール、東亜音楽コンクール、KBS新人音楽コンクール、釜山音楽コンクールなど多数のコンクールにて優勝・入賞",
+        "MDR Philharmonic Orchestra、Jena Philharmonic Orchestra、Istanbul Philharmonic Orchestra、KCO、ソウル市響、KBS交響楽団、国立シンフォニー、江南シンフォニー、大邱市響、釜山市響、昌原市響、水原市響、清州市響、春川市響、慶山市響ほか多数のオーケストラと共演",
+        "現在：慶北大学校 教授、KCO(旧バロック合奏団)コンサートマスター、大邱ヴィルトゥオーゾ・チェンバー リーダー、カイロス・アンサンブル 団員"
+      ]
+    },
+    "kim-namhoon": {
+      "name": "Kim Nam-hoon",
+      "bio": [
+        "芸園学校 卒業、ソウル芸術高等学校 早期卒業、韓国芸術総合学校 英才入学、B.A.(芸術士)およびソリスト課程 卒業",
+        "マンハッタン音楽大学 Master of Music 取得、Professional Study 修了、ラトガース音楽大学(Mason Gross School of the Arts)音楽博士 卒業",
+        "海外派遣音協コンクール1位、梨花京郷コンクール1位、中央日報コンクール2位、コリアフィルハーモニックコンクール1位、韓国日報コンクール2位、朝鮮日報コンクール2位",
+        "ソウルシンフォニー、ソウルチェンバー、原州市立交響楽団、プライムフィルハーモニックオーケストラおよびPlymouth Philharmonic Orchestra、MAV Symphony Orchestra、Georgia State University Symphony Orchestraなど国内外の多くのオーケストラと共演",
+        "芸術の殿堂 IBKチェンバーホール 帰国リサイタル、世宗文化会館、錦湖ヤングアーティスト、統営国際音楽財団 招待リサイタル、駐米大使館 韓国文化院 Petit Classical Concert、Carnegie Weill Hall リサイタル、JSAC招待 Gala Concert",
+        "和音チェンバーオーケストラ、釜山文化会館チェンバーフェスティバル、石造殿コンサート、Trio ONなど室内楽活動",
+        "現在：啓明大学校 音楽公演芸術大学 管弦楽科 教授、Trio ON、和音チェンバーオーケストラ、大邱ヴィルトゥオーゾ・チェンバー リーダー、ニューオールド・アンサンブル、アンサンブルV9、アンサンブルThe First メンバー"
+      ]
+    },
+    "lee-kangwon": {
+      "name": "Lee Kang-won",
+      "bio": [
+        "ソウル芸術高等学校 卒業",
+        "ベルリン芸術大学(UdK) 学士・修士 卒業",
+        "デトモルト国立音楽大学 最高演奏者課程 最優秀卒業",
+        "UdKチェンバーオーケストラ、城南市響、大邱市響、江南シンフォニー、慶北道立オーケストラなどと共演",
+        "ベルリン大聖堂、サンクトペテルブルク・ミハイロフスキー城、ショパン国立音楽院、ワルシャワ ラ・フォル・ジュルネなど招待演奏",
+        "全南大・啓明大・昌原大・芸園・ソウル芸術高等学校・大邱カトリック大学校 外来教授 歴任",
+        "アンサンブル・マル、アンサンブル・タラ リーダー、アンサンブル・トニカ 音楽監督、大邱ヴィルトゥオーゾ・チェンバー 首席",
+        "現在：漢陽大学校・慶北大学校・啓明大学校・慶北芸術高等学校 講師として出講"
+      ]
+    },
+    "kim-sojeong": {
+      "name": "Kim So-jeong",
+      "bio": [
+        "ドイツ・フライブルク音楽大学 専門演奏者課程 卒業",
+        "フランス・ストラスブール国立音楽院 最高演奏者課程 卒業",
+        "漢陽大学校 音楽学博士 修了",
+        "Yalta Symphony、Zaporozhye Philharmonic、大邱市響、慶北道響、浦項市響、国立警察交響楽団、華城市交響楽団、大邱MBC交響楽団など多数と共演",
+        "ドイツ Schloss Bürgeln、Freiburg Augustinum、Badenweiler、フランス Strasbourg 新鋭演奏家シリーズ、トルコ Samsun オペラハウスなど招待リサイタル",
+        "現在：大邱カトリック大・大邱教育大・慶北芸術高等学校 講師として出講、大邱ヴィルトゥオーゾ・チェンバー 団員、モダン・アンサンブル・エマノン・アンサンブル メンバー"
+      ]
+    },
+    "kim-eunji": {
+      "name": "Kim Eun-ji",
+      "bio": [
+        "慶北大学校 芸術大学 卒業",
+        "ドイツ・ハノーファー音楽演劇大学 修士(Master) 卒業",
+        "ドイツ・マインツ音楽大学 最高演奏者課程 Konzertexamen 最優秀卒業",
+        "ドイツ・ハイデルベルク劇場、ヘッセン州立劇場 非常任団員 歴任",
+        "大邱市立交響楽団、Beethoven Orchestra Hessen、Mainzer Musiciなどと共演",
+        "ドイツ Westfalen MLW Philharmonie、マインツ国立博物館、ショパン国立音楽院、ワルシャワ ラ・フォル・ジュルネなど招待演奏",
+        "第5回 大邱文化財団 青年芸術家 音楽部門 選定アーティスト",
+        "韓国・ドイツ ブラームス協会コンクール1位",
+        "慶北大学校 講師として出講 歴任",
+        "現在：大邱芸術英才教育院・慶北芸術高等学校 講師として出講、トリオ・ベアトリーチェ、アンサンブル・ブランシュ、アンサンブル・マル メンバー、大邱ヴィルトゥオーゾ・チェンバー 団員"
+      ]
+    },
+    "lee-eunjeong": {
+      "name": "Lee Eun-jeong",
+      "bio": [
+        "ソウル芸術高等学校 在学中に韓国芸術総合学校 英才入学(学士・修士 卒業)",
+        "インディアナ大学 修士 卒業、ボストン大学 博士 卒業",
+        "月刊音楽コンクール1位、TBCコンクール1位、慶北芸術高等学校コンクール大賞、蘭坡コンクール・韓国日報コンクール3位など入賞",
+        "大邱市響、大田市響、Haffner Sinfonietta Chamber Orchestra(Boston)などと共演",
+        "韓国芸術総合学校 講師、韓国芸術英才教育院 講師 歴任",
+        "現在：慶北大・啓明大・慶北芸術高等学校 講師として出講、大邱ヴィルトゥオーゾ・チェンバー 首席、アンサンブル・ドンソン メンバー"
+      ]
+    },
+    "baek-nahyun": {
+      "name": "Baek Na-hyun",
+      "bio": [
+        "慶北大学校 芸術大学 音楽学科 卒業",
+        "ドイツ・ハノーファー音楽演劇大学 最優秀卒業",
+        "ヨーロッパを中心にMosel Music Festival、Mozart Music Festival、Trzesacz国際音楽祭など国内外で多数の企画招待演奏およびリサイタル",
+        "ドイツ・ハノーファーチェンバーオーケストラ、慶北道立交響楽団など多数のオーケストラと共演",
+        "ドイツ・ハノーファーチェンバーオーケストラ 首席団員、大邱ガラ・オーケストラなど多数のオーケストラの客演コンサートマスター 歴任",
+        "現在：慶北大学校・慶北芸術高等学校・金泉芸術高等学校・大邱芸術英才教育院 講師として出講、大邱ヴィルトゥオーゾ・チェンバー 団員、ノボ・フィルハーモニックオーケストラ コンサートマスター、ピカソ・アンサンブル リーダー"
+      ]
+    },
+    "kim-suji": {
+      "name": "Kim Su-ji",
+      "bio": [
+        "ドイツ Hochschule für Musik Saar 学士・修士 卒業",
+        "米国 University of Cincinnati, College-Conservatory of Music Artist Diploma および博士 卒業",
+        "SONY Classical Label 音盤「Saint-Saëns Violin Concertos No.3 & No.2」発売",
+        "現在：大邱国際放送交響楽団 コンサートマスター、大邱国際現代音楽祭(DCMF)アンサンブル、アンサンブルDNCE メンバー、大邱ヴィルトゥオーゾ・チェンバー 団員、大邱カトリック大学校および同大学院・大邱芸術英才教育院・慶北芸術高等学校 講師として出講"
+      ]
+    },
+    "han-hyemin": {
+      "name": "Han Hye-min",
+      "bio": [
+        "大邱カトリック大学校 首席卒業",
+        "ドイツ・デトモルト国立音楽大学 専門演奏者課程 卒業",
+        "ドイツ Detmold Barock Orchester Solist 団員 歴任",
+        "ハンガリー・デブレツェン、大邱フィルオーケストラ、大邱カトリック大学校オーケストラ、大邱音楽祭フェスティバルオーケストラなど多数と共演",
+        "現在：DNCEアンサンブル、韓国ソリ・チェンバーオーケストラ コンサートマスター、慶北芸術高等学校 講師として出講、大邱ヴィルトゥオーゾ・チェンバー 団員"
+      ]
+    },
+    "bae-eunjin": {
+      "name": "Bae Eun-jin",
+      "bio": [
+        "韓国芸術総合学校 卒業",
+        "Peabody Institute of Johns Hopkins University GPD 修了",
+        "Peabody Singapore Fellowship Award 受賞",
+        "2020 寿城アートピア アーティスト・イン・レジデンス 選定",
+        "現在：大邱国際放送交響楽団 首席、ディオ・オーケストラ 客演首席、大邱ヴィルトゥオーゾ・チェンバー 首席、釜山チェンバー・ソサエティ メンバー、アンサンブル・ドンソン・DNCE メンバー"
+      ]
+    },
+    "park-soyeon": {
+      "name": "Park So-yeon",
+      "bio": [
+        "慶北大学校 芸術大学 音楽学科および同大学院 卒業",
+        "プラハ国立芸術アカデミー 音楽大学(HAMU)専門演奏者 修了",
+        "プラハ・フラデツ・クラーロヴェー・フィルハーモニーオーケストラ 客演団員 歴任",
+        "ビウォン・ミュージックホール 在籍音楽家",
+        "現在：大邱教育大 生涯教育院・安東青少年オーケストラ 講師、アンサンブル・マル・エマノン・モダン・アンサンブル メンバー、大邱ヴィルトゥオーゾ・チェンバー 団員かつ専門演奏者として活動"
+      ]
+    },
+    "lee-jeongmin": {
+      "name": "Lee Jeong-min",
+      "bio": [
+        "啓明大学校 音楽公演芸術大学 管弦楽科および同大学院 修士 卒業",
+        "ドイツ HfM Detmold Vordiplom",
+        "Academia Internazionale di Musica in Roma Diploma",
+        "Spain Festival Academia de Musica International Tenerife Diploma",
+        "現在：Ensemble BOAZ 代表、大邱ヴィルトゥオーゾ・チェンバー 団員"
+      ]
+    },
+    "oh-kookhwan": {
+      "name": "Oh Kook-hwan",
+      "bio": [
+        "ドイツ・ロストック音楽演劇大学 Diplom 卒業",
+        "ドイツ・デトモルト国立音楽大学 修士・最高演奏者課程 卒業",
+        "ドイツ・ハンブルク ブラームス音楽院 指揮科 修了",
+        "現在：大邱カトリック大学校・慶北芸術高等学校・大邱芸術英才教育院 講師として出講、寿城ポップスオーケストラ・マルハン青少年オーケストラ・軍威中学校「ネオ」オーケストラ 指揮者",
+        "CMシンフォニーオーケストラ・マルハンフィルハーモニックオーケストラ チェロ首席団員、純粋創作団体「ソリギョル」音楽監督、SoundT アンサンブル 団長",
+        "大邱ヴィルトゥオーゾ・チェンバー 団員、ソリスト・チェロアンサンブル 慶尚、アンサンブル・ボアズ、カンティクム・ノブム・ミッション・クワイア 団員"
+      ]
+    },
+    "lee-heesoo": {
+      "name": "Lee Hee-soo",
+      "bio": [
+        "韓国芸術総合学校 B.A.(芸術士)卒業",
+        "ドイツ・ドレスデン音楽大学 修士(Master) 卒業",
+        "大邱音協、馬山音協、大田音協、音楽教育新聞社、誠正音楽コンクール、音楽ジャーナル、音楽春秋など多数のコンクールにて優勝・入賞",
+        "ディト・オーケストラ、天安市立交響楽団、慶北道立交響楽団 客演、シュタット・フィルハーモニック、ディオ・オーケストラ、グランドシンフォニーオーケストラ 客演首席",
+        "現在：Ensemble BOAZ、アンサンブル・ソル、アンサンブル・ノイシュタット、釜山ヴィルトゥオーゾ・アンサンブル、ソリスト・チェロアンサンブル 慶尚、The Cellist of KNUA メンバー、アンサンブルSonore、Trio Bellino、大邱ヴィルトゥオーゾ・チェンバー 団員、慶山市立交響楽団 チェロ首席、浦項芸術高等学校 講師として出講"
+      ]
+    },
+    "kim-minji": {
+      "name": "Kim Min-ji",
+      "bio": [
+        "2003年 米国アストラル・アーティスト・ナショナル・オーディション 優勝、米国舞台デビュー",
+        "満16歳で韓国芸術総合学校 英才入学・卒業",
+        "米国ニューイングランド音楽院 修士、専門演奏者課程および最高演奏者課程 全額奨学生 卒業",
+        "2005年 フランク・ハンティントン・ビービー奨学金 受賞者 選定、フランス・トゥールーズ音楽院 最高演奏者課程 修了",
+        "東亜日報・中央日報・韓国日報・朝鮮日報コンクール1位、蘭坡コンクール・KBS新人音楽コンクール 大賞",
+        "エマヌエル・フォイアマン国際チェロコンクール 韓国人初の奨学金受賞、ハドソンバレー弦楽コンクール・ニューイングランド音楽院弦楽コンクール・HAMS国際チェロコンクール1位、アーヴィング・クライン国際弦楽コンクール1位および委嘱作品特別賞",
+        "KBS交響楽団、ソウル市響、水原市響、原州市響、仁川市響、群山市響、忠南道響、大邱MBC交響楽団、江南シンフォニーオーケストラなどと共演",
+        "ロリン・マゼールが率いるスペイン・レイナ・ソフィア・オーケストラ 副首席(アジア初)、芸術の殿堂フェスティバルオーケストラ 首席、啓明大学校 教授 歴任",
+        "現在：ソウル大学校 音楽大学 器楽科 教授、徳寿宮 石造殿コンサート 音楽監督、チェリスタ・チェロアンサンブル 首席"
+      ]
+    }
+  },
+  "guestBios": {
+    "yeo-jakyung": {
+      "name": "Yeo Ja-kyung",
+      "role": "指揮"
+    },
+    "tania-miller": {
+      "name": "Tania Miller",
+      "role": "指揮"
+    },
+    "dami-kim": {
+      "name": "Dami Kim",
+      "role": "ヴァイオリン"
+    },
+    "jasmine-choi": {
+      "name": "Jasmine Choi",
+      "role": "フルート"
+    },
+    "soyoung-yoon": {
+      "name": "Soyoung Yoon",
+      "role": "ヴァイオリン"
+    },
+    "jinsang-lee": {
+      "name": "Jinsang Lee",
+      "role": "ピアノ"
+    },
+    "jeongwon-kim": {
+      "name": "Julius-Jeongwon Kim",
+      "role": "ピアノ"
+    }
+  },
+  "historyItems": {
+    "h2020a": {
+      "title": "2020 ワールドオーケストラシリーズ — WOS Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2020b": {
+      "title": "WOS Virtuoso Chamber 収録および配信",
+      "venue": "アルテホール"
+    },
+    "h2020c": {
+      "title": "嶺湖南 月光同盟 交流コンサート — WOS Virtuoso Chamber",
+      "venue": "光州文化芸術会館"
+    },
+    "h2020d": {
+      "title": "大邱コンサートハウス 室内楽フェスティバル — WOS Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2021a": {
+      "title": "2021 ワールドオーケストラシリーズ — WOS Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2021b": {
+      "title": "華城市・大邱市 文化交流公演 — WOS Virtuoso Chamber",
+      "venue": "東灘複合文化センター"
+    },
+    "h2021c": {
+      "title": "2021 WOS Virtuoso Chamber ソウル公演",
+      "venue": "霊山アートホール"
+    },
+    "h2022a": {
+      "title": "2022 ワールドオーケストラシリーズ — WOS Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2024a": {
+      "title": "2024 DCH Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2024b": {
+      "title": "ワールドオーケストラフェスティバル — DCH Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2024c": {
+      "title": "嶺湖南 月光同盟シリーズ — DCH Virtuoso Chamber with Jinsang Lee",
+      "venue": "光州芸術の殿堂"
+    },
+    "h2025a": {
+      "title": "2025 ワールドオーケストラフェスティバル — JULIUS-JEONGWON KIM & DCH Virtuoso Chamber",
+      "venue": "大邱コンサートハウス"
+    },
+    "h2026a": {
+      "title": "2026 アンサンブルフェスティバル — 大邱ヴィルトゥオーゾ・チェンバー",
+      "venue": "大邱コンサートハウス チェンバーホール"
+    },
+    "h2026b": {
+      "title": "2026 地域芸術団体支援事業〈キンダーコンサート 魔笛〉",
+      "venue": "大邱コンサートハウス グランドホール"
+    },
+    "h2026c": {
+      "title": "UNESCO 音楽創造都市 交流演奏会 — Fête de la Musique in Hannover",
+      "venue": "ドイツ・ハノーファー · Galerie Luise · ヒルデスハイム 聖マウリティウス教会"
+    },
+    "h2026d": {
+      "title": "UNESCO 音楽創造都市 交流演奏会 — Cité musicale-metz",
+      "venue": "フランス・メス · Arsenal, Salle de l'Esplanade"
+    }
+  },
+  "form": {
+    "who": "お名前 / ご所属",
+    "who_ph": "山田太郎 / ◯◯文化財団",
+    "contact": "連絡先（電話またはメール）",
+    "contact_ph": "例：+81 90-1234-5678 または name@email.com",
+    "type": "お問い合わせ種別",
+    "type_perf": "公演のご依頼",
+    "type_collab": "協業・交流",
+    "type_etc": "その他",
+    "when": "ご希望の日時・会場",
+    "when_ph": "2026年9月 / 大邱",
+    "msg": "お問い合わせ内容",
+    "msg_ph": "公演規模・ご予算・プログラムのご希望などをご記入ください。",
+    "send": "送信",
+    "note": "※ ボタンを押すとメールアプリが開き、内容が自動で入力されます。",
+    "subject_prefix": "[公演依頼・協業のお問い合わせ]"
+  },
+  "sketch": {
+    "eyebrow": "SKETCH",
+    "title": "演奏スケッチ",
+    "subtitle": "公演ポスター",
+    "lead": "大邱ヴィルトゥオーゾ・チェンバーが歩んできた舞台の瞬間 — これまでの公演ポスターを一堂に集めました。"
+  },
+  "sketchItems": {
+    "s2026e": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
+    },
+    "s2026d": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Hannover",
+      "venue": "Hannover, Germany · Fête de la Musique"
+    },
+    "s2026c": {
+      "title": "Kinder Concert 'The Magic Flute'",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026b": {
+      "title": "2026 DCH Ensemble Festival",
+      "venue": "Daegu Concert House, Chamber Hall"
+    },
+    "s2025a": {
+      "title": "2025 World Orchestra Festival — Julius-Jeongwon Kim & DCH",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024c": {
+      "title": "Yeongnam-Honam Moonlight Alliance Series III — with Jinsang Lee",
+      "venue": "Gwangju Arts Center, Small Theater"
+    },
+    "s2024b": {
+      "title": "2024 World Orchestra Festival — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024a": {
+      "title": "DCH Exclusive — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2022a": {
+      "title": "2022 World Orchestra Series — Bach: Complete Brandenburg Concertos",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2021c": {
+      "title": "2021 WOS Virtuoso Chamber — Seoul Concert",
+      "venue": "Youngsan Art Hall, Seoul"
+    },
+    "s2021b": {
+      "title": "Hwaseong-Daegu Cultural Exchange Special Concert",
+      "venue": "Dongtan Multi Culture Center, Banseok Art Hall"
+    },
+    "s2021a": {
+      "title": "2021 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2020c": {
+      "title": "Chamber Music Festival — Classic from Chamber Music",
+      "venue": "Daegu Concert House"
+    },
+    "s2020b": {
+      "title": "Yeongnam-Honam Moonlight Alliance Exchange Concert",
+      "venue": "Gwangju Culture & Art Center, Small Theater"
+    },
+    "s2020a": {
+      "title": "2020 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    }
+  }
+}

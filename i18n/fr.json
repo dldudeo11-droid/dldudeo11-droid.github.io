@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "lang": "fr",
+    "dir": "ltr",
+    "label": "Français"
+  },
+  "site": {
+    "name": "Daegu Virtuoso Chamber",
+    "name_en": "Daegu Virtuoso Chamber",
+    "wm1": "DAEGU",
+    "wm2": "VIRTUOSO CHAMBER"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Présentation",
+    "members": "Membres",
+    "history": "Historique",
+    "contact": "Contact",
+    "menu": "Menu",
+    "sketch": "Galerie"
+  },
+  "ui": {
+    "language": "Langue",
+    "theme": "Thème",
+    "view_profile": "Voir le profil",
+    "back_to_members": "Retour aux membres",
+    "explore_members": "Découvrir les membres",
+    "learn_more": "Présentation",
+    "scroll": "Vers le bas",
+    "part": "Pupitre",
+    "role": "Fonction",
+    "all_rights": "All rights reserved.",
+    "menu_close": "Fermer"
+  },
+  "themes": {
+    "editorial": "Raffiné",
+    "noir": "Noir",
+    "minimal": "Minimal"
+  },
+  "parts": {
+    "violin": "Violon",
+    "violin1": "Violon I",
+    "violin2": "Violon II",
+    "viola": "Alto",
+    "cello": "Violoncelle",
+    "flute": "Flûte",
+    "piano": "Piano",
+    "conductor": "Direction"
+  },
+  "ranks": {
+    "concertmaster": "Konzertmeister · Leader",
+    "leader": "Leader",
+    "principal": "Premier pupitre",
+    "principal_rep": "Représentant · Premier pupitre",
+    "member": "Membre",
+    "guest_principal": "Premier pupitre invité"
+  },
+  "hero": {
+    "tagline": "La quintessence de la musique de chambre dessinée par les seules cordes",
+    "subtitle": "Un ensemble de musique de chambre à cordes établi à Daegu et tourné vers le monde"
+  },
+  "home": {
+    "intro_eyebrow": "ABOUT",
+    "intro_title": "Une musique de chambre façonnée par la profondeur des cordes",
+    "intro_lead": "Un ensemble de musique de chambre à cordes de Daegu, fondé par des musiciens reconnus en Corée et à l'étranger comme solistes et chambristes, unis par une même vision. Avec une cohésion et une gravité dignes d'un orchestre, il offre la quintessence de la musique de chambre.",
+    "members_eyebrow": "MEMBERS",
+    "members_title": "Les musiciens réunis",
+    "members_lead": "Les konzertmeisters et chefs de pupitre qui dirigent l'ensemble.",
+    "history_eyebrow": "HISTORY",
+    "history_title": "Les scènes parcourues",
+    "history_lead": "Le parcours d'un ensemble qui, depuis ses débuts sur scène en 2020, est devenu une formation emblématique de musique de chambre de Daegu.",
+    "support_note": "Soutenu par le Ministère de la Culture, des Sports et du Tourisme · Ensemble sélectionné dans le cadre du programme 2026 de soutien aux ensembles artistiques régionaux de référence"
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "Présentation",
+    "subtitle": "Daegu Virtuoso Chamber",
+    "body": [
+      "Daegu Virtuoso Chamber est un ensemble de musique de chambre fondé par des musiciens établis à Daegu qui y ont bâti un univers musical d'une grande profondeur ; il réunit des artistes dont la solidité instrumentale a été reconnue, en Corée et à l'étranger, tant comme solistes que comme chambristes.",
+      "Dessinant des mélodies d'une grande finesse par les seules cordes, il offre la quintessence de la musique de chambre, portée par une cohésion et une gravité dignes d'un orchestre.",
+      "Aux côtés des chefs Yeo Ja-kyung et Tania Miller, des violonistes Soyoung Yoon et Dami Kim, de la flûtiste Jasmine Choi et des pianistes Jinsang Lee et Julius-Jeongwon Kim, entre autres artistes en pleine activité en Corée et à l'étranger, l'ensemble a déployé un large éventail de scènes.",
+      "Salué pour un répertoire varié qui met en valeur tout le charme de la musique de chambre, l'ensemble poursuivra en 2026 ses activités d'échange international à travers une tournée comprenant des concerts d'échange avec les villes créatives de musique de l'UNESCO en Allemagne et en France.",
+      "Par ailleurs, sélectionné pour le « programme 2026 de soutien aux ensembles artistiques régionaux de référence » soutenu par le Ministère de la Culture, des Sports et du Tourisme, l'ensemble s'attache sans relâche à faire rayonner Daegu, ville des arts et de la culture."
+    ],
+    "stats": [
+      {
+        "n": "2020",
+        "l": "Fondation"
+      },
+      {
+        "n": "15",
+        "l": "Cordistes"
+      },
+      {
+        "n": "string only",
+        "l": "Les seules cordes"
+      }
+    ],
+    "collab_eyebrow": "COLLABORATIONS",
+    "collab_title": "Les artistes invités",
+    "collab_lead": "L'ensemble a gagné en profondeur en partageant la scène avec des chefs et des musiciens de tout premier plan, en Corée et à l'étranger.",
+    "guest_principal_title": "Premier pupitre invité",
+    "guest_principal_lead": "Le violoncelliste qui nous accompagne comme premier pupitre invité."
+  },
+  "members": {
+    "eyebrow": "MEMBERS",
+    "title": "Membres",
+    "subtitle": "Members",
+    "lead": "Les musiciens de Daegu Virtuoso Chamber, qui emplissent la scène des seules cordes.",
+    "sections": {
+      "violin1": "Violon I",
+      "violin2": "Violon II",
+      "viola": "Alto",
+      "cello": "Violoncelle"
+    }
+  },
+  "memberPage": {
+    "back": "Retour aux membres",
+    "profile": "Profil",
+    "career": "Principaux jalons",
+    "not_found": "Ce membre est introuvable."
+  },
+  "history": {
+    "eyebrow": "HISTORY",
+    "title": "Historique",
+    "subtitle": "Concerts passés",
+    "lead": "Les principales scènes parcourues par Daegu Virtuoso Chamber."
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Contact",
+    "lead": "Les demandes d'invitation à se produire et de collaboration sont les bienvenues.",
+    "location": "Daegu, Corée du Sud",
+    "based": "Based in Daegu, Korea",
+    "lede": "Nous accueillons vos demandes de réservation et de collaboration.",
+    "desc": "Remplissez le formulaire ci-dessous : votre application de messagerie s'ouvrira avec le message pré-rempli. Nous vous répondrons dans les plus brefs délais.",
+    "email_label": "E-mail",
+    "location_label": "Lieu",
+    "blog_label": "Blog Naver"
+  },
+  "footer": {
+    "tagline": "La quintessence de la musique de chambre dessinée par les seules cordes",
+    "support": "Soutenu par le Ministère de la Culture, des Sports et du Tourisme · Ensemble sélectionné dans le cadre du programme 2026 de soutien aux ensembles artistiques régionaux de référence",
+    "nav_title": "Accès rapide",
+    "lang_title": "Langue"
+  },
+  "memberBios": {
+    "han-gyeongjin": {
+      "name": "Han Gyeong-jin",
+      "bio": [
+        "Diplômé de l'École Yewon",
+        "Admis comme jeune talent à l'Université nationale des arts de Corée (École de musique) et diplômé (Bachelor of Arts)",
+        "Diplôme (Diplom) de l'Universität der Künste Berlin (UdK)",
+        "Konzertexamen (cursus de concertiste supérieur) de la Hochschule für Musik de Leipzig",
+        "Meisterklassenexamen de la Hochschule für Musik de Leipzig",
+        "A été Konzertmeister de l'Orchestre philharmonique municipal de Suwon",
+        "Lauréat de nombreux concours : Concours international de Shimonoseki, Concours international Nuri, Concours de musique Dong-A, Concours des nouveaux talents de la KBS, Concours de musique de Busan, entre autres",
+        "S'est produit en soliste avec de nombreux orchestres : MDR Philharmonic Orchestra, Jena Philharmonic Orchestra, Istanbul Philharmonic Orchestra, KCO, Orchestre philharmonique de Séoul, Orchestre symphonique de la KBS, National Symphony Orchestra, Gangnam Symphony Orchestra, Orchestre symphonique de Daegu, Orchestre symphonique de Busan, Orchestre symphonique de Changwon, Orchestre symphonique de Suwon, Orchestre symphonique de Cheongju, Orchestre symphonique de Chuncheon, Orchestre symphonique de Gyeongsan, entre autres",
+        "Actuellement : Professeur à l'Université nationale de Kyungpook, Konzertmeister du KCO (anciennement Baroque Ensemble), Leader de Daegu Virtuoso Chamber, membre de l'Ensemble Kairos"
+      ]
+    },
+    "kim-namhoon": {
+      "name": "Kim Nam-hoon",
+      "bio": [
+        "Diplômé de l'École Yewon, diplômé par anticipation du Lycée des arts de Séoul, admis comme jeune talent à l'Université nationale des arts de Corée, diplômé (Bachelor of Arts et cursus de soliste)",
+        "Master of Music et Professional Study au Manhattan School of Music, Doctorat en musique de la Rutgers University (Mason Gross School of the Arts)",
+        "1er prix du Concours de l'association de musique pour l'envoi à l'étranger, 1er prix du Concours Ewha-Kyunghyang, 2e prix du Concours JoongAng Ilbo, 1er prix du Concours Korea Philharmonic, 2e prix du Concours Hankook Ilbo, 2e prix du Concours Chosun Ilbo",
+        "S'est produit en soliste avec plusieurs orchestres en Corée et à l'étranger : Seoul Symphony, Seoul Chamber, Orchestre philharmonique municipal de Wonju, Prime Philharmonic Orchestra, ainsi que le Plymouth Philharmonic Orchestra, le MAV Symphony Orchestra et le Georgia State University Symphony Orchestra",
+        "Récitals : récital de retour au Seoul Arts Center (IBK Chamber Hall), Sejong Center, Kumho Young Artist, récital sur invitation de la Fondation du Festival international de musique de Tongyeong, Petit Classical Concert du Centre culturel coréen de l'ambassade aux États-Unis, récital au Carnegie Weill Hall, Gala Concert sur invitation du JSAC",
+        "Activités de musique de chambre : Hwaeum Chamber Orchestra, Festival de musique de chambre du Centre culturel de Busan, concert du palais Seokjojeon, Trio ON",
+        "Actuellement : Professeur au département des instruments à cordes de l'École supérieure de musique et des arts du spectacle de l'Université Keimyung, membre du Trio ON, du Hwaeum Chamber Orchestra, Leader de Daegu Virtuoso Chamber, membre du New Old Ensemble, de l'Ensemble V9 et de l'Ensemble The First"
+      ]
+    },
+    "lee-kangwon": {
+      "name": "Lee Kang-won",
+      "bio": [
+        "Diplômé du Lycée des arts de Séoul",
+        "Licence et Master de l'Universität der Künste Berlin (UdK)",
+        "Diplômé avec mention très bien du cursus de concertiste supérieur de la Hochschule für Musik Detmold",
+        "S'est produit en soliste avec l'Orchestre de chambre de l'UdK, l'Orchestre symphonique de Seongnam, l'Orchestre symphonique de Daegu, le Gangnam Symphony Orchestra, l'Orchestre de la province du Gyeongsangbuk-do, entre autres",
+        "Concerts sur invitation : cathédrale de Berlin, château Mikhaïlovski de Saint-Pétersbourg, Académie de musique Chopin, La Folle Journée de Varsovie, entre autres",
+        "A été professeur invité aux Universités nationales de Chonnam, Keimyung, Changwon, à l'École Yewon, au Lycée des arts de Séoul et à l'Université catholique de Daegu",
+        "Leader de l'Ensemble Maru et de l'Ensemble Tara, directeur musical de l'Ensemble Tonica, Premier pupitre de Daegu Virtuoso Chamber",
+        "Actuellement : enseigne à l'Université Hanyang, à l'Université nationale de Kyungpook, à l'Université Keimyung et au Lycée des arts du Gyeongsangbuk-do"
+      ]
+    },
+    "kim-sojeong": {
+      "name": "Kim So-jeong",
+      "bio": [
+        "Diplômée du cursus de concertiste professionnel de la Hochschule für Musik Freiburg (Allemagne)",
+        "Diplômée du cursus de concertiste supérieur du Conservatoire national de Strasbourg (France)",
+        "Cursus accompli du Doctorat en musicologie de l'Université Hanyang",
+        "S'est produite en soliste avec de nombreux orchestres : Yalta Symphony, Zaporozhye Philharmonic, Orchestre symphonique de Daegu, Orchestre de la province du Gyeongsangbuk-do, Orchestre symphonique de Pohang, Orchestre symphonique de la Police nationale, Orchestre symphonique de Hwaseong, Orchestre symphonique de la MBC de Daegu, entre autres",
+        "Récitals sur invitation : Schloss Bürgeln, Augustinum de Freiburg, Badenweiler (Allemagne), série des jeunes talents de Strasbourg (France), Opéra de Samsun (Turquie), entre autres",
+        "Actuellement : enseigne à l'Université catholique de Daegu, à l'Université nationale d'éducation de Daegu et au Lycée des arts du Gyeongsangbuk-do, Membre de Daegu Virtuoso Chamber, membre du Modern Ensemble et de l'Emanon Ensemble"
+      ]
+    },
+    "kim-eunji": {
+      "name": "Kim Eun-ji",
+      "bio": [
+        "Diplômée de l'École supérieure des arts de l'Université nationale de Kyungpook",
+        "Master de la Hochschule für Musik, Theater und Medien Hannover (Allemagne)",
+        "Diplômée avec mention très bien du cursus de concertiste supérieur (Konzertexamen) de la Hochschule für Musik Mainz (Allemagne)",
+        "A été membre non permanente du Théâtre de Heidelberg et du Théâtre régional de Hesse (Allemagne)",
+        "S'est produite en soliste avec l'Orchestre philharmonique municipal de Daegu, le Beethoven Orchester Hessen, les Mainzer Musici, entre autres",
+        "Concerts sur invitation : Westfalen MLW Philharmonie, Musée national de Mayence (Allemagne), Académie de musique Chopin, La Folle Journée de Varsovie, entre autres",
+        "Artiste sélectionnée à la 5e édition du programme « jeunes artistes » de la Fondation culturelle de Daegu, section musique",
+        "1er prix du concours de la Société Brahms de Corée et d'Allemagne",
+        "A enseigné à l'Université nationale de Kyungpook",
+        "Actuellement : enseigne au Centre de formation des jeunes talents artistiques de Daegu et au Lycée des arts du Gyeongsangbuk-do, membre du Trio Beatrice, de l'Ensemble Blanche et de l'Ensemble Maru, Membre de Daegu Virtuoso Chamber"
+      ]
+    },
+    "lee-eunjeong": {
+      "name": "Lee Eun-jeong",
+      "bio": [
+        "Admise comme jeune talent à l'Université nationale des arts de Corée alors qu'elle étudiait au Lycée des arts de Séoul (Licence et Master)",
+        "Master de l'Université de l'Indiana, Doctorat de l'Université de Boston",
+        "1er prix du Concours Wolgan Eumak, 1er prix du Concours TBC, Grand prix du Concours du Lycée des arts du Gyeongsangbuk-do, 3e prix des Concours Nanpa et Hankook Ilbo, entre autres distinctions",
+        "S'est produite en soliste avec l'Orchestre symphonique de Daegu, l'Orchestre symphonique de Daejeon, le Haffner Sinfonietta Chamber Orchestra (Boston), entre autres",
+        "A été chargée de cours à l'Université nationale des arts de Corée et au Centre national de formation des jeunes talents artistiques de Corée",
+        "Actuellement : enseigne à l'Université nationale de Kyungpook, à l'Université Keimyung et au Lycée des arts du Gyeongsangbuk-do, Premier pupitre de Daegu Virtuoso Chamber, membre de l'Ensemble Dongseong"
+      ]
+    },
+    "baek-nahyun": {
+      "name": "Baek Na-hyun",
+      "bio": [
+        "Diplômée du département de musique de l'École supérieure des arts de l'Université nationale de Kyungpook",
+        "Diplômée avec mention très bien de la Hochschule für Musik, Theater und Medien Hannover (Allemagne)",
+        "De nombreux concerts et récitals sur invitation, principalement en Europe, en Corée et à l'étranger : Mosel Music Festival, Mozart Music Festival, Festival international de musique de Trzęsacz, entre autres",
+        "S'est produite en soliste avec de nombreux orchestres : Orchestre de chambre de Hanovre (Allemagne), Orchestre philharmonique de la province du Gyeongsangbuk-do, entre autres",
+        "A été Premier pupitre de l'Orchestre de chambre de Hanovre (Allemagne) et Konzertmeister invitée de nombreux orchestres, dont le Daegu Gala Orchestra",
+        "Actuellement : enseigne à l'Université nationale de Kyungpook, au Lycée des arts du Gyeongsangbuk-do, au Lycée des arts de Gimcheon et au Centre de formation des jeunes talents artistiques de Daegu, Membre de Daegu Virtuoso Chamber, Konzertmeister du Novo Philharmonic Orchestra, Leader de l'Ensemble Picasso"
+      ]
+    },
+    "kim-suji": {
+      "name": "Kim Su-ji",
+      "bio": [
+        "Licence et Master de la Hochschule für Musik Saar (Allemagne)",
+        "Artist Diploma et Doctorat de la University of Cincinnati, College-Conservatory of Music (États-Unis)",
+        "A publié chez SONY Classical Label l'album « Saint-Saëns Violin Concertos No.3 & No.2 »",
+        "Actuellement : Konzertmeister du Daegu International Broadcasting Symphony Orchestra, membre de l'ensemble du Festival international de musique contemporaine de Daegu (DCMF) et de l'Ensemble DNCE, Membre de Daegu Virtuoso Chamber, enseigne à l'Université catholique de Daegu et à son École doctorale, au Centre de formation des jeunes talents artistiques de Daegu et au Lycée des arts du Gyeongsangbuk-do"
+      ]
+    },
+    "han-hyemin": {
+      "name": "Han Hye-min",
+      "bio": [
+        "Diplômée major de promotion de l'Université catholique de Daegu",
+        "Diplômée du cursus de concertiste professionnel de la Hochschule für Musik Detmold (Allemagne)",
+        "A été soliste (Solist) au sein du Detmold Barock Orchester (Allemagne)",
+        "S'est produite en soliste avec de nombreux orchestres : Debrecen (Hongrie), Daegu Phil Orchestra, Orchestre de l'Université catholique de Daegu, Orchestre du Festival de musique de Daegu, entre autres",
+        "Actuellement : membre de l'Ensemble DNCE, Konzertmeister du Korea Sori Chamber Orchestra, enseigne au Lycée des arts du Gyeongsangbuk-do, Membre de Daegu Virtuoso Chamber"
+      ]
+    },
+    "bae-eunjin": {
+      "name": "Bae Eun-jin",
+      "bio": [
+        "Diplômée de l'Université nationale des arts de Corée",
+        "GPD du Peabody Institute of Johns Hopkins University",
+        "Lauréate du Peabody Singapore Fellowship Award",
+        "Sélectionnée comme « Artist in Muhak » 2020 de Suseong Artpia",
+        "Actuellement : Premier pupitre du Daegu International Broadcasting Symphony Orchestra, Premier pupitre invitée du Dio Orchestra, Premier pupitre de Daegu Virtuoso Chamber, membre de la Busan Chamber Society, de l'Ensemble Dongseong et de l'Ensemble DNCE"
+      ]
+    },
+    "park-soyeon": {
+      "name": "Park So-yeon",
+      "bio": [
+        "Diplômée du département de musique de l'École supérieure des arts de l'Université nationale de Kyungpook et de son École doctorale",
+        "Cursus de concertiste professionnel achevé à l'Académie des arts du spectacle de Prague (École de musique, HAMU)",
+        "A été membre invitée de l'Orchestre philharmonique de Hradec Králové de Prague",
+        "Musicienne en résidence au Biwon Music Hall",
+        "Actuellement : chargée de cours au Centre de formation continue de l'Université nationale d'éducation de Daegu et à l'Orchestre des jeunes d'Andong, membre de l'Ensemble Maru, de l'Emanon et du Modern Ensemble, active comme Membre et concertiste professionnelle de Daegu Virtuoso Chamber"
+      ]
+    },
+    "lee-jeongmin": {
+      "name": "Lee Jeong-min",
+      "bio": [
+        "Master du département des instruments à cordes de l'École supérieure de musique et des arts du spectacle de l'Université Keimyung et de son École doctorale",
+        "Vordiplom de la HfM Detmold (Allemagne)",
+        "Diploma de l'Academia Internazionale di Musica in Roma",
+        "Diploma de la Spain Festival Academia de Musica International Tenerife",
+        "Actuellement : Représentant de l'Ensemble BOAZ, Membre de Daegu Virtuoso Chamber"
+      ]
+    },
+    "oh-kookhwan": {
+      "name": "Oh Kook-hwan",
+      "bio": [
+        "Diplôme (Diplom) de la Hochschule für Musik und Theater Rostock (Allemagne)",
+        "Master et cursus de concertiste supérieur de la Hochschule für Musik Detmold (Allemagne)",
+        "Cursus de direction d'orchestre achevé au Conservatoire Brahms de Hambourg (Allemagne)",
+        "Actuellement : enseigne à l'Université catholique de Daegu, au Lycée des arts du Gyeongsangbuk-do et au Centre de formation des jeunes talents artistiques de Daegu, chef du Suseong Pops Orchestra, du Maruhan Youth Orchestra et de l'orchestre « Neo » du collège de Gunwi",
+        "Premier pupitre de violoncelle du CM Symphony Orchestra et du Maruhan Philharmonic Orchestra, directeur musical de l'ensemble de création originale « Sorigyeol », directeur de l'Ensemble SoundT",
+        "Membre de Daegu Virtuoso Chamber, du Soloist Cello Ensemble Gyeongsang, de l'Ensemble Boaz et du Canticum Novum Mission Choir"
+      ]
+    },
+    "lee-heesoo": {
+      "name": "Lee Hee-soo",
+      "bio": [
+        "Diplômé (Bachelor of Arts) de l'Université nationale des arts de Corée",
+        "Master de la Hochschule für Musik Carl Maria von Weber Dresden (Allemagne)",
+        "Lauréat de nombreux concours : associations de musique de Daegu, Masan et Daejeon, Music Education News, Concours Seongjeong, Music Journal, Music Chunchu, entre autres",
+        "Premier pupitre invité du Dito Orchestra, de l'Orchestre philharmonique municipal de Cheonan, de l'Orchestre philharmonique de la province du Gyeongsangbuk-do, de la Stadt Philharmonic, du Dio Orchestra et du Grand Symphony Orchestra",
+        "Actuellement : membre de l'Ensemble BOAZ, de l'Ensemble Sol, de l'Ensemble Neustadt, du Busan Virtuoso Ensemble, du Soloist Cello Ensemble Gyeongsang, de The Cellist of KNUA, de l'Ensemble Sonore et du Trio Bellino, Membre de Daegu Virtuoso Chamber, Premier pupitre de violoncelle de l'Orchestre symphonique municipal de Gyeongsan, enseigne au Lycée des arts de Pohang"
+      ]
+    },
+    "kim-minji": {
+      "name": "Kim Min-ji",
+      "bio": [
+        "Lauréate en 2003 de l'audition nationale Astral Artists (États-Unis), débuts sur la scène américaine",
+        "Admise comme jeune talent à l'Université nationale des arts de Corée à 16 ans et diplômée",
+        "Master du New England Conservatory (États-Unis), boursière à plein tarif des cursus de concertiste professionnel et de concertiste supérieur",
+        "Sélectionnée en 2005 comme lauréate de la bourse Frank Huntington Beebe, cursus de concertiste supérieur accompli au Conservatoire de Toulouse (France)",
+        "1er prix des concours Dong-A Ilbo, JoongAng Ilbo, Hankook Ilbo et Chosun Ilbo, Grand prix du Concours Nanpa et du Concours des nouveaux talents de la KBS",
+        "Première Coréenne lauréate d'une bourse au Concours international de violoncelle Emanuel Feuermann, 1er prix du Concours de cordes de la Hudson Valley, du Concours de cordes du New England Conservatory et du Concours international de violoncelle HAMS, 1er prix et prix spécial de l'œuvre commandée au Concours international de cordes Irving Klein",
+        "S'est produite en soliste avec l'Orchestre symphonique de la KBS, l'Orchestre philharmonique de Séoul, les Orchestres symphoniques de Suwon, Wonju, Incheon, Gunsan, l'Orchestre de la province du Chungcheongnam-do, l'Orchestre symphonique de la MBC de Daegu, le Gangnam Symphony Orchestra, entre autres",
+        "A été Premier pupitre adjoint (première Asiatique) de l'Orchestre Reina Sofía d'Espagne dirigé par Lorin Maazel, Premier pupitre de l'Orchestre du Festival du Seoul Arts Center, Professeure à l'Université Keimyung",
+        "Actuellement : Professeure au département des instruments de l'École de musique de l'Université nationale de Séoul, directrice musicale du concert du palais Seokjojeon de Deoksugung, Premier pupitre du Cellista Cello Ensemble"
+      ]
+    }
+  },
+  "guestBios": {
+    "yeo-jakyung": {
+      "name": "Yeo Ja-kyung",
+      "role": "Direction"
+    },
+    "tania-miller": {
+      "name": "Tania Miller",
+      "role": "Direction"
+    },
+    "dami-kim": {
+      "name": "Dami Kim",
+      "role": "Violon"
+    },
+    "jasmine-choi": {
+      "name": "Jasmine Choi",
+      "role": "Flûte"
+    },
+    "soyoung-yoon": {
+      "name": "Soyoung Yoon",
+      "role": "Violon"
+    },
+    "jinsang-lee": {
+      "name": "Jinsang Lee",
+      "role": "Piano"
+    },
+    "jeongwon-kim": {
+      "name": "Julius-Jeongwon Kim",
+      "role": "Piano"
+    }
+  },
+  "historyItems": {
+    "h2020a": {
+      "title": "World Orchestra Series 2020 — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2020b": {
+      "title": "Enregistrement et diffusion de WOS Virtuoso Chamber",
+      "venue": "Arte Hall"
+    },
+    "h2020c": {
+      "title": "Concert d'échange de l'Alliance du clair de lune Yeongnam-Honam — WOS Virtuoso Chamber",
+      "venue": "Centre des arts et de la culture de Gwangju"
+    },
+    "h2020d": {
+      "title": "Festival de musique de chambre du Daegu Concert House — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2021a": {
+      "title": "World Orchestra Series 2021 — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2021b": {
+      "title": "Concert d'échange culturel des villes de Hwaseong et de Daegu — WOS Virtuoso Chamber",
+      "venue": "Centre culturel complexe de Dongtan"
+    },
+    "h2021c": {
+      "title": "Concert à Séoul de WOS Virtuoso Chamber 2021",
+      "venue": "Youngsan Art Hall"
+    },
+    "h2022a": {
+      "title": "World Orchestra Series 2022 — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2024a": {
+      "title": "DCH Virtuoso Chamber 2024",
+      "venue": "Daegu Concert House"
+    },
+    "h2024b": {
+      "title": "World Orchestra Festival — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2024c": {
+      "title": "Série de l'Alliance du clair de lune Yeongnam-Honam — DCH Virtuoso Chamber with Jinsang Lee",
+      "venue": "Gwangju Arts Center"
+    },
+    "h2025a": {
+      "title": "World Orchestra Festival 2025 — JULIUS-JEONGWON KIM & DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House"
+    },
+    "h2026a": {
+      "title": "Festival d'ensembles 2026 — Daegu Virtuoso Chamber",
+      "venue": "Daegu Concert House, Chamber Hall"
+    },
+    "h2026b": {
+      "title": "Programme 2026 de soutien aux ensembles artistiques régionaux 〈Concert pour enfants : La Flûte enchantée〉",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "h2026c": {
+      "title": "Concert d'échange des Villes créatives de musique de l'UNESCO — Fête de la Musique à Hanovre",
+      "venue": "Hanovre, Allemagne · Galerie Luise · Église Saint-Maurice, Hildesheim"
+    },
+    "h2026d": {
+      "title": "Concert d'échange des Villes créatives de musique de l'UNESCO — Cité musicale-metz",
+      "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
+    }
+  },
+  "form": {
+    "who": "Nom / Organisation",
+    "who_ph": "Jean Dupont / Fondation ABC",
+    "contact": "Coordonnées (téléphone ou e-mail)",
+    "contact_ph": "ex. +33 1 23 45 67 89 ou name@email.com",
+    "type": "Type de demande",
+    "type_perf": "Réservation de concert",
+    "type_collab": "Collaboration / Échange",
+    "type_etc": "Autre demande",
+    "when": "Date · lieu souhaités",
+    "when_ph": "Septembre 2026 / Daegu",
+    "msg": "Message",
+    "msg_ph": "Merci d'indiquer l'ampleur du concert, le budget et vos souhaits de programme.",
+    "send": "Envoyer",
+    "note": "※ En cliquant, votre application de messagerie s'ouvre avec le contenu pré-rempli.",
+    "subject_prefix": "[Demande de réservation / collaboration]"
+  },
+  "sketch": {
+    "eyebrow": "SKETCH",
+    "title": "Galerie des concerts",
+    "subtitle": "Affiches de concert",
+    "lead": "Des instants sur les scènes parcourues par le Daegu Virtuoso Chamber — une collection de nos affiches de concert."
+  },
+  "sketchItems": {
+    "s2026e": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
+    },
+    "s2026d": {
+      "title": "UNESCO Creative City of Music Exchange Concert — Hannover",
+      "venue": "Hannover, Germany · Fête de la Musique"
+    },
+    "s2026c": {
+      "title": "Kinder Concert 'The Magic Flute'",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026b": {
+      "title": "2026 DCH Ensemble Festival",
+      "venue": "Daegu Concert House, Chamber Hall"
+    },
+    "s2025a": {
+      "title": "2025 World Orchestra Festival — Julius-Jeongwon Kim & DCH",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024c": {
+      "title": "Yeongnam-Honam Moonlight Alliance Series III — with Jinsang Lee",
+      "venue": "Gwangju Arts Center, Small Theater"
+    },
+    "s2024b": {
+      "title": "2024 World Orchestra Festival — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2024a": {
+      "title": "DCH Exclusive — DCH Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2022a": {
+      "title": "2022 World Orchestra Series — Bach: Complete Brandenburg Concertos",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2021c": {
+      "title": "2021 WOS Virtuoso Chamber — Seoul Concert",
+      "venue": "Youngsan Art Hall, Seoul"
+    },
+    "s2021b": {
+      "title": "Hwaseong-Daegu Cultural Exchange Special Concert",
+      "venue": "Dongtan Multi Culture Center, Banseok Art Hall"
+    },
+    "s2021a": {
+      "title": "2021 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2020c": {
+      "title": "Chamber Music Festival — Classic from Chamber Music",
+      "venue": "Daegu Concert House"
+    },
+    "s2020b": {
+      "title": "Yeongnam-Honam Moonlight Alliance Exchange Concert",
+      "venue": "Gwangju Culture & Art Center, Small Theater"
+    },
+    "s2020a": {
+      "title": "2020 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    }
+  }
+}
