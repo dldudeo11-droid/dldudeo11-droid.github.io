@@ -3,42 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="naver-site-verification" content="993bafb82b93e852c554b6f632b79eb1110b42cd" />
-  <meta name="google-site-verification" content="5ChFHr4tBg9LrJiXSv1cE-aMiGLePHkToUlHhXszGqs" />
+  <!-- 구 주소(member.html?id=...) → 단원별 정적 페이지(members/<id>.html)로 이동시키는 페이지.
+       자체 색인은 막고 링크만 따라가게 둔다. -->
+  <meta name="robots" content="noindex,follow" />
   <title>단원 프로필 · 대구 비르투오조 챔버</title>
+  <meta name="description" content="대구 비르투오조 챔버 단원 프로필 페이지로 이동합니다." />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="canonical" href="https://daeguvirtuoso.com/member.html" />
-  <meta property="og:type" content="profile" />
-  <meta property="og:site_name" content="대구 비르투오조 챔버" />
-  <meta property="og:locale" content="ko_KR" />
-  <meta property="og:locale:alternate" content="en_US" />
-  <meta property="og:title" content="단원 프로필 · 대구 비르투오조 챔버" />
-  <meta property="og:description" content="" />
-  <meta property="og:url" content="https://daeguvirtuoso.com/member.html" />
-  <meta property="og:image" content="https://daeguvirtuoso.com/images/stage/group.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="단원 프로필 · 대구 비르투오조 챔버" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="https://daeguvirtuoso.com/images/stage/group.jpg" />
+  <script>
+    (function () {
+      var id = new URLSearchParams(location.search).get("id");
+      var to = id ? "members/" + encodeURIComponent(id) + ".html" : "members.html";
+      location.replace(to);
+    })();
+  </script>
 </head>
-<body data-page="member">
-  <header class="site-header" id="hdr"></header>
-  <div id="mnav"></div>
-
+<body data-page="member-redirect">
   <main>
     <section class="pagehead wrap" style="padding-top:130px">
-      <div id="member-detail"></div>
+      <p class="lead">단원 프로필 페이지로 이동합니다.</p>
+      <p><a class="back-link" href="members.html">단원 목록으로 →</a></p>
     </section>
-    <div style="height:60px"></div>
   </main>
-
-  <footer class="site-footer" id="ftr"></footer>
-  <script src="js/data.js"></script>
-  <script src="js/i18n-bundle.js"></script>
-  <script src="js/app.js"></script>
 </body>
 </html>

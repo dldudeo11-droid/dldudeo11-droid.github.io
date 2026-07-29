@@ -8,6 +8,8 @@
   var I18N = window.DVC_I18N || {};
   var FALLBACK = "ko";
   var SUP = (DATA.langs || []).map(function (l) { return l[0]; });
+  /* 하위 폴더(members/)에 있는 페이지는 body[data-root="../"] 로 기준 경로를 알려준다 */
+  var ROOT = (document.body && document.body.getAttribute("data-root")) || "";
 
   /* ---------- storage ---------- */
   function ls(k, v) {
@@ -46,6 +48,12 @@
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]; }); }
 
+  function setMeta(name, content) {
+    var el = document.querySelector('meta[name="' + name + '"]');
+    if (!el) { el = document.createElement("meta"); el.setAttribute("name", name); document.head.appendChild(el); }
+    el.setAttribute("content", String(content).slice(0, 300));
+  }
+
   /* ---------- static text application ---------- */
   function applyStatic(root) {
     (root || document).querySelectorAll("[data-i18n]").forEach(function (n) {
@@ -67,12 +75,16 @@
     ["members.html", "nav.members"], ["history.html", "nav.history"],
     ["sketch.html", "nav.sketch"], ["contact.html", "nav.contact"]
   ];
-  function here() { var p = location.pathname.split("/").pop(); return p || "index.html"; }
+  function here() {
+    /* 단원 프로필 페이지는 '단원' 메뉴가 활성화되도록 members.html 로 간주 */
+    if (document.body && document.body.getAttribute("data-page") === "member") return "members.html";
+    var p = location.pathname.split("/").pop(); return p || "index.html";
+  }
   function navLinks(mobile) {
     return NAV.map(function (it) {
       var file = it[0].split("#")[0];
       var act = (file === here()) && it[0].indexOf("#") < 0 ? " active" : "";
-      return '<a class="' + (mobile ? "" : "nav-a" + act) + '" href="' + it[0] + '" data-i18n="' + it[1] + '">' + esc(t(it[1])) + "</a>";
+      return '<a class="' + (mobile ? "" : "nav-a" + act) + '" href="' + ROOT + it[0] + '" data-i18n="' + it[1] + '">' + esc(t(it[1])) + "</a>";
     }).join("");
   }
   function langSelect(id) {
@@ -105,7 +117,7 @@
     h.className = "site-header";
     h.innerHTML =
       '<div class="wrap">' +
-        '<a class="brand" href="index.html" aria-label="Daegu Virtuoso Chamber"><span class="brand-logo"></span></a>' +
+        '<a class="brand" href="' + ROOT + 'index.html" aria-label="Daegu Virtuoso Chamber"><span class="brand-logo"></span></a>' +
         '<nav class="nav">' + navLinks(false) + "</nav>" +
         '<div class="header-tools">' + blogLink() + igLink() + langSelect("lang") + themeToggle("themes") +
           '<button class="icon-btn" id="burger" aria-label="' + esc(t("nav.menu")) + '">' + BURGER + "</button>" +
@@ -135,10 +147,10 @@
           '<div class="foot-brand"><div class="foot-logo"></div>' +
             '<p class="foot-tag">' + esc(t("footer.tagline")) + "</p></div>" +
           '<div class="foot-col"><h4>' + esc(t("footer.nav_title")) + "</h4>" +
-            '<a href="about.html">' + esc(t("nav.about")) + "</a>" +
-            '<a href="members.html">' + esc(t("nav.members")) + "</a>" +
-            '<a href="history.html">' + esc(t("nav.history")) + "</a>" +
-            '<a href="contact.html">' + esc(t("nav.contact")) + "</a></div>" +
+            '<a href="' + ROOT + 'about.html">' + esc(t("nav.about")) + "</a>" +
+            '<a href="' + ROOT + 'members.html">' + esc(t("nav.members")) + "</a>" +
+            '<a href="' + ROOT + 'history.html">' + esc(t("nav.history")) + "</a>" +
+            '<a href="' + ROOT + 'contact.html">' + esc(t("nav.contact")) + "</a></div>" +
           '<div class="foot-col"><h4>' + esc(t("contact.title")) + "</h4>" +
             '<a href="mailto:' + esc(email) + '">' + esc(email) + "</a>" +
             (ig ? '<a href="' + esc(ig) + '" target="_blank" rel="noopener">' + IG + " " + esc(igh) + "</a>" : "") +
@@ -182,16 +194,18 @@
 
   /* ---------- renderers ---------- */
   function photoOrMono(m, name) {
-    if (m && m.photo) return '<img src="' + m.photo + '" alt="' + esc(name) + '" loading="lazy">';
+    if (m && m.photo) return '<img src="' + ROOT + m.photo + '" alt="' + esc(name) + '" loading="lazy">';
     var ini = (name || "").trim().charAt(0) || "·";
     return '<div class="mono"><span>' + esc(ini) + "</span></div>";
   }
   function roleLabel(rank) { return t("ranks." + rank); }
   function partLabel(part) { return t("parts." + part); }
+  /* 단원별 개별 페이지 주소 (검색엔진 색인용 정적 페이지) */
+  function memberUrl(id) { return ROOT + "members/" + encodeURIComponent(id) + ".html"; }
 
   function memberCard(m) {
     var info = member(m.id);
-    return '<a class="mcard reveal" href="member.html?id=' + encodeURIComponent(m.id) + '">' +
+    return '<a class="mcard reveal" href="' + memberUrl(m.id) + '">' +
       '<div class="mcard__ph">' + photoOrMono(m, info.name) +
         '<span class="mcard__view">' + esc(t("ui.view_profile")) + " <span class='ar'>→</span></span></div>" +
       '<div class="mcard__meta"><div class="mcard__role">' + esc(roleLabel(m.rank)) + "</div>" +
@@ -223,7 +237,7 @@
       var info = member(g.id);
       items += '<div class="collab-item reveal"><div class="role">' + esc(roleLabel(g.rank)) + " · " + esc(partLabel(g.part)) + "</div>" +
         '<div class="nm">' + esc(info.name) + "</div>" +
-        '<a class="lk" href="member.html?id=' + encodeURIComponent(g.id) + '">' + esc(t("ui.view_profile")) + " →</a></div>";
+        '<a class="lk" href="' + memberUrl(g.id) + '">' + esc(t("ui.view_profile")) + " →</a></div>";
     });
     (DATA.guests || []).forEach(function (g) {
       var info = guest(g.id);
@@ -293,14 +307,25 @@
   }
 
   function renderMemberDetail(container) {
-    var id = new URLSearchParams(location.search).get("id");
+    /* 정적 페이지(members/<id>.html)는 body[data-member-id] 로, 구 주소는 ?id= 로 단원을 지정 */
+    var id = (document.body && document.body.getAttribute("data-member-id")) ||
+             new URLSearchParams(location.search).get("id");
     var m = DATA.members.concat(DATA.guestPrincipals || []).filter(function (x) { return x.id === id; })[0];
     if (!m) { container.innerHTML = '<p class="lead">' + esc(t("memberPage.not_found")) + "</p>"; return; }
     var info = member(m.id);
-    document.title = info.name + " · " + t("site.name");
+    /* 정적 페이지의 한국어 title/description 은 이미 최적화돼 있으므로 한국어일 때는 그대로 둔다.
+       다른 언어로 볼 때만 해당 언어에 맞게 바꿔 준다. */
+    var isStatic = !!(document.body && document.body.getAttribute("data-member-id"));
+    if (!isStatic || LANG !== "ko") {
+      document.title = info.name + " · " + t("site.name");
+      if (isStatic) {
+        setMeta("description", info.name + " — " + t("site.name") + " " +
+          partLabel(m.part) + " " + roleLabel(m.rank) + ". " + ((info.bio || [])[0] || ""));
+      }
+    }
     var bio = (info.bio || []).map(function (b) { return "<li>" + esc(b) + "</li>"; }).join("");
     container.innerHTML =
-      '<a class="back-link" href="members.html"><span class="ar" style="transform:rotate(180deg)">→</span> ' + esc(t("memberPage.back")) + "</a>" +
+      '<a class="back-link" href="' + ROOT + 'members.html"><span class="ar" style="transform:rotate(180deg)">→</span> ' + esc(t("memberPage.back")) + "</a>" +
       '<div class="detail">' +
         '<div class="detail__media reveal">' + photoOrMono(m, info.name) + "</div>" +
         '<div class="detail__info reveal d1">' +
