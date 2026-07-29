@@ -359,7 +359,9 @@
     if (byId("history-full")) renderHistory(byId("history-full"));
     if (byId("history-preview")) renderHistory(byId("history-preview"), 6);
     if (byId("sketch-full")) renderSketches(byId("sketch-full"));
-    if (byId("member-detail")) renderMemberDetail(byId("member-detail"));
+    /* member-detail = 구 member.html, member-profile = 단원별 정적 페이지 */
+    var mc = byId("member-detail") || byId("member-profile");
+    if (mc) renderMemberDetail(mc);
     if (byId("about-body")) {
       var paras = t("about.body") || [];
       byId("about-body").innerHTML = paras.map(function (p, i) { return "<p" + (i === 0 ? ' class="reveal"' : "") + ">" + esc(p) + "</p>"; }).join("");

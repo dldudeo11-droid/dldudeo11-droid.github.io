@@ -82,7 +82,9 @@
 
   <main>
     <section class="pagehead wrap" style="padding-top:130px">
-      <div id="member-detail">
+      <!-- id가 'member-detail'이 아닌 이유: 구버전 app.js 가 캐시로 남아 있어도
+           이 정적 본문을 지우지 못하게 하기 위함. 신버전 app.js 만 이 id를 인식한다. -->
+      <div id="member-profile">
         <a class="back-link" href="../members.html"><span class="ar" style="transform:rotate(180deg)">→</span> 단원 목록으로</a>
         <div class="detail">
           <div class="detail__media reveal"><img src="../images/members/bae-eunjin.jpg" alt="배은진" loading="lazy"></div>
