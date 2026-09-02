@@ -45,7 +45,13 @@ window.DVC_DATA = {
     { id: "jasmine-choi", kind: "flute" },
     { id: "soyoung-yoon", kind: "violin" },
     { id: "jinsang-lee",  kind: "piano" },
-    { id: "jeongwon-kim", kind: "piano" }
+    { id: "jeongwon-kim", kind: "piano" },
+    { id: "jeong-heon",   kind: "conductor" },
+    { id: "kim-sungjin",  kind: "conductor" },
+    { id: "seo-jin",      kind: "conductor" },
+    { id: "lee-yoonkyung", kind: "soprano" },
+    { id: "kim-myunghyun", kind: "piano" },
+    { id: "lee-hyun",     kind: "tenor" }
   ],
 
   sectionOrder: ["violin", "viola", "cello"],

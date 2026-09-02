@@ -45,7 +45,9 @@
     "cello": "เชลโล",
     "flute": "ฟลูต",
     "piano": "เปียโน",
-    "conductor": "วาทยกร"
+    "conductor": "วาทยกร",
+    "soprano": "โซปราโน",
+    "tenor": "เทเนอร์"
   },
   "ranks": {
     "concertmaster": "คอนเสิร์ตมาสเตอร์ · หัวหน้าวง",
@@ -345,6 +347,30 @@
     "jeongwon-kim": {
       "name": "Julius-Jeongwon Kim",
       "role": "เปียโน"
+    },
+    "jeong-heon": {
+      "name": "Jeong Heon",
+      "role": "วาทยกร"
+    },
+    "kim-sungjin": {
+      "name": "Kim Sung-jin",
+      "role": "วาทยกร"
+    },
+    "seo-jin": {
+      "name": "Seo Jin",
+      "role": "วาทยกร"
+    },
+    "lee-yoonkyung": {
+      "name": "Lee Yoon-kyung",
+      "role": "โซปราโน"
+    },
+    "kim-myunghyun": {
+      "name": "Kim Myung-hyun",
+      "role": "เปียโน"
+    },
+    "lee-hyun": {
+      "name": "Lee Hyun",
+      "role": "เทเนอร์"
     }
   },
   "historyItems": {

@@ -45,7 +45,9 @@
     "cello": "Violoncelle",
     "flute": "Flûte",
     "piano": "Piano",
-    "conductor": "Direction"
+    "conductor": "Direction",
+    "soprano": "Soprano",
+    "tenor": "Ténor"
   },
   "ranks": {
     "concertmaster": "Konzertmeister · Leader",
@@ -345,6 +347,30 @@
     "jeongwon-kim": {
       "name": "Julius-Jeongwon Kim",
       "role": "Piano"
+    },
+    "jeong-heon": {
+      "name": "Jeong Heon",
+      "role": "Direction"
+    },
+    "kim-sungjin": {
+      "name": "Kim Sung-jin",
+      "role": "Direction"
+    },
+    "seo-jin": {
+      "name": "Seo Jin",
+      "role": "Direction"
+    },
+    "lee-yoonkyung": {
+      "name": "Lee Yoon-kyung",
+      "role": "Soprano"
+    },
+    "kim-myunghyun": {
+      "name": "Kim Myung-hyun",
+      "role": "Piano"
+    },
+    "lee-hyun": {
+      "name": "Lee Hyun",
+      "role": "Ténor"
     }
   },
   "historyItems": {

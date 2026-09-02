@@ -45,7 +45,9 @@
     "cello": "大提琴",
     "flute": "长笛",
     "piano": "钢琴",
-    "conductor": "指挥"
+    "conductor": "指挥",
+    "soprano": "女高音",
+    "tenor": "男高音"
   },
   "ranks": {
     "concertmaster": "乐团首席 · 团长",
@@ -345,6 +347,30 @@
     "jeongwon-kim": {
       "name": "Julius-Jeongwon Kim",
       "role": "钢琴"
+    },
+    "jeong-heon": {
+      "name": "郑宪",
+      "role": "指挥"
+    },
+    "kim-sungjin": {
+      "name": "金成镇",
+      "role": "指挥"
+    },
+    "seo-jin": {
+      "name": "徐真",
+      "role": "指挥"
+    },
+    "lee-yoonkyung": {
+      "name": "李允京",
+      "role": "女高音"
+    },
+    "kim-myunghyun": {
+      "name": "金明贤",
+      "role": "钢琴"
+    },
+    "lee-hyun": {
+      "name": "李贤",
+      "role": "男高音"
     }
   },
   "historyItems": {

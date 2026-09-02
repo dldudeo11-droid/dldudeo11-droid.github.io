@@ -45,7 +45,9 @@
     "cello": "チェロ",
     "flute": "フルート",
     "piano": "ピアノ",
-    "conductor": "指揮"
+    "conductor": "指揮",
+    "soprano": "ソプラノ",
+    "tenor": "テノール"
   },
   "ranks": {
     "concertmaster": "コンサートマスター · リーダー",
@@ -345,6 +347,30 @@
     "jeongwon-kim": {
       "name": "Julius-Jeongwon Kim",
       "role": "ピアノ"
+    },
+    "jeong-heon": {
+      "name": "チョン・ホン",
+      "role": "指揮"
+    },
+    "kim-sungjin": {
+      "name": "キム・ソンジン",
+      "role": "指揮"
+    },
+    "seo-jin": {
+      "name": "ソ・ジン",
+      "role": "指揮"
+    },
+    "lee-yoonkyung": {
+      "name": "イ・ユンギョン",
+      "role": "ソプラノ"
+    },
+    "kim-myunghyun": {
+      "name": "キム・ミョンヒョン",
+      "role": "ピアノ"
+    },
+    "lee-hyun": {
+      "name": "イ・ヒョン",
+      "role": "テノール"
     }
   },
   "historyItems": {

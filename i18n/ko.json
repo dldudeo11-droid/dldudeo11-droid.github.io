@@ -45,7 +45,9 @@
     "cello": "첼로",
     "flute": "플루트",
     "piano": "피아노",
-    "conductor": "지휘"
+    "conductor": "지휘",
+    "soprano": "소프라노",
+    "tenor": "테너"
   },
   "ranks": {
     "concertmaster": "악장 · 리더",
@@ -345,6 +347,30 @@
     "jeongwon-kim": {
       "name": "김정원",
       "role": "피아노"
+    },
+    "jeong-heon": {
+      "name": "정헌",
+      "role": "지휘"
+    },
+    "kim-sungjin": {
+      "name": "김성진",
+      "role": "지휘"
+    },
+    "seo-jin": {
+      "name": "서진",
+      "role": "지휘"
+    },
+    "lee-yoonkyung": {
+      "name": "이윤경",
+      "role": "소프라노"
+    },
+    "kim-myunghyun": {
+      "name": "김명현",
+      "role": "피아노"
+    },
+    "lee-hyun": {
+      "name": "이현",
+      "role": "테너"
     }
   },
   "historyItems": {
