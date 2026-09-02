@@ -371,6 +371,10 @@
     "lee-hyun": {
       "name": "李贤",
       "role": "男高音"
+    },
+    "julian-rhee": {
+      "name": "朱利安·李 (Julian Rhee)",
+      "role": "小提琴"
     }
   },
   "historyItems": {
@@ -435,7 +439,7 @@
       "venue": "德国汉诺威 · Galerie Luise · 希尔德斯海姆圣毛里求斯教堂"
     },
     "h2026d": {
-      "title": "UNESCO 音乐创意城市交流音乐会 — 梅斯音乐城 (Cité musicale-metz)",
+      "title": "UNESCO 音乐创意城市交流音乐会 — 梅斯音乐城 (Cité musicale-metz) — with 朱利安·李(Vn)",
       "venue": "法国梅斯 · Arsenal, Salle de l'Esplanade"
     },
     "h2026e": {
@@ -480,7 +484,7 @@
   },
   "sketchItems": {
     "s2026e": {
-      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz — with 朱利安·李(Vn)",
       "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
     },
     "s2026d": {

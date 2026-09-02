@@ -371,6 +371,10 @@
     "lee-hyun": {
       "name": "이현",
       "role": "테너"
+    },
+    "julian-rhee": {
+      "name": "줄리안 리 (Julian Rhee)",
+      "role": "바이올린"
     }
   },
   "historyItems": {
@@ -435,7 +439,7 @@
       "venue": "독일 하노버 · Galerie Luise · 힐데스하임 성 마우리티우스 교회"
     },
     "h2026d": {
-      "title": "UNESCO 음악 창의도시 교류음악회 — Cité musicale-metz",
+      "title": "UNESCO 음악 창의도시 교류음악회 — Cité musicale-metz — with 줄리안 리(Vn)",
       "venue": "프랑스 메츠 · Arsenal, Salle de l'Esplanade"
     },
     "h2026e": {
@@ -480,7 +484,7 @@
   },
   "sketchItems": {
     "s2026e": {
-      "title": "UNESCO 음악 창의도시 교류음악회 — Metz",
+      "title": "UNESCO 음악 창의도시 교류음악회 — Metz — with 줄리안 리(Vn)",
       "venue": "프랑스 메츠 · Arsenal, Salle de l'Esplanade"
     },
     "s2026d": {

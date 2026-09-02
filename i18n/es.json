@@ -371,6 +371,10 @@
     "lee-hyun": {
       "name": "Lee Hyun",
       "role": "Tenor"
+    },
+    "julian-rhee": {
+      "name": "Julian Rhee",
+      "role": "Violín"
     }
   },
   "historyItems": {
@@ -435,7 +439,7 @@
       "venue": "Hannover, Alemania · Galerie Luise · Iglesia de San Mauricio, Hildesheim"
     },
     "h2026d": {
-      "title": "Concierto de intercambio de Ciudades Creativas de la Música de la UNESCO — Cité musicale-metz",
+      "title": "Concierto de intercambio de Ciudades Creativas de la Música de la UNESCO — Cité musicale-metz — with Julian Rhee (Vn)",
       "venue": "Metz, Francia · Arsenal, Salle de l'Esplanade"
     },
     "h2026e": {
@@ -480,7 +484,7 @@
   },
   "sketchItems": {
     "s2026e": {
-      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz — with Julian Rhee (Vn)",
       "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
     },
     "s2026d": {

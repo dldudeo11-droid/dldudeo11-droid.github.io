@@ -46,6 +46,7 @@ window.DVC_DATA = {
     { id: "soyoung-yoon", kind: "violin" },
     { id: "jinsang-lee",  kind: "piano" },
     { id: "jeongwon-kim", kind: "piano" },
+    { id: "julian-rhee",  kind: "violin" },
     { id: "jeong-heon",   kind: "conductor" },
     { id: "kim-sungjin",  kind: "conductor" },
     { id: "seo-jin",      kind: "conductor" },

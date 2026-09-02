@@ -371,6 +371,10 @@
     "lee-hyun": {
       "name": "イ・ヒョン",
       "role": "テノール"
+    },
+    "julian-rhee": {
+      "name": "ジュリアン・リー (Julian Rhee)",
+      "role": "ヴァイオリン"
     }
   },
   "historyItems": {
@@ -435,7 +439,7 @@
       "venue": "ドイツ・ハノーファー · Galerie Luise · ヒルデスハイム 聖マウリティウス教会"
     },
     "h2026d": {
-      "title": "UNESCO 音楽創造都市 交流演奏会 — Cité musicale-metz",
+      "title": "UNESCO 音楽創造都市 交流演奏会 — Cité musicale-metz — with ジュリアン・リー(Vn)",
       "venue": "フランス・メス · Arsenal, Salle de l'Esplanade"
     },
     "h2026e": {
@@ -480,7 +484,7 @@
   },
   "sketchItems": {
     "s2026e": {
-      "title": "UNESCO Creative City of Music Exchange Concert — Metz",
+      "title": "UNESCO Creative City of Music Exchange Concert — Metz — with ジュリアン・リー(Vn)",
       "venue": "Metz, France · Arsenal, Salle de l'Esplanade"
     },
     "s2026d": {
