@@ -411,6 +411,22 @@
     "h2026d": {
       "title": "Concierto de intercambio de Ciudades Creativas de la Música de la UNESCO — Cité musicale-metz",
       "venue": "Metz, Francia · Arsenal, Salle de l'Esplanade"
+    },
+    "h2026e": {
+      "title": "2026 18.º SIMF (SpaceU International Music Festival) Concierto de clausura «Gran desfile de los Campos Elíseos» — Clásica en vaqueros · 140.º aniversario de las relaciones Corea–Francia (dir. Jeong Heon)",
+      "venue": "Suseong Artpia, Gran Teatro"
+    },
+    "h2026f": {
+      "title": "«Nuestra noche, tu canción» en clásica — Músicas que consuelan la vida en un día de otoño (dir. Kim Sung-jin · tenor Lee Hyun)",
+      "venue": "Centro de Educación y Cultura Samguk Yusa de Gunwi"
+    },
+    "h2026g": {
+      "title": "2026 World Orchestra Festival — Daegu Virtuoso Chamber «Concierto misterioso: planetas y órbitas» (dir. Seo Jin · guía de concierto Lee Jae-beom)",
+      "venue": "Daegu Concert House, Gran Sala"
+    },
+    "h2026h": {
+      "title": "«Nuestra noche, tu canción» en clásica — Músicas que consuelan la vida en un día de otoño (dir. Kim Sung-jin · tenor Lee Hyun)",
+      "venue": "Daegu Dalseo Arts Center, Sala Cheongnyong"
     }
   },
   "form": {
@@ -495,6 +511,18 @@
     },
     "s2020a": {
       "title": "2020 World Orchestra Series — WOS Virtuoso Chamber",
+      "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026f": {
+      "title": "2026 SIMF Closing Concert \"Grand March of the Champs-Élysées\"",
+      "venue": "Suseong Artpia, Grand Theater"
+    },
+    "s2026g": {
+      "title": "\"Our Night, Your Song\" in Classical",
+      "venue": "Gunwi Samguk Yusa Education & Culture Center (Oct 1) · Daegu Dalseo Arts Center (Oct 21)"
+    },
+    "s2026h": {
+      "title": "2026 World Orchestra Festival — \"Mysterious Concert: Planets and Orbits\"",
       "venue": "Daegu Concert House, Grand Hall"
     }
   }

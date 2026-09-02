@@ -66,11 +66,18 @@ window.DVC_DATA = {
     { id: "h2026a", year: "2026", date: "2026.02.25" },
     { id: "h2026b", year: "2026", date: "2026.05.03" },
     { id: "h2026c", year: "2026", date: "2026.06.21" },
-    { id: "h2026d", year: "2026", date: "2026.06.24" }
+    { id: "h2026d", year: "2026", date: "2026.06.24" },
+    { id: "h2026e", year: "2026", date: "2026.08.22" },
+    { id: "h2026f", year: "2026", date: "2026.10.01" },
+    { id: "h2026g", year: "2026", date: "2026.10.17" },
+    { id: "h2026h", year: "2026", date: "2026.10.21" }
   ],
 
   // 연주 스케치 — 공연 포스터 갤러리 (최신순, 이미지가 캡션을 담고 있음)
   sketches: [
+    { id: "s2026h", date: "2026.10.17", image: "images/sketch/2026-10-17-mysterious-concert.jpg" },
+    { id: "s2026g", date: "2026.10.01", image: "images/sketch/2026-10-01-our-night-your-song.jpg" },
+    { id: "s2026f", date: "2026.08.22", image: "images/sketch/2026-08-22-simf-closing.jpg" },
     { id: "s2026e", date: "2026.06.24", image: "images/sketch/2026-06-24-metz.jpg" },
     { id: "s2026d", date: "2026.06.21", image: "images/sketch/2026-06-21-hannover.jpg" },
     { id: "s2026c", date: "2026.05.03", image: "images/sketch/2026-05-03-magic-flute.jpg" },
