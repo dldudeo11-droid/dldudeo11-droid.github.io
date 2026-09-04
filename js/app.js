@@ -146,11 +146,6 @@
         '<div class="foot-top">' +
           '<div class="foot-brand"><div class="foot-logo"></div>' +
             '<p class="foot-tag">' + esc(t("footer.tagline")) + "</p></div>" +
-          '<div class="foot-col"><h4>' + esc(t("footer.nav_title")) + "</h4>" +
-            '<a href="' + ROOT + 'about.html">' + esc(t("nav.about")) + "</a>" +
-            '<a href="' + ROOT + 'members.html">' + esc(t("nav.members")) + "</a>" +
-            '<a href="' + ROOT + 'history.html">' + esc(t("nav.history")) + "</a>" +
-            '<a href="' + ROOT + 'contact.html">' + esc(t("nav.contact")) + "</a></div>" +
           '<div class="foot-col"><h4>' + esc(t("contact.title")) + "</h4>" +
             '<a href="mailto:' + esc(email) + '">' + esc(email) + "</a>" +
             (ig ? '<a href="' + esc(ig) + '" target="_blank" rel="noopener">' + IG + " " + esc(igh) + "</a>" : "") +
