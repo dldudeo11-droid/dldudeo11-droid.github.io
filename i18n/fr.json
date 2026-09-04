@@ -17,7 +17,7 @@
     "history": "Historique",
     "contact": "Contact",
     "menu": "Menu",
-    "sketch": "Galerie"
+    "sketch": "Concerts"
   },
   "ui": {
     "language": "Langue",
@@ -477,8 +477,8 @@
     "subject_prefix": "[Demande de réservation / collaboration]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "Galerie des concerts",
+    "eyebrow": "PERFORMANCES",
+    "title": "Concerts",
     "subtitle": "Affiches de concert",
     "lead": "Des instants sur les scènes parcourues par le Daegu Virtuoso Chamber — une collection de nos affiches de concert."
   },

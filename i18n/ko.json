@@ -17,7 +17,7 @@
     "history": "연혁",
     "contact": "문의",
     "menu": "메뉴",
-    "sketch": "연주 스케치"
+    "sketch": "공연"
   },
   "ui": {
     "language": "언어",
@@ -477,8 +477,8 @@
     "subject_prefix": "[공연 섭외·협업 문의]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "연주 스케치",
+    "eyebrow": "PERFORMANCES",
+    "title": "공연",
     "subtitle": "공연 포스터",
     "lead": "대구 비르투오조 챔버가 걸어온 무대의 순간들 — 지난 공연 포스터를 한자리에 모았습니다."
   },

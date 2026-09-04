@@ -17,7 +17,7 @@
     "history": "History",
     "contact": "Contact",
     "menu": "Menu",
-    "sketch": "Sketches"
+    "sketch": "Performances"
   },
   "ui": {
     "language": "Language",
@@ -477,8 +477,8 @@
     "subject_prefix": "[Booking / Collaboration Inquiry]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "Performance Sketches",
+    "eyebrow": "PERFORMANCES",
+    "title": "Performances",
     "subtitle": "Concert Posters",
     "lead": "Moments from the stages Daegu Virtuoso Chamber has walked — a collection of our past concert posters."
   },

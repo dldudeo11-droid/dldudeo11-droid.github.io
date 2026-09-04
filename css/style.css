@@ -408,3 +408,24 @@ body[data-hero="true"] .site-header:not(.scrolled) .lang-select{color:#fff; bord
   .hero__cta{flex-direction:column; align-items:flex-start}
   .gp-card{grid-template-columns:1fr; text-align:left}
 }
+
+/* ---------- mobile header fix (2026-09-04): 아이콘·언어선택 때문에 햄버거 버튼이 화면 밖으로 밀리던 문제 ---------- */
+@media (max-width:860px){
+  .site-header .ig-link{display:none}
+  .site-header .header-tools{flex-shrink:0; gap:8px}
+  .site-header .brand{min-width:0}
+}
+@media (max-width:560px){ .site-header #lang{display:none} }
+
+/* ---------- mobile hero (2026-09-04): 가로 단체사진이 세로 화면에서 잘리지 않도록 사진 전체 노출 + 텍스트 아래 배치 (큰 화면은 그대로) ---------- */
+@media (max-width:700px){
+  .hero{min-height:auto; display:block; background:#15120e; padding-top:74px}
+  .hero__bg{position:relative; inset:auto; width:100%; aspect-ratio:2000/1428}
+  .hero__bg img{animation:none; object-position:center}
+  .hero::before, .hero::after{display:none}
+  .hero__inner{min-height:0; padding:26px var(--gutter) 34px; gap:16px}
+  .hero__logo{height:56px; margin-bottom:10px}
+  .hero__sub{margin-top:8px}
+  .hero__cta{margin-top:16px; flex-direction:row; align-items:center}
+  .hero .scrolldown{display:none}
+}

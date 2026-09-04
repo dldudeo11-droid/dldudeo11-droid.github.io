@@ -17,7 +17,7 @@
     "history": "Chronik",
     "contact": "Kontakt",
     "menu": "Menü",
-    "sketch": "Impressionen"
+    "sketch": "Aufführungen"
   },
   "ui": {
     "language": "Sprache",
@@ -477,8 +477,8 @@
     "subject_prefix": "[Buchungs-/Kooperationsanfrage]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "Konzert-Impressionen",
+    "eyebrow": "PERFORMANCES",
+    "title": "Aufführungen",
     "subtitle": "Konzertplakate",
     "lead": "Momente von den Bühnen des Daegu Virtuoso Chamber — eine Sammlung unserer bisherigen Konzertplakate."
   },

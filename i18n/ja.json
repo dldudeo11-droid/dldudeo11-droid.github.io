@@ -17,7 +17,7 @@
     "history": "沿革",
     "contact": "お問い合わせ",
     "menu": "メニュー",
-    "sketch": "演奏スケッチ"
+    "sketch": "公演"
   },
   "ui": {
     "language": "言語",
@@ -477,8 +477,8 @@
     "subject_prefix": "[公演依頼・協業のお問い合わせ]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "演奏スケッチ",
+    "eyebrow": "PERFORMANCES",
+    "title": "公演",
     "subtitle": "公演ポスター",
     "lead": "大邱ヴィルトゥオーゾ・チェンバーが歩んできた舞台の瞬間 — これまでの公演ポスターを一堂に集めました。"
   },

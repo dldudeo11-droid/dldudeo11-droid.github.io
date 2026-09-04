@@ -17,7 +17,7 @@
     "history": "团史",
     "contact": "联系",
     "menu": "菜单",
-    "sketch": "演出剪影"
+    "sketch": "演出"
   },
   "ui": {
     "language": "语言",
@@ -477,8 +477,8 @@
     "subject_prefix": "[演出邀约 / 合作咨询]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "演出剪影",
+    "eyebrow": "PERFORMANCES",
+    "title": "演出",
     "subtitle": "演出海报",
     "lead": "大邱名家室内乐团走过的舞台瞬间——历年演出海报集锦。"
   },

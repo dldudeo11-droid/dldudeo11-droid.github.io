@@ -17,7 +17,7 @@
     "history": "ประวัติ",
     "contact": "ติดต่อ",
     "menu": "เมนู",
-    "sketch": "ภาพการแสดง"
+    "sketch": "การแสดง"
   },
   "ui": {
     "language": "ภาษา",
@@ -477,8 +477,8 @@
     "subject_prefix": "[คำเชิญการแสดง / การร่วมงาน]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "ภาพการแสดง",
+    "eyebrow": "PERFORMANCES",
+    "title": "การแสดง",
     "subtitle": "โปสเตอร์คอนเสิร์ต",
     "lead": "ช่วงเวลาบนเวทีที่ Daegu Virtuoso Chamber ได้ก้าวผ่าน — รวมโปสเตอร์การแสดงที่ผ่านมา"
   },

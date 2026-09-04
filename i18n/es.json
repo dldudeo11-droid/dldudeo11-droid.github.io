@@ -17,7 +17,7 @@
     "history": "Trayectoria",
     "contact": "Contacto",
     "menu": "Menú",
-    "sketch": "Galería"
+    "sketch": "Actuaciones"
   },
   "ui": {
     "language": "Idioma",
@@ -477,8 +477,8 @@
     "subject_prefix": "[Solicitud de contratación / colaboración]"
   },
   "sketch": {
-    "eyebrow": "SKETCH",
-    "title": "Galería de conciertos",
+    "eyebrow": "PERFORMANCES",
+    "title": "Actuaciones",
     "subtitle": "Carteles de concierto",
     "lead": "Momentos de los escenarios que ha recorrido el Daegu Virtuoso Chamber: una colección de nuestros carteles de concierto."
   },
