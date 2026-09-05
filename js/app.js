@@ -429,8 +429,18 @@
     function fadeTo(v, ms, done) { if (!bgm) return; clearInterval(fade); var from = bgm.volume, t0 = performance.now();
       fade = setInterval(function () { var p = Math.min(1, (performance.now() - t0) / ms); bgm.volume = from + (v - from) * p; if (p >= 1) { clearInterval(fade); done && done(); } }, 50); }
     function btn() { return document.getElementById("sndBtn"); }
-    function sndOn() { if (!bgm) return; bgm.volume = 0; var pr = bgm.play(); if (pr && pr.catch) pr.catch(function () { var b = btn(); if (b) b.classList.remove("on"); });
-      var b = btn(); if (b) b.classList.add("on"); fadeTo(0.08, 3000); ls("dvc_snd", "on"); }
+    function sndOn(quick) { if (!bgm) return; bgm.volume = quick ? 0.08 : 0; var pr = bgm.play(); if (pr && pr.catch) pr.catch(function () { var b = btn(); if (b) b.classList.remove("on"); });
+      var b = btn(); if (b) b.classList.add("on"); if (!quick) fadeTo(0.08, 3000); ls("dvc_snd", "on"); }
+    function sndSave() { try { sessionStorage.setItem("dvc_t", bgm.paused ? "" : bgm.currentTime); sessionStorage.setItem("dvc_at", Date.now()); } catch (e) {} }
+    if (bgm) { bgm.addEventListener("timeupdate", sndSave); window.addEventListener("pagehide", sndSave);
+      document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest("a[href]")) sndSave(); }); }
+    function sndResume() { if (!bgm || ls("dvc_snd") === "off") return; var t = "", at = 0;
+      try { t = sessionStorage.getItem("dvc_t") || ""; at = parseFloat(sessionStorage.getItem("dvc_at")) || 0; } catch (e) {}
+      if (t === "") return;
+      var gap = at ? Math.min(8, Math.max(0, (Date.now() - at) / 1000)) : 0, tt = (parseFloat(t) || 0) + gap;
+      var seek = function () { try { bgm.currentTime = bgm.duration ? tt % bgm.duration : tt; } catch (e) {} };
+      if (bgm.readyState >= 1) seek(); else bgm.addEventListener("loadedmetadata", seek, { once: true });
+      sndOn(true); }
     function sndOff() { if (!bgm) return; var b = btn(); if (b) b.classList.remove("on"); fadeTo(0, 900, function () { bgm.pause(); }); ls("dvc_snd", "off"); }
     window.DVC_HOME = { toggleSound: function () { if (!bgm) return; (bgm.paused ? sndOn : sndOff)(); } };
     var seen = false; try { seen = sessionStorage.getItem("dvc_intro") === "1"; } catch (e) {}
@@ -440,7 +450,7 @@
         try { sessionStorage.setItem("dvc_intro", "1"); } catch (e) {}
         intro.classList.add("done"); sndOn(); start(); setTimeout(function () { intro.parentNode && intro.parentNode.removeChild(intro); }, 1400);
       });
-    } else { if (intro) intro.parentNode.removeChild(intro); start(); }
+    } else { if (intro) intro.parentNode.removeChild(intro); start(); sndResume(); }
   })();
 
   /* ---------- init ---------- */
