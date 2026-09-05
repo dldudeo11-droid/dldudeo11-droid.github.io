@@ -71,7 +71,14 @@
     "history_eyebrow": "HISTORY",
     "history_title": "The stages we have walked",
     "history_lead": "A record of our growth into one of Daegu's representative chamber ensembles since our debut in 2020.",
-    "support_note": "Supported by the Ministry of Culture, Sports and Tourism · Selected for the 2026 Regional Representative Arts Organization Support Program"
+    "support_note": "Supported by the Ministry of Culture, Sports and Tourism · Selected for the 2026 Regional Representative Arts Organization Support Program",
+    "h1": "The essence of chamber music,<br>drawn in <em>strings</em> alone",
+    "state_p1": "Using strings alone, we draw delicate lines with a solidity and gravity rivaling a full orchestra. We have shared the stage with conductors Yeo Ja-kyung and Tania Miller, violinists Soyoung Yoon and Dami Kim, flutist Jasmine Choi, and pianists Jinsang Lee and Jeongwon Kim.",
+    "state_p2": "In 2026 the ensemble widened its international reach with exchange concerts in the UNESCO Creative Cities of Music Hannover and Metz, and was selected for the Ministry of Culture, Sports and Tourism’s 2026 Regional Representative Arts Organization programme.",
+    "tick1": "2026 Regional Representative Arts Organization",
+    "tick2": "Supported by the Ministry of Culture, Sports and Tourism",
+    "cut_q": "The firmest resonance strings can make —<br>with the gravity of an orchestra.",
+    "enter_hint": "♪ Enter with sound"
   },
   "about": {
     "eyebrow": "ABOUT",
@@ -126,7 +133,8 @@
     "eyebrow": "HISTORY",
     "title": "History",
     "subtitle": "Past Performances",
-    "lead": "The major stages Daegu Virtuoso Chamber has walked."
+    "lead": "The major stages Daegu Virtuoso Chamber has walked.",
+    "stages": "STAGES"
   },
   "contact": {
     "eyebrow": "CONTACT",
@@ -457,6 +465,10 @@
     "h2026h": {
       "title": "\"Our Night, Your Song\" in Classical — Music to Comfort Life on an Autumn Day (cond. Kim Sung-jin · tenor Lee Hyun)",
       "venue": "Daegu Dalseo Arts Center, Cheongnyong Hall"
+    },
+    "h2026i": {
+      "title": "RE:BOUND Festival 2026 — Daegu Virtuoso Chamber \"Opera in Chamber\"",
+      "venue": "Guro Creative Art Hall, Seoul"
     }
   },
   "form": {
@@ -554,6 +566,10 @@
     "s2026h": {
       "title": "2026 World Orchestra Festival — \"Mysterious Concert: Planets and Orbits\"",
       "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026i": {
+      "title": "RE:BOUND Festival 2026 — \"Opera in Chamber\"",
+      "venue": "Guro Creative Art Hall, Seoul"
     }
   }
 }

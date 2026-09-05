@@ -71,7 +71,14 @@
     "history_eyebrow": "HISTORY",
     "history_title": "Los escenarios recorridos",
     "history_lead": "La trayectoria de un conjunto que, desde su primer concierto en 2020, ha crecido hasta convertirse en una agrupación de cámara representativa de Daegu.",
-    "support_note": "Patrocinado por el Ministerio de Cultura, Deportes y Turismo · Conjunto seleccionado en el Programa de Apoyo a las Agrupaciones Artísticas Regionales Representativas 2026"
+    "support_note": "Patrocinado por el Ministerio de Cultura, Deportes y Turismo · Conjunto seleccionado en el Programa de Apoyo a las Agrupaciones Artísticas Regionales Representativas 2026",
+    "h1": "La esencia de la música de cámara,<br>dibujada solo con <em>cuerdas</em>",
+    "state_p1": "Solo con cuerdas trazamos líneas delicadas con una solidez y gravedad dignas de una orquesta. Hemos compartido escenario con las directoras Yeo Ja-kyung y Tania Miller, las violinistas Soyoung Yoon y Dami Kim, la flautista Jasmine Choi y los pianistas Jinsang Lee y Jeongwon Kim.",
+    "state_p2": "En 2026 el conjunto amplió su presencia internacional con conciertos de intercambio en las Ciudades Creativas de la Música de la UNESCO Hannover y Metz, y fue seleccionado para el programa “Regional Representative Arts Organization 2026” del Ministerio de Cultura de Corea.",
+    "tick1": "Agrupación representativa regional 2026",
+    "tick2": "Con el apoyo del Ministerio de Cultura, Deportes y Turismo",
+    "cut_q": "La resonancia más firme que pueden crear las cuerdas —<br>con la gravedad de una orquesta.",
+    "enter_hint": "♪ Entrar con sonido"
   },
   "about": {
     "eyebrow": "ABOUT",
@@ -126,7 +133,8 @@
     "eyebrow": "HISTORY",
     "title": "Trayectoria",
     "subtitle": "Conciertos anteriores",
-    "lead": "Los principales escenarios que ha recorrido Daegu Virtuoso Chamber."
+    "lead": "Los principales escenarios que ha recorrido Daegu Virtuoso Chamber.",
+    "stages": "ACTUACIONES"
   },
   "contact": {
     "eyebrow": "CONTACT",
@@ -457,6 +465,10 @@
     "h2026h": {
       "title": "«Nuestra noche, tu canción» en clásica — Músicas que consuelan la vida en un día de otoño (dir. Kim Sung-jin · tenor Lee Hyun)",
       "venue": "Daegu Dalseo Arts Center, Sala Cheongnyong"
+    },
+    "h2026i": {
+      "title": "RE:BOUND Festival 2026 — Daegu Virtuoso Chamber \"Opera in Chamber\"",
+      "venue": "Guro Creative Art Hall, Seúl"
     }
   },
   "form": {
@@ -554,6 +566,10 @@
     "s2026h": {
       "title": "2026 World Orchestra Festival — \"Mysterious Concert: Planets and Orbits\"",
       "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026i": {
+      "title": "RE:BOUND Festival 2026 — \"Opera in Chamber\"",
+      "venue": "Guro Creative Art Hall, Seúl"
     }
   }
 }

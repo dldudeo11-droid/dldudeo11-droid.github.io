@@ -71,7 +71,14 @@
     "history_eyebrow": "HISTORY",
     "history_title": "Der zurückgelegte Weg",
     "history_lead": "Die Spuren eines Werdegangs, der seit dem ersten Auftritt 2020 zu einem der bedeutendsten Kammerorchester Daegus geführt hat.",
-    "support_note": "Gefördert vom Ministerium für Kultur, Sport und Tourismus · Ausgewähltes Ensemble des Förderprogramms für repräsentative regionale Kunstinstitutionen 2026"
+    "support_note": "Gefördert vom Ministerium für Kultur, Sport und Tourismus · Ausgewähltes Ensemble des Förderprogramms für repräsentative regionale Kunstinstitutionen 2026",
+    "h1": "Die Essenz der Kammermusik,<br>allein aus <em>Streichern</em>",
+    "state_p1": "Allein mit Streichern zeichnen wir feine Linien – mit einer Festigkeit und Ernsthaftigkeit, die einem Orchester gleichkommt. Wir standen mit den Dirigentinnen Yeo Ja-kyung und Tania Miller, den Geigerinnen Soyoung Yoon und Dami Kim, der Flötistin Jasmine Choi sowie den Pianisten Jinsang Lee und Jeongwon Kim auf der Bühne.",
+    "state_p2": "2026 erweiterte das Ensemble seine internationale Präsenz mit Austauschkonzerten in den UNESCO-Musikstädten Hannover und Metz und wurde in das Programm „Regional Representative Arts Organization 2026“ des koreanischen Kulturministeriums aufgenommen.",
+    "tick1": "Regionales Repräsentativ-Ensemble 2026",
+    "tick2": "Gefördert vom Ministerium für Kultur, Sport und Tourismus",
+    "cut_q": "Der festeste Klang, den Streicher hervorbringen –<br>mit der Ernsthaftigkeit eines Orchesters.",
+    "enter_hint": "♪ Mit Ton betreten"
   },
   "about": {
     "eyebrow": "ABOUT",
@@ -126,7 +133,8 @@
     "eyebrow": "HISTORY",
     "title": "Chronik",
     "subtitle": "Vergangene Konzerte",
-    "lead": "Die wichtigsten Bühnen, die Daegu Virtuoso Chamber bestritten hat."
+    "lead": "Die wichtigsten Bühnen, die Daegu Virtuoso Chamber bestritten hat.",
+    "stages": "AUFTRITTE"
   },
   "contact": {
     "eyebrow": "CONTACT",
@@ -457,6 +465,10 @@
     "h2026h": {
       "title": "„Unsere Nacht, dein Lied“ in Klassik — Musik, die das Leben an einem Herbsttag tröstet (Ltg. Kim Sung-jin · Tenor Lee Hyun)",
       "venue": "Daegu Dalseo Arts Center, Cheongnyong-Saal"
+    },
+    "h2026i": {
+      "title": "RE:BOUND Festival 2026 — Daegu Virtuoso Chamber „Opera in Chamber“",
+      "venue": "Guro Creative Art Hall, Seoul"
     }
   },
   "form": {
@@ -554,6 +566,10 @@
     "s2026h": {
       "title": "2026 World Orchestra Festival — \"Mysterious Concert: Planets and Orbits\"",
       "venue": "Daegu Concert House, Grand Hall"
+    },
+    "s2026i": {
+      "title": "RE:BOUND Festival 2026 — „Opera in Chamber“",
+      "venue": "Guro Creative Art Hall, Seoul"
     }
   }
 }

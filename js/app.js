@@ -119,19 +119,25 @@
       '<div class="wrap">' +
         '<a class="brand" href="' + ROOT + 'index.html" aria-label="Daegu Virtuoso Chamber"><span class="brand-logo"></span></a>' +
         '<nav class="nav">' + navLinks(false) + "</nav>" +
-        '<div class="header-tools">' + blogLink() + igLink() + langSelect("lang") + themeToggle("themes") +
-          '<button class="icon-btn" id="burger" aria-label="' + esc(t("nav.menu")) + '">' + BURGER + "</button>" +
+        '<div class="header-tools">' + sndButton() + blogLink() + igLink() + langSelect("lang") +
+          '<button class="icon-btn" id="burger" aria-label="' + esc(t("nav.menu")) + '"><span class="burger-ico"><i></i><i></i><i></i></span></button>' +
         "</div>" +
       "</div>";
   }
+  var MARK = '<svg class="mk" viewBox="0 0 132 100" fill="currentColor" aria-hidden="true"><g transform="skewX(30)"><rect x="0" y="42" width="13" height="58"/><rect x="26" y="0" width="13" height="76"/><rect x="52" y="12" width="13" height="30"/></g></svg>';
+  function sndButton() {
+    if (!document.getElementById("bgm")) return "";
+    return '<button class="snd-btn" id="sndBtn" type="button" aria-label="Sound" title="Sound"><i></i><i></i><i></i><i></i></button>';
+  }
   function buildMobile() {
     var m = document.getElementById("mnav"); if (!m) return;
-    m.className = "mobile-nav";
-    m.innerHTML =
-      '<div class="mhead"><span class="brand-logo"></span>' +
-      '<button class="icon-btn" id="mclose" style="display:inline-flex" aria-label="' + esc(t("ui.menu_close")) + '">' + CLOSE + "</button></div>" +
-      navLinks(true) +
-      '<div class="m-tools">' + langSelect("lang-m") + themeToggle("themes-m") + igLink() + blogLink() + "</div>";
+    var open = m.classList.contains("open");
+    m.className = "mobile-nav" + (open ? " open" : "");
+    var links = NAV.map(function (it) {
+      var act = (it[0] === here()) ? ' class="active"' : "";
+      return '<a' + act + ' href="' + ROOT + it[0] + '" data-i18n="' + it[1] + '">' + esc(t(it[1])) + "</a>";
+    }).join("");
+    m.innerHTML = '<div class="mlist">' + links + "</div>" + MARK;
   }
   function buildFooter() {
     var f = document.getElementById("ftr"); if (!f) return;
@@ -181,10 +187,12 @@
     document.querySelectorAll(".theme-toggle button").forEach(function (b) {
       b.addEventListener("click", function () { setTheme(this.getAttribute("data-t")); });
     });
-    var burger = document.getElementById("burger"), mnav = document.getElementById("mnav"), mclose = document.getElementById("mclose");
-    if (burger && mnav) burger.addEventListener("click", function () { mnav.classList.add("open"); });
-    if (mclose && mnav) mclose.addEventListener("click", function () { mnav.classList.remove("open"); });
-    if (mnav) mnav.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { mnav.classList.remove("open"); }); });
+    var burger = document.getElementById("burger"), mnav = document.getElementById("mnav"), hdr = document.getElementById("hdr");
+    function setMenu(o) { if (!mnav) return; mnav.classList.toggle("open", o); if (hdr) hdr.classList.toggle("menu-open", o); document.body.style.overflow = o ? "hidden" : ""; }
+    if (burger && mnav) burger.addEventListener("click", function () { setMenu(!mnav.classList.contains("open")); });
+    if (mnav) mnav.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
+    var sb = document.getElementById("sndBtn");
+    if (sb && window.DVC_HOME) sb.addEventListener("click", window.DVC_HOME.toggleSound);
   }
 
   /* ---------- renderers ---------- */
@@ -200,11 +208,11 @@
 
   function memberCard(m) {
     var info = member(m.id);
-    return '<a class="mcard reveal" href="' + memberUrl(m.id) + '">' +
-      '<div class="mcard__ph">' + photoOrMono(m, info.name) +
+    return '<a class="mcard reveal" data-rank="' + esc(m.rank) + '" href="' + memberUrl(m.id) + '">' +
+      '<div class="mcard__ph">' + (m.rank !== "member" ? '<div class="mcard__role"><span>' + esc(roleLabel(m.rank)) + "</span></div>" : "") + photoOrMono(m, info.name) +
         '<span class="mcard__view">' + esc(t("ui.view_profile")) + " <span class='ar'>→</span></span></div>" +
-      '<div class="mcard__meta"><div class="mcard__role">' + esc(roleLabel(m.rank)) + "</div>" +
-        '<div class="mcard__name">' + esc(info.name) + "</div></div></a>";
+      '<div class="mcard__meta"><div class="mcard__name">' + esc(info.name) + "</div>" +
+        '<div class="mcard__part">' + esc(partLabel(m.part)) + " · " + esc(roleLabel(m.rank)) + "</div></div></a>";
   }
 
   function renderMembers(container) {
@@ -257,7 +265,8 @@
             '<div class="t">' + esc(h.title) + "</div>" +
             (h.venue ? '<div class="v">' + esc(h.venue) + "</div>" : "") + "</div>";
         }).join("");
-      return '<div class="tl-year reveal"><div class="yr">' + esc(yr) + "</div><div>" + rows + "</div></div>";
+      var n = items.filter(function (it) { return it.year === yr; }).length;
+      return '<div class="tl-year reveal"><div class="yr">' + esc(yr) + "<i>" + n + " " + esc(t("history.stages") || "STAGES") + "</i></div><div>" + rows + "</div></div>";
     }).join("");
     container.innerHTML = html;
   }
@@ -384,7 +393,8 @@
   /* ---------- scroll header ---------- */
   function markScroll() {
     var h = document.getElementById("hdr"); if (!h) return;
-    if (window.scrollY > 40) h.classList.add("scrolled"); else h.classList.remove("scrolled");
+    var th = document.body.getAttribute("data-hero") === "true" ? Math.max(120, window.innerHeight - 80) : 40;
+    if (window.scrollY > th) h.classList.add("scrolled"); else h.classList.remove("scrolled");
   }
 
   /* ---------- contact form (Boaz-style mailto) ---------- */
@@ -402,6 +412,36 @@
     location.href = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
     return false;
   };
+
+  /* ---------- home: intro + slideshow + bgm ---------- */
+  (function homeModule() {
+    var frame = document.getElementById("frame"), intro = document.getElementById("intro"), bgm = document.getElementById("bgm");
+    if (!frame && !intro && !bgm) return;
+    var imgs = frame ? Array.prototype.slice.call(frame.querySelectorAll("img")) : [], prog = document.getElementById("prog"), cur = 0, tm = null;
+    function show(i) {
+      if (!imgs.length) return;
+      imgs[cur].classList.remove("on"); cur = (i + imgs.length) % imgs.length; imgs[cur].classList.add("on");
+      if (prog) { prog.classList.remove("run"); void prog.offsetWidth; prog.classList.add("run"); }
+      clearTimeout(tm); tm = setTimeout(function () { show(cur + 1); }, 6000);
+    }
+    function start() { if (prog) prog.classList.add("run"); clearTimeout(tm); tm = setTimeout(function () { show(1); }, 6000); }
+    var fade = null;
+    function fadeTo(v, ms, done) { if (!bgm) return; clearInterval(fade); var from = bgm.volume, t0 = performance.now();
+      fade = setInterval(function () { var p = Math.min(1, (performance.now() - t0) / ms); bgm.volume = from + (v - from) * p; if (p >= 1) { clearInterval(fade); done && done(); } }, 50); }
+    function btn() { return document.getElementById("sndBtn"); }
+    function sndOn() { if (!bgm) return; bgm.volume = 0; var pr = bgm.play(); if (pr && pr.catch) pr.catch(function () { var b = btn(); if (b) b.classList.remove("on"); });
+      var b = btn(); if (b) b.classList.add("on"); fadeTo(0.08, 3000); ls("dvc_snd", "on"); }
+    function sndOff() { if (!bgm) return; var b = btn(); if (b) b.classList.remove("on"); fadeTo(0, 900, function () { bgm.pause(); }); ls("dvc_snd", "off"); }
+    window.DVC_HOME = { toggleSound: function () { if (!bgm) return; (bgm.paused ? sndOn : sndOff)(); } };
+    var seen = false; try { seen = sessionStorage.getItem("dvc_intro") === "1"; } catch (e) {}
+    if (intro && !seen) {
+      var eb = document.getElementById("enterBtn");
+      if (eb) eb.addEventListener("click", function () {
+        try { sessionStorage.setItem("dvc_intro", "1"); } catch (e) {}
+        intro.classList.add("done"); sndOn(); start(); setTimeout(function () { intro.parentNode && intro.parentNode.removeChild(intro); }, 1400);
+      });
+    } else { if (intro) intro.parentNode.removeChild(intro); start(); }
+  })();
 
   /* ---------- init ---------- */
   function init() {

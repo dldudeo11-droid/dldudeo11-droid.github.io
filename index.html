@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="editorial">
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,8 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=20260904c" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=20260906" />
   <link rel="canonical" href="https://daeguvirtuoso.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="대구 비르투오조 챔버" />
@@ -56,70 +56,56 @@
   <div id="mnav"></div>
 
   <main>
+    <div id="intro">
+      <svg class="mark" viewBox="0 0 132 100" fill="currentColor" aria-hidden="true"><g transform="skewX(30)"><polygon points="0,42 13,42 13,100 0,100"/><polygon points="26,0 39,0 39,76 26,76"/><polygon points="52,12 65,12 65,42 52,42"/></g></svg>
+      <div class="t">DAEGU VIRTUOSO<br>CHAMBER<small>STRING ONLY · SINCE 2020</small></div>
+      <button class="enter" id="enterBtn" type="button">ENTER<small data-i18n="home.enter_hint">♪ 소리와 함께 입장</small></button>
+    </div>
+
     <!-- HERO -->
-    <section class="hero">
-      <div class="hero__bg"><img src="images/stage/group.jpg" alt="Daegu Virtuoso Chamber" /></div>
-      <div class="hero__inner">
-        <div class="hero__top">
-          <h1 class="sr-only" data-i18n="site.name">대구 비르투오조 챔버 · Daegu Virtuoso Chamber</h1>
-          <div class="hero__logo" role="img" aria-label="Daegu Virtuoso Chamber"></div>
-          <p class="hero__sub" data-i18n="hero.subtitle">대구를 중심으로 세계와 호흡하는 현악 실내악단</p>
-        </div>
-        <div class="hero__cta">
-          <a class="btn btn--solid" href="members.html"><span data-i18n="ui.explore_members"></span> <span class="ar">→</span></a>
-          <a class="btn btn--ghost" href="about.html" data-i18n="ui.learn_more"></a>
-        </div>
+    <header class="hero">
+      <div class="frame" id="frame">
+        <img class="on" src="images/stage/group.jpg" alt="대구 비르투오조 챔버" fetchpriority="high">
+        <img src="images/stage/perform.jpg" alt="" loading="lazy">
+        <img src="images/stage/stage-dark.jpg" alt="" loading="lazy">
+        <img src="images/stage/group-about.jpg" alt="" loading="lazy">
       </div>
-      <div class="scrolldown"><span data-i18n="ui.scroll"></span></div>
+      <div class="shade"></div>
+      <div class="txt">
+        <h1 data-i18n-html="home.h1">오직 <em>현악</em>으로<br>그리는 실내악의 정수</h1>
+        <p class="sub" data-i18n="hero.subtitle">대구를 중심으로 세계와 호흡하는 현악 실내악단</p>
+      </div>
+      <div class="prog" id="prog"></div>
+    </header>
+
+    <!-- STATEMENT -->
+    <section class="state"><div class="wrap"><div class="g">
+      <div class="big reveal">SINCE<b>2020</b></div>
+      <div>
+        <p class="eyebrow reveal" data-i18n="home.intro_eyebrow">ABOUT</p>
+        <h2 class="reveal d1" data-i18n="home.intro_lead">국내외에서 솔리스트이자 실내악 연주자로 인정받아온 연주자들이 뜻을 모아 결성한, 대구의 현악 실내악단입니다.</h2>
+        <p class="reveal d1" data-i18n="home.state_p1"></p>
+        <p class="reveal d1" data-i18n="home.state_p2"></p>
+      </div>
+    </div></div></section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true"><div><span><b>DAEGU VIRTUOSO CHAMBER</b>STRING ONLY</span><span><b>SINCE 2020</b>HANNOVER · METZ · DAEGU</span><span><b data-i18n="home.tick1">2026 지역예술대표단체</b><span data-i18n="home.tick2">문화체육관광부 후원</span></span><span><b>DAEGU VIRTUOSO CHAMBER</b>STRING ONLY</span><span><b>SINCE 2020</b>HANNOVER · METZ · DAEGU</span><span><b data-i18n="home.tick1">2026 지역예술대표단체</b><span data-i18n="home.tick2">문화체육관광부 후원</span></span></div></div>
+
+    <!-- PHOTO CUT -->
+    <section class="cut">
+      <img src="images/stage/perform.jpg" alt="" loading="lazy">
+      <div class="tri"></div>
+      <div class="wm">STRINGS</div>
+      <p class="q reveal"><span data-i18n-html="home.cut_q">현이 만들어 내는 가장 단단한 울림,<br>오케스트라에 버금가는 진중함으로.</span><small>ON STAGE</small></p>
     </section>
 
-    <!-- INTRO -->
-    <section class="section wrap" id="about">
-      <div class="about-grid">
-        <div class="about-body">
-          <p class="eyebrow" data-i18n="home.intro_eyebrow"></p>
-          <h2 class="h-lg" data-i18n="home.intro_title">현악의 깊이로 빚어낸 실내악</h2>
-          <hr class="divider" />
-          <p class="lead" data-i18n="home.intro_lead">국내외에서 솔리스트이자 실내악 연주자로 인정받아온 연주자들이 뜻을 모아 결성한 대구의 현악 실내악단입니다. 오케스트라에 버금가는 단단함과 진중함으로 실내악의 정수를 선보입니다.</p>
-          <p style="margin-top:26px"><a class="btn btn--line" href="about.html"><span data-i18n="nav.about"></span> <span class="ar">→</span></a></p>
-        </div>
-        <div class="about-figure reveal">
-          <img src="images/stage/perform.jpg" alt="Performance" />
-          <span class="tag" data-i18n="site.name_en"></span>
-        </div>
-      </div>
-    </section>
-
-    <!-- MEMBERS PREVIEW -->
-    <section class="section--tight wrap">
-      <div class="sec-head reveal">
-        <p class="eyebrow" data-i18n="home.members_eyebrow"></p>
-        <h2 class="h-lg" data-i18n="home.members_title"></h2>
-        <hr class="divider" />
-        <p class="lead" data-i18n="home.members_lead"></p>
-      </div>
-      <div id="members-preview" style="margin-top:36px"></div>
-      <div style="margin-top:38px">
-        <a class="btn btn--line" href="members.html"><span data-i18n="ui.explore_members"></span> <span class="ar">→</span></a>
-      </div>
-    </section>
-
-    <!-- FEATURE BAND -->
-    <section class="wrap section--tight">
-      <div class="feature reveal">
-        <img src="images/stage/stage-dark.jpg" alt="On stage" />
-        <div class="feature__cap">
-          <p class="eyebrow" style="color:#d9c9a3" data-i18n="site.name_en"></p>
-          <h2 class="h-md" data-i18n="home.support_note"></h2>
-        </div>
-      </div>
-    </section>
-
+    <audio id="bgm" loop preload="none" src="assets/bgm.mp3"></audio>
   </main>
 
   <footer class="site-footer" id="ftr"></footer>
-  <script src="js/data.js?v=20260904c"></script>
-  <script src="js/i18n-bundle.js?v=20260904c"></script>
-  <script src="js/app.js?v=20260904c"></script>
+  <script src="js/data.js?v=20260906"></script>
+  <script src="js/i18n-bundle.js?v=20260906"></script>
+  <script src="js/app.js?v=20260906"></script>
 </body>
 </html>
