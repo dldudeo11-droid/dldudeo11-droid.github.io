@@ -448,7 +448,7 @@
       var eb = document.getElementById("enterBtn");
       if (eb) eb.addEventListener("click", function () {
         try { sessionStorage.setItem("dvc_intro", "1"); } catch (e) {}
-        intro.classList.add("done"); sndOn(); start(); setTimeout(function () { intro.parentNode && intro.parentNode.removeChild(intro); }, 1400);
+        intro.classList.add("done"); document.body.classList.add("entering"); sndOn(); start(); setTimeout(function () { intro.parentNode && intro.parentNode.removeChild(intro); }, 1800); setTimeout(function () { document.body.classList.remove("entering"); }, 3600);
       });
     } else { if (intro) intro.parentNode.removeChild(intro); start(); sndResume(); }
   })();
