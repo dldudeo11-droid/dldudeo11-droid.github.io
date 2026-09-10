@@ -17,7 +17,8 @@
     "history": "团史",
     "contact": "联系",
     "menu": "菜单",
-    "sketch": "演出"
+    "sketch": "演出",
+    "collab": "合作演奏家"
   },
   "ui": {
     "language": "语言",
@@ -469,6 +470,14 @@
     "h2026i": {
       "title": "RE:BOUND 艺术节 2026 — 大邱 Virtuoso 室内乐团〈Opera in Chamber〉",
       "venue": "首尔 九老创意艺术厅"
+    },
+    "h2026j": {
+      "title": "大邱音乐厅企划公演 — 大邱 Virtuoso 室内乐团 无障碍音乐会〈开放音乐会：为所有人的无障碍音乐会〉（指挥 金成镇 · 解说 李智善）",
+      "venue": "大邱音乐厅 大剧场"
+    },
+    "h2026k": {
+      "title": "大邱音乐厅企划公演 — 艺术音乐会〈色彩的回响 Resonance of Color〉（小提琴 金南勋 · 美术解说 尹相仁）",
+      "venue": "大邱音乐厅 大剧场"
     }
   },
   "form": {
@@ -570,6 +579,22 @@
     "s2026i": {
       "title": "RE:BOUND 艺术节 2026 —〈Opera in Chamber〉",
       "venue": "首尔 九老创意艺术厅"
+    },
+    "s2026j": {
+      "title": "无障碍音乐会〈开放音乐会〉",
+      "venue": "大邱音乐厅 大剧场"
+    },
+    "s2026k": {
+      "title": "艺术音乐会〈色彩的回响〉",
+      "venue": "大邱音乐厅 大剧场"
     }
+  },
+  "collab": {
+    "eyebrow": "COLLABORATIONS",
+    "title": "携手合作的演奏家",
+    "lead": "与国内外顶尖指挥家、演奏家同台，不断加深音乐的厚度。以下是与大邱 Virtuoso 室内乐团同台的客席首席与协演者。",
+    "teaser": "指挥家吕子敬、Tania Miller，小提琴家尹素英、金多美，钢琴家李珍相、金正元等国内外顶尖演奏家曾与大邱 Virtuoso 室内乐团同台。",
+    "view_all": "查看全部合作演奏家",
+    "count": "ARTISTS"
   }
 }

@@ -78,11 +78,15 @@ window.DVC_DATA = {
     { id: "h2026f", year: "2026", date: "2026.10.01" },
     { id: "h2026g", year: "2026", date: "2026.10.17" },
     { id: "h2026h", year: "2026", date: "2026.10.21" },
-    { id: "h2026i", year: "2026", date: "2026.10.31" }
+    { id: "h2026i", year: "2026", date: "2026.10.31" },
+    { id: "h2026j", year: "2026", date: "2026.11.03" },
+    { id: "h2026k", year: "2026", date: "2026.11.25" }
   ],
 
   // 연주 스케치 — 공연 포스터 갤러리 (최신순, 이미지가 캡션을 담고 있음)
   sketches: [
+    { id: "s2026k", date: "2026.11.25", image: "images/sketch/2026-11-25-resonance-of-color.jpg" },
+    { id: "s2026j", date: "2026.11.03", image: "images/sketch/2026-11-03-barrier-free-concert.jpg" },
     { id: "s2026i", date: "2026.10.31", image: "images/sketch/2026-10-31-opera-in-chamber.jpg" },
     { id: "s2026h", date: "2026.10.17", image: "images/sketch/2026-10-17-mysterious-concert.jpg" },
     { id: "s2026g", date: "2026.10.01", image: "images/sketch/2026-10-01-our-night-your-song.jpg" },

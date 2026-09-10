@@ -17,7 +17,8 @@
     "history": "Historique",
     "contact": "Contact",
     "menu": "Menu",
-    "sketch": "Concerts"
+    "sketch": "Concerts",
+    "collab": "Artistes invités"
   },
   "ui": {
     "language": "Langue",
@@ -469,6 +470,14 @@
     "h2026i": {
       "title": "RE:BOUND Festival 2026 — Daegu Virtuoso Chamber « Opera in Chamber »",
       "venue": "Guro Creative Art Hall, Séoul"
+    },
+    "h2026j": {
+      "title": "Daegu Concert House présente — Daegu Virtuoso Chamber Concert sans barrières « Concert ouvert : un concert accessible à tous » (dir. Kim Sungjin · présentation Lee Jisun)",
+      "venue": "Daegu Concert House, Grande Salle"
+    },
+    "h2026k": {
+      "title": "Daegu Concert House présente — Concert d'art « Resonance of Color » (violon Kim Namhoon · médiation artistique Yoon Sangin)",
+      "venue": "Daegu Concert House, Grande Salle"
     }
   },
   "form": {
@@ -570,6 +579,22 @@
     "s2026i": {
       "title": "RE:BOUND Festival 2026 — « Opera in Chamber »",
       "venue": "Guro Creative Art Hall, Séoul"
+    },
+    "s2026j": {
+      "title": "Concert sans barrières « Concert ouvert »",
+      "venue": "Daegu Concert House, Grande Salle"
+    },
+    "s2026k": {
+      "title": "Concert d'art « Resonance of Color »",
+      "venue": "Daegu Concert House, Grande Salle"
     }
+  },
+  "collab": {
+    "eyebrow": "COLLABORATIONS",
+    "title": "Les artistes invités",
+    "lead": "Partager la scène avec des chefs et des solistes de premier plan, de Corée et d'ailleurs, a approfondi notre musique. Voici les solistes invités et partenaires qui ont joué avec Daegu Virtuoso Chamber.",
+    "teaser": "Les cheffes Yeo Jakyung et Tania Miller, les violonistes Soyoung Yoon et Dami Kim, les pianistes Jinsang Lee et Jeongwon Kim, parmi d'autres grands artistes, ont partagé la scène avec Daegu Virtuoso Chamber.",
+    "view_all": "Voir tous les artistes invités",
+    "count": "ARTISTES"
   }
 }

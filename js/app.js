@@ -77,7 +77,8 @@
   ];
   function here() {
     /* 단원 프로필 페이지는 '단원' 메뉴가 활성화되도록 members.html 로 간주 */
-    if (document.body && document.body.getAttribute("data-page") === "member") return "members.html";
+    var pg = document.body && document.body.getAttribute("data-page");
+    if (pg === "member" || pg === "collab") return "members.html";
     var p = location.pathname.split("/").pop(); return p || "index.html";
   }
   function navLinks(mobile) {
@@ -234,20 +235,44 @@
     container.innerHTML = '<div class="lead-grid">' + leaders.map(memberCard).join("") + "</div>";
   }
 
+  /* 함께한 연주자 — 전체 목록 페이지 (객원 수석 → 파트별 그룹) */
+  var COLLAB_ORDER = ["conductor", "violin", "viola", "cello", "flute", "piano", "soprano", "tenor"];
+  function collabTotal() { return (DATA.guestPrincipals || []).length + (DATA.guests || []).length; }
+  function collabBlock(title, items) {
+    return '<div class="part-block">' +
+      '<div class="part-title reveal"><h3>' + esc(title) + "</h3>" +
+      '<span class="cnt">' + ("0" + items.length).slice(-2) + "</span></div>" +
+      '<div class="collab-grid">' + items.join("") + "</div></div>";
+  }
   function renderCollaborators(container) {
-    var items = "";
-    (DATA.guestPrincipals || []).forEach(function (g) {
+    var html = "";
+    var gp = (DATA.guestPrincipals || []).map(function (g) {
       var info = member(g.id);
-      items += '<div class="collab-item reveal"><div class="role">' + esc(roleLabel(g.rank)) + " · " + esc(partLabel(g.part)) + "</div>" +
-        '<div class="nm">' + esc(info.name) + "</div>" +
-        '<a class="lk" href="' + memberUrl(g.id) + '">' + esc(t("ui.view_profile")) + " →</a></div>";
+      return '<a class="collab-card reveal" href="' + memberUrl(g.id) + '">' +
+        '<span class="role">' + esc(partLabel(g.part)) + " · " + esc(roleLabel(g.rank)) + "</span>" +
+        '<span class="nm">' + esc(info.name) + "</span>" +
+        '<span class="lk">' + esc(t("ui.view_profile")) + " →</span></a>";
     });
-    (DATA.guests || []).forEach(function (g) {
-      var info = guest(g.id);
-      items += '<div class="collab-item reveal"><div class="role">' + esc(t("parts." + g.kind)) + "</div>" +
-        '<div class="nm">' + esc(info.name) + "</div></div>";
+    if (gp.length) html += collabBlock(t("about.guest_principal_title"), gp);
+    var kinds = COLLAB_ORDER.slice();
+    (DATA.guests || []).forEach(function (g) { if (kinds.indexOf(g.kind) < 0) kinds.push(g.kind); });
+    kinds.forEach(function (k) {
+      var inK = (DATA.guests || []).filter(function (g) { return g.kind === k; });
+      if (!inK.length) return;
+      html += collabBlock(partLabel(k), inK.map(function (g) {
+        var info = guest(g.id);
+        return '<div class="collab-card reveal"><span class="nm">' + esc(info.name) + "</span></div>";
+      }));
     });
-    container.innerHTML = '<div class="collab-row">' + items + "</div>";
+    container.innerHTML = html;
+  }
+  /* 단원·소개 페이지 하단의 '함께한 연주자' 안내 단락 (클릭 → collaborators.html) */
+  function renderCollabTeaser(container) {
+    container.innerHTML = '<a class="collab-cta reveal" href="' + ROOT + 'collaborators.html">' +
+      '<span class="collab-cta__n">' + collabTotal() + "<i>" + esc(t("collab.count")) + "</i></span>" +
+      '<span class="collab-cta__body"><span class="collab-cta__t">' + esc(t("collab.title")) + "</span>" +
+      '<span class="collab-cta__p">' + esc(t("collab.teaser")) + "</span>" +
+      '<span class="collab-cta__lk">' + esc(t("collab.view_all")) + " <span class='ar'>→</span></span></span></a>";
   }
 
   function renderHistory(container, limit) {
@@ -360,6 +385,7 @@
     if (byId("members-full")) renderMembers(byId("members-full"));
     if (byId("members-preview")) renderMembersPreview(byId("members-preview"), 8);
     if (byId("collab")) renderCollaborators(byId("collab"));
+    if (byId("collab-teaser")) renderCollabTeaser(byId("collab-teaser"));
     if (byId("history-full")) renderHistory(byId("history-full"));
     if (byId("history-preview")) renderHistory(byId("history-preview"), 6);
     if (byId("sketch-full")) renderSketches(byId("sketch-full"));
@@ -375,7 +401,7 @@
       byId("about-stats").innerHTML = st.map(function (s) { return '<div class="stat"><div class="n">' + esc(s.n) + '</div><div class="l">' + esc(s.l) + "</div></div>"; }).join("");
     }
     if (page && page !== "member" && page !== "home") {
-      var titleKey = ({ about: "about.title", members: "members.title", history: "history.title", sketch: "sketch.title", contact: "contact.title" })[page];
+      var titleKey = ({ about: "about.title", members: "members.title", history: "history.title", sketch: "sketch.title", contact: "contact.title", collab: "collab.title" })[page];
       if (titleKey) document.title = t(titleKey) + " · " + t("site.name");
     } else if (page === "home") {
       document.title = "대구 비르투오조 챔버 · " + (t("site.name_en") || "Daegu Virtuoso Chamber");
