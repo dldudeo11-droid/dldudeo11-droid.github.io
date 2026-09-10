@@ -78,7 +78,8 @@
   function here() {
     /* 단원 프로필 페이지는 '단원' 메뉴가 활성화되도록 members.html 로 간주 */
     var pg = document.body && document.body.getAttribute("data-page");
-    if (pg === "member" || pg === "collab") return "members.html";
+    if (pg === "member") return "members.html";
+    if (pg === "collab") return "about.html";
     var p = location.pathname.split("/").pop(); return p || "index.html";
   }
   function navLinks(mobile) {
