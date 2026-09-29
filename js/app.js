@@ -27,6 +27,8 @@
   }
 
   var LANG = pickLang(), THEME = pickTheme();
+  /* 페이지 교체(nav.js) 시 이전 실행의 리스너·타이머를 한꺼번에 해제 */
+  var AC = window.__dvcAC = (typeof AbortController !== "undefined") ? new AbortController() : { signal: undefined, abort: function () {} };
 
   /* ---------- i18n lookup ---------- */
   function dict() { return I18N[LANG] || I18N[FALLBACK] || {}; }
@@ -195,6 +197,7 @@
     if (mnav) mnav.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
     var sb = document.getElementById("sndBtn");
     if (sb && window.DVC_HOME) sb.addEventListener("click", window.DVC_HOME.toggleSound);
+    var au = document.getElementById("bgm"); if (sb && au && !au.paused) sb.classList.add("on");   /* header is built after the audio resumed */
   }
 
   /* ---------- renderers ---------- */
@@ -324,7 +327,7 @@
         '<figure class="lb-fig" role="dialog" aria-modal="true"><img alt=""><figcaption></figcaption></figure>';
       document.body.appendChild(lb);
       lb.addEventListener("click", function (e) { if (e.target === lb || e.target.classList.contains("lb-close")) closeLightbox(); });
-      document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLightbox(); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLightbox(); }, { signal: AC.signal });
     }
     lb.querySelector("img").src = src;
     lb.querySelector("figcaption").textContent = cap || "";
@@ -397,6 +400,12 @@
       var paras = t("about.body") || [];
       byId("about-body").innerHTML = paras.map(function (p, i) { return "<p" + (i === 0 ? ' class="reveal"' : "") + ">" + esc(p) + "</p>"; }).join("");
     }
+    if (byId("cmail")) {
+      var c = DATA.contact || {}, cm = byId("cmail"), ci = byId("cinsta"), cb = byId("cblog");
+      cm.href = "mailto:" + (c.email || ""); cm.textContent = c.email || "";
+      if (ci && c.instagram) { ci.href = c.instagram; ci.textContent = c.instagram_handle || "@dg_v_chamber"; }
+      if (cb && c.blog) { cb.href = c.blog; cb.textContent = c.blog_handle || "blog.naver.com/dg_virtuoso_chamber"; }
+    }
     if (byId("about-stats")) {
       var st = t("about.stats") || [];
       byId("about-stats").innerHTML = st.map(function (s) { return '<div class="stat"><div class="n">' + esc(s.n) + '</div><div class="l">' + esc(s.l) + "</div></div>"; }).join("");
@@ -452,6 +461,7 @@
       clearTimeout(tm); tm = setTimeout(function () { show(cur + 1); }, 6000);
     }
     function start() { if (prog) prog.classList.add("run"); clearTimeout(tm); tm = setTimeout(function () { show(1); }, 6000); }
+    if (AC.signal) AC.signal.addEventListener("abort", function () { clearTimeout(tm); });
     var fade = null;
     function fadeTo(v, ms, done) { if (!bgm) return; clearInterval(fade); var from = bgm.volume, t0 = performance.now();
       fade = setInterval(function () { var p = Math.min(1, (performance.now() - t0) / ms); bgm.volume = from + (v - from) * p; if (p >= 1) { clearInterval(fade); done && done(); } }, 50); }
@@ -459,9 +469,10 @@
     function sndOn(quick) { if (!bgm) return; bgm.volume = quick ? 0.08 : 0; var pr = bgm.play(); if (pr && pr.catch) pr.catch(function () { var b = btn(); if (b) b.classList.remove("on"); });
       var b = btn(); if (b) b.classList.add("on"); if (!quick) fadeTo(0.08, 3000); ls("dvc_snd", "on"); }
     function sndSave() { try { sessionStorage.setItem("dvc_t", bgm.paused ? "" : bgm.currentTime); sessionStorage.setItem("dvc_at", Date.now()); } catch (e) {} }
-    if (bgm) { bgm.addEventListener("timeupdate", sndSave); window.addEventListener("pagehide", sndSave);
+    if (bgm && !bgm.dataset.bound) { bgm.dataset.bound = "1"; bgm.addEventListener("timeupdate", sndSave); window.addEventListener("pagehide", sndSave);
       document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest("a[href]")) sndSave(); }); }
     function sndResume() { if (!bgm || ls("dvc_snd") === "off") return; var t = "", at = 0;
+      if (!bgm.paused) { var b0 = btn(); if (b0) b0.classList.add("on"); return; }   /* nav.js swap: already playing, just light the button */
       try { t = sessionStorage.getItem("dvc_t") || ""; at = parseFloat(sessionStorage.getItem("dvc_at")) || 0; } catch (e) {}
       if (t === "") return;
       var gap = at ? Math.min(8, Math.max(0, (Date.now() - at) / 1000)) : 0, tt = (parseFloat(t) || 0) + gap;
@@ -486,7 +497,7 @@
     var d = dict();
     document.documentElement.lang = (d.meta && d.meta.lang) || LANG;
     rerender();
-    window.addEventListener("scroll", markScroll, { passive: true });
+    window.addEventListener("scroll", markScroll, { passive: true, signal: AC.signal });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
